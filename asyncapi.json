@@ -1,0 +1,665 @@
+{
+  "asyncapi": "3.0.0",
+  "info": {
+    "title": "True Markets Market Data WebSocket",
+    "description": "## Overview\nThis API streams real-time market data over a single WebSocket connection. Clients subscribe to a topic and receive batched price candles, trending assets, surging assets, and weighted reference prices as they update.\n\n## Authentication\nAll channels are public — no API key, signature, or other credentials are required.\n\n## Numeric Precision\nPrices, market caps, and other numeric values are returned as strings to preserve full decimal precision and avoid floating-point rounding.\n\n## Links\n- 💬 **Discord**: [discord.gg/SC92xRUZqw](https://discord.gg/SC92xRUZqw) — community and integration help\n- 📧 **Support**: [support@truemarkets.co](mailto:support@truemarkets.co) — account, network, onboarding\n\n## Change Log\n| Version | Date       | Notes            |\n|---------|------------|------------------|\n| v0.0.1  | 2026-05-07 | Initial release. |\n",
+    "contact": {
+      "email": "support@truemarkets.co"
+    },
+    "version": "v0.0.1"
+  },
+  "servers": {
+    "production": {
+      "$ref": "#/components/servers/production"
+    },
+    "uat": {
+      "$ref": "#/components/servers/uat"
+    }
+  },
+  "channels": {
+    "v1": {
+      "address": "/v1/defi/market",
+      "messages": {
+        "subscription": {
+          "$ref": "#/components/messages/subscription"
+        },
+        "subscriptionResponse": {
+          "$ref": "#/components/messages/subscriptionResponse"
+        },
+        "priceCandles": {
+          "$ref": "#/components/messages/priceCandles"
+        },
+        "trendingAssets": {
+          "$ref": "#/components/messages/trendingAssets"
+        },
+        "surgingAssets": {
+          "$ref": "#/components/messages/surgingAssets"
+        },
+        "referencePrices": {
+          "$ref": "#/components/messages/referencePrices"
+        },
+        "error": {
+          "$ref": "#/components/messages/error"
+        }
+      }
+    }
+  },
+  "operations": {
+    "subscribe": {
+      "action": "send",
+      "description": "Message sent to server indicating which topics the client wants to subscribe to or unsubscribe from.",
+      "channel": {
+        "$ref": "#/channels/v1"
+      },
+      "messages": [
+        {
+          "$ref": "#/components/messages/subscription"
+        }
+      ]
+    },
+    "subscriptionResponse": {
+      "action": "receive",
+      "description": "Acknowledgement sent from server in response to a subscribe or unsubscribe request.",
+      "channel": {
+        "$ref": "#/channels/v1"
+      },
+      "messages": [
+        {
+          "$ref": "#/components/messages/subscriptionResponse"
+        }
+      ]
+    },
+    "priceCandles": {
+      "action": "receive",
+      "description": "Batch of OHLC price candles for tracked assets across the standard intervals.",
+      "channel": {
+        "$ref": "#/channels/v1"
+      },
+      "messages": [
+        {
+          "$ref": "#/components/messages/priceCandles"
+        }
+      ]
+    },
+    "trendingAssets": {
+      "action": "receive",
+      "description": "Batch of trending assets ranked by recent vs. historical trading volume.",
+      "channel": {
+        "$ref": "#/channels/v1"
+      },
+      "messages": [
+        {
+          "$ref": "#/components/messages/trendingAssets"
+        }
+      ]
+    },
+    "surgingAssets": {
+      "action": "receive",
+      "description": "Batch of assets with significant price movement over 1h, 4h, and 24h windows.",
+      "channel": {
+        "$ref": "#/channels/v1"
+      },
+      "messages": [
+        {
+          "$ref": "#/components/messages/surgingAssets"
+        }
+      ]
+    },
+    "referencePrices": {
+      "action": "receive",
+      "description": "Batch of weighted reference prices computed from multiple exchange BBOs.",
+      "channel": {
+        "$ref": "#/channels/v1"
+      },
+      "messages": [
+        {
+          "$ref": "#/components/messages/referencePrices"
+        }
+      ]
+    },
+    "error": {
+      "action": "receive",
+      "description": "Server-side error message describing why a request was rejected.",
+      "channel": {
+        "$ref": "#/channels/v1"
+      },
+      "messages": [
+        {
+          "$ref": "#/components/messages/error"
+        }
+      ]
+    }
+  },
+  "components": {
+    "servers": {
+      "production": {
+        "host": "api.truemarkets.co",
+        "protocol": "wss",
+        "description": "Production"
+      },
+      "uat": {
+        "host": "api.uat.truemarkets.co",
+        "protocol": "wss",
+        "description": "UAT (sandbox)"
+      }
+    },
+    "schemas": {
+      "Topic": {
+        "type": "string",
+        "description": "Topic identifier. Currently only `all` is supported.",
+        "enum": [
+          "all"
+        ],
+        "example": "all"
+      },
+      "PriceCandle": {
+        "type": "object",
+        "description": "OHLC price data for a single asset and interval.",
+        "properties": {
+          "symbol": {
+            "type": "string",
+            "description": "Asset symbol.",
+            "example": "SOL"
+          },
+          "address": {
+            "type": "string",
+            "description": "Asset contract address.",
+            "example": "So11111111111111111111111111111111111111112"
+          },
+          "chain": {
+            "type": "string",
+            "description": "Blockchain the asset lives on.",
+            "example": "solana"
+          },
+          "interval": {
+            "type": "string",
+            "description": "Candle interval (e.g. `1h`, `4h`, `24h`).",
+            "example": "1h"
+          },
+          "open": {
+            "type": "string",
+            "description": "Opening price for the interval.",
+            "example": "100.50"
+          },
+          "high": {
+            "type": "string",
+            "description": "Highest price during the interval.",
+            "example": "102.00"
+          },
+          "low": {
+            "type": "string",
+            "description": "Lowest price during the interval.",
+            "example": "99.00"
+          },
+          "close": {
+            "type": "string",
+            "description": "Closing price for the interval.",
+            "example": "101.25"
+          }
+        }
+      },
+      "TrendingAsset": {
+        "type": "object",
+        "description": "Trending asset with recent vs. historical volume metrics.",
+        "properties": {
+          "symbol": {
+            "type": "string",
+            "example": "SOL"
+          },
+          "address": {
+            "type": "string",
+            "example": "So11111111111111111111111111111111111111112"
+          },
+          "chain": {
+            "type": "string",
+            "example": "solana"
+          },
+          "market_cap": {
+            "type": "string",
+            "description": "Market capitalization in USD.",
+            "example": "50000000000"
+          },
+          "trending_ratio": {
+            "type": "string",
+            "description": "Recent volume divided by historical volume.",
+            "example": "1.5"
+          },
+          "recent_volume": {
+            "type": "string",
+            "description": "Recent trading volume.",
+            "example": "1000000"
+          },
+          "historical_volume": {
+            "type": "string",
+            "description": "Historical trading volume baseline.",
+            "example": "800000"
+          }
+        }
+      },
+      "SurgingAsset": {
+        "type": "object",
+        "description": "Asset with significant price movement over the trailing 1h, 4h, and 24h windows.",
+        "properties": {
+          "symbol": {
+            "type": "string",
+            "example": "SOL"
+          },
+          "address": {
+            "type": "string",
+            "example": "So11111111111111111111111111111111111111112"
+          },
+          "chain": {
+            "type": "string",
+            "example": "solana"
+          },
+          "price_change_pct_1h": {
+            "type": "string",
+            "description": "Price change percentage over the last 1 hour.",
+            "example": "5.25"
+          },
+          "price_change_pct_4h": {
+            "type": "string",
+            "description": "Price change percentage over the last 4 hours.",
+            "example": "10.50"
+          },
+          "price_change_pct_24h": {
+            "type": "string",
+            "description": "Price change percentage over the last 24 hours.",
+            "example": "15.75"
+          },
+          "price_1h_ago": {
+            "type": "string",
+            "description": "Price 1 hour ago.",
+            "example": "95.00"
+          },
+          "price_4h_ago": {
+            "type": "string",
+            "description": "Price 4 hours ago.",
+            "example": "90.00"
+          },
+          "price_24h_ago": {
+            "type": "string",
+            "description": "Price 24 hours ago.",
+            "example": "85.00"
+          },
+          "current_price": {
+            "type": "string",
+            "description": "Current price.",
+            "example": "100.00"
+          }
+        }
+      },
+      "SourceBBO": {
+        "type": "object",
+        "description": "Best bid and offer from a single exchange contributing to a reference price.",
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "Exchange the BBO was sourced from.",
+            "example": "coinbase"
+          },
+          "bid": {
+            "type": "string",
+            "example": "100.49"
+          },
+          "ask": {
+            "type": "string",
+            "example": "100.51"
+          },
+          "mid_price": {
+            "type": "string",
+            "example": "100.50"
+          },
+          "weight_pct": {
+            "type": "string",
+            "description": "Percentage weight applied to this source when computing the reference price.",
+            "example": "0.5"
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time",
+            "description": "RFC 3339 timestamp when the BBO was observed.",
+            "example": "2026-05-07T12:00:00Z"
+          }
+        }
+      },
+      "ReferencePrice": {
+        "type": "object",
+        "description": "Weighted average reference price computed from multiple exchange BBOs.",
+        "properties": {
+          "symbol": {
+            "type": "string",
+            "example": "SOL"
+          },
+          "mid_price": {
+            "type": "string",
+            "description": "Weighted mid price.",
+            "example": "100.50"
+          },
+          "bid": {
+            "type": "string",
+            "description": "Weighted best bid.",
+            "example": "100.49"
+          },
+          "ask": {
+            "type": "string",
+            "description": "Weighted best ask.",
+            "example": "100.51"
+          },
+          "sources": {
+            "type": "array",
+            "description": "Per-exchange BBOs that contributed to the weighted price.",
+            "items": {
+              "$ref": "#/components/schemas/SourceBBO"
+            }
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time",
+            "description": "RFC 3339 timestamp when the reference price was computed.",
+            "example": "2026-05-07T12:00:00Z"
+          }
+        }
+      }
+    },
+    "messages": {
+      "subscription": {
+        "summary": "Subscribe or unsubscribe from topics.",
+        "payload": {
+          "type": "object",
+          "required": [
+            "type",
+            "topics"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "description": "Action the request is intending to take.",
+              "enum": [
+                "subscribe",
+                "unsubscribe"
+              ],
+              "example": "subscribe"
+            },
+            "topics": {
+              "type": "array",
+              "description": "Topics to subscribe to or unsubscribe from. Currently only `all` is supported.",
+              "items": {
+                "$ref": "#/components/schemas/Topic"
+              }
+            }
+          }
+        }
+      },
+      "subscriptionResponse": {
+        "summary": "Acknowledgement of a subscribe or unsubscribe request.",
+        "payload": {
+          "type": "object",
+          "required": [
+            "type",
+            "status",
+            "timestamp"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "subscribe",
+                "unsubscribe"
+              ],
+              "example": "subscribe"
+            },
+            "status": {
+              "type": "string",
+              "description": "Result of the request.",
+              "enum": [
+                "success",
+                "error"
+              ],
+              "example": "success"
+            },
+            "timestamp": {
+              "type": "integer",
+              "format": "int64",
+              "description": "Unix timestamp (seconds) when the response was generated.",
+              "example": 1234567890
+            },
+            "message": {
+              "type": "string",
+              "description": "Human-readable description of the result.",
+              "example": "Successfully subscribed to topics"
+            },
+            "topics": {
+              "type": "array",
+              "description": "Topics affected by the request.",
+              "items": {
+                "$ref": "#/components/schemas/Topic"
+              }
+            }
+          }
+        }
+      },
+      "priceCandles": {
+        "summary": "Batch of OHLC price candles for tracked assets.",
+        "payload": {
+          "type": "object",
+          "required": [
+            "type",
+            "status",
+            "timestamp",
+            "topics",
+            "data"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "price_candles"
+              ]
+            },
+            "status": {
+              "type": "string",
+              "enum": [
+                "success"
+              ],
+              "example": "success"
+            },
+            "timestamp": {
+              "type": "integer",
+              "format": "int64",
+              "description": "Unix timestamp (seconds) when the message was generated.",
+              "example": 1234567890
+            },
+            "topics": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/Topic"
+              }
+            },
+            "data": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/PriceCandle"
+              }
+            }
+          }
+        }
+      },
+      "trendingAssets": {
+        "summary": "Batch of trending assets.",
+        "payload": {
+          "type": "object",
+          "required": [
+            "type",
+            "status",
+            "timestamp",
+            "topics",
+            "data"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "trending_assets"
+              ]
+            },
+            "status": {
+              "type": "string",
+              "enum": [
+                "success"
+              ],
+              "example": "success"
+            },
+            "timestamp": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1234567890
+            },
+            "topics": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/Topic"
+              }
+            },
+            "data": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/TrendingAsset"
+              }
+            }
+          }
+        }
+      },
+      "surgingAssets": {
+        "summary": "Batch of surging assets.",
+        "payload": {
+          "type": "object",
+          "required": [
+            "type",
+            "status",
+            "timestamp",
+            "topics",
+            "data"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "surging_assets"
+              ]
+            },
+            "status": {
+              "type": "string",
+              "enum": [
+                "success"
+              ],
+              "example": "success"
+            },
+            "timestamp": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1234567890
+            },
+            "topics": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/Topic"
+              }
+            },
+            "data": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/SurgingAsset"
+              }
+            }
+          }
+        }
+      },
+      "referencePrices": {
+        "summary": "Batch of weighted reference prices.",
+        "payload": {
+          "type": "object",
+          "required": [
+            "type",
+            "status",
+            "timestamp",
+            "topics",
+            "data"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "reference_prices"
+              ]
+            },
+            "status": {
+              "type": "string",
+              "enum": [
+                "success"
+              ],
+              "example": "success"
+            },
+            "timestamp": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1234567890
+            },
+            "topics": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/Topic"
+              }
+            },
+            "data": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/ReferencePrice"
+              }
+            }
+          }
+        }
+      },
+      "error": {
+        "summary": "Server-side error describing why a request was rejected.",
+        "payload": {
+          "type": "object",
+          "required": [
+            "type",
+            "status",
+            "timestamp"
+          ],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "error"
+              ]
+            },
+            "status": {
+              "type": "string",
+              "enum": [
+                "error"
+              ],
+              "example": "error"
+            },
+            "timestamp": {
+              "type": "integer",
+              "format": "int64",
+              "example": 1234567890
+            },
+            "message": {
+              "type": "string",
+              "description": "Human-readable error description.",
+              "example": "invalid topic"
+            },
+            "error": {
+              "type": "string",
+              "description": "Machine-readable error details."
+            }
+          }
+        }
+      }
+    }
+  }
+}

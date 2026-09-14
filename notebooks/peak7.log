@@ -1,0 +1,604 @@
+2026-07-11 02:37:46,016 - INFO - Auth: JWT minted successfully.
+2026-07-11 02:37:46,016 - INFO - Authenticated with TrueMarkets.
+2026-07-11 02:37:46,016 - INFO - Cancelling any existing orders to start clean...
+2026-07-11 02:37:46,090 - INFO - TrueMarketsBook: subscribed to DEPTH for BTC-PYUSD
+2026-07-11 02:37:46,300 - INFO - Coinbase WS: subscribed to ticker for BTC-USD.
+2026-07-11 02:37:46,420 - INFO - Initial balances: 0.00009842 BTC | 1062.33 USDC/PYUSD
+2026-07-11 02:37:46,420 - INFO - Waiting for mark price...
+2026-07-11 02:37:49,034 - INFO - >>> NO FLIP! 0.0 STAYING ON bidding
+2026-07-11 02:37:49,034 - INFO - >>> 0.0 || 0.005
+2026-07-11 02:37:49,087 - INFO - Order created: id=d31ea8b4-ebf1-4031-95ca-c148f39165b1 status=pending
+2026-07-11 02:37:49,087 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:37:49,087 - INFO - PLACED BID: 0.0050 BTC @ $65199.0
+2026-07-11 02:37:49,087 - INFO - t=3s | mark=64199.1 | pos=+0.0000 BTC | PnL=$0.00 | vol=$0.00
+2026-07-11 02:37:49,087 - INFO - State: BIDDING | Avail USD: $981.62
+2026-07-11 02:37:49,087 - INFO - -------------------------------------------------------
+2026-07-11 02:37:52,689 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:37:52,738 - INFO - Order created: id=6f51ffd7-22cb-4d6f-aad7-8bd446205bb2 status=pending
+2026-07-11 02:37:52,738 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:37:52,738 - INFO - PLACED ASK: 0.0050 BTC @ $63199.0
+2026-07-11 02:37:52,739 - INFO - t=5s | mark=64199.1 | pos=+0.0050 BTC | PnL=$-0.01 | vol=$321.00
+2026-07-11 02:37:52,739 - INFO - State: ASKING | Avail USD: $660.49
+2026-07-11 02:37:52,739 - INFO - -------------------------------------------------------
+2026-07-11 02:37:55,469 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:37:55,517 - INFO - Order created: id=18c027f3-e17f-4809-95a9-dfa4d6c33996 status=pending
+2026-07-11 02:37:55,517 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:37:55,517 - INFO - PLACED BID: 0.0050 BTC @ $65199.0
+2026-07-11 02:37:55,518 - INFO - t=9s | mark=64199.1 | pos=+0.0000 BTC | PnL=$-0.00 | vol=$641.99
+2026-07-11 02:37:55,518 - INFO - State: BIDDING | Avail USD: $981.36
+2026-07-11 02:37:55,518 - INFO - -------------------------------------------------------
+2026-07-11 02:37:58,121 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:37:58,170 - INFO - Order created: id=39f39d12-3131-46f0-8468-62773446779c status=pending
+2026-07-11 02:37:58,171 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:37:58,171 - INFO - PLACED ASK: 0.0050 BTC @ $63199.0
+2026-07-11 02:37:58,171 - INFO - t=12s | mark=64199.1 | pos=+0.0050 BTC | PnL=$-0.01 | vol=$962.99
+2026-07-11 02:37:58,171 - INFO - State: ASKING | Avail USD: $660.23
+2026-07-11 02:37:58,171 - INFO - -------------------------------------------------------
+2026-07-11 02:38:00,792 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:38:00,846 - INFO - Order created: id=20afff51-896e-4d29-83f5-b238bdcf8b34 status=pending
+2026-07-11 02:38:00,846 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:38:00,846 - INFO - PLACED BID: 0.0050 BTC @ $65199.0
+2026-07-11 02:38:00,847 - INFO - t=14s | mark=64199.1 | pos=+0.0000 BTC | PnL=$-0.01 | vol=$1283.98
+2026-07-11 02:38:00,847 - INFO - State: BIDDING | Avail USD: $981.10
+2026-07-11 02:38:00,847 - INFO - -------------------------------------------------------
+2026-07-11 02:38:03,472 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:38:03,527 - INFO - Order created: id=d4d9e92b-81fa-484b-99f0-6167576e4f4d status=pending
+2026-07-11 02:38:03,527 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:38:03,527 - INFO - PLACED ASK: 0.0050 BTC @ $63199.0
+2026-07-11 02:38:03,527 - INFO - t=17s | mark=64199.1 | pos=+0.0050 BTC | PnL=$-0.02 | vol=$1604.98
+2026-07-11 02:38:03,528 - INFO - State: ASKING | Avail USD: $659.97
+2026-07-11 02:38:03,528 - INFO - -------------------------------------------------------
+2026-07-11 02:38:06,243 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:38:06,295 - INFO - Order created: id=ffc1383e-3c2c-4864-9de2-8dee3befc030 status=pending
+2026-07-11 02:38:06,295 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:38:06,295 - INFO - PLACED BID: 0.0050 BTC @ $65199.0
+2026-07-11 02:38:06,295 - INFO - t=20s | mark=64199.1 | pos=+0.0000 BTC | PnL=$-0.02 | vol=$1925.97
+2026-07-11 02:38:06,295 - INFO - State: BIDDING | Avail USD: $980.84
+2026-07-11 02:38:06,295 - INFO - -------------------------------------------------------
+2026-07-11 02:38:08,907 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:38:08,958 - INFO - Order created: id=9c004ce1-4b9a-4260-a0fa-b8a0d6a353f6 status=pending
+2026-07-11 02:38:08,958 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:38:08,958 - INFO - PLACED ASK: 0.0050 BTC @ $63199.0
+2026-07-11 02:38:08,958 - INFO - t=23s | mark=64199.1 | pos=+0.0050 BTC | PnL=$-0.02 | vol=$2246.97
+2026-07-11 02:38:08,959 - INFO - State: ASKING | Avail USD: $659.71
+2026-07-11 02:38:08,959 - INFO - -------------------------------------------------------
+2026-07-11 02:38:11,486 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:38:11,537 - INFO - Order created: id=a9b2e2e4-971c-48fa-b8f1-d335cebfa957 status=pending
+2026-07-11 02:38:11,537 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:38:11,538 - INFO - PLACED BID: 0.0050 BTC @ $65199.0
+2026-07-11 02:38:11,538 - INFO - t=25s | mark=64199.1 | pos=+0.0000 BTC | PnL=$-0.02 | vol=$2567.97
+2026-07-11 02:38:11,538 - INFO - State: BIDDING | Avail USD: $980.58
+2026-07-11 02:38:11,538 - INFO - -------------------------------------------------------
+2026-07-11 02:38:14,081 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:38:14,150 - INFO - Order created: id=4d4edb55-4a6c-46d8-9c83-273d174edbea status=pending
+2026-07-11 02:38:14,150 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:38:14,151 - INFO - PLACED ASK: 0.0050 BTC @ $63199.0
+2026-07-11 02:38:14,151 - INFO - t=28s | mark=64199.1 | pos=+0.0050 BTC | PnL=$-0.03 | vol=$2888.96
+2026-07-11 02:38:14,151 - INFO - State: ASKING | Avail USD: $659.44
+2026-07-11 02:38:14,151 - INFO - -------------------------------------------------------
+2026-07-11 02:38:16,762 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:38:16,816 - INFO - Order created: id=f23cdebe-36ea-47fb-8cdf-b91626e89b69 status=pending
+2026-07-11 02:38:16,816 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:38:16,816 - INFO - PLACED BID: 0.0050 BTC @ $65199.0
+2026-07-11 02:38:16,817 - INFO - t=30s | mark=64199.1 | pos=+0.0000 BTC | PnL=$-0.02 | vol=$3209.96
+2026-07-11 02:38:16,817 - INFO - State: BIDDING | Avail USD: $980.32
+2026-07-11 02:38:16,817 - INFO - -------------------------------------------------------
+2026-07-11 02:38:19,365 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:38:19,415 - INFO - Order created: id=9cd20015-0246-47b9-94da-6dda792eec67 status=pending
+2026-07-11 02:38:19,415 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:38:19,415 - INFO - PLACED ASK: 0.0050 BTC @ $63199.0
+2026-07-11 02:38:19,415 - INFO - t=33s | mark=64199.1 | pos=+0.0050 BTC | PnL=$-0.03 | vol=$3530.95
+2026-07-11 02:38:19,415 - INFO - State: ASKING | Avail USD: $659.18
+2026-07-11 02:38:19,415 - INFO - -------------------------------------------------------
+2026-07-11 02:38:21,962 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:38:22,013 - INFO - Order created: id=98ff2cc5-bf1e-464e-9a6f-8ef46a80e4f2 status=pending
+2026-07-11 02:38:22,013 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:38:22,014 - INFO - PLACED BID: 0.0050 BTC @ $65199.0
+2026-07-11 02:38:22,014 - INFO - t=36s | mark=64199.1 | pos=+0.0000 BTC | PnL=$-0.03 | vol=$3851.95
+2026-07-11 02:38:22,014 - INFO - State: BIDDING | Avail USD: $980.05
+2026-07-11 02:38:22,014 - INFO - -------------------------------------------------------
+2026-07-11 02:38:24,691 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:38:24,740 - INFO - Order created: id=e7d9b7c1-d112-44ed-9ba2-7afcac9c65bb status=pending
+2026-07-11 02:38:24,740 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:38:24,740 - INFO - PLACED ASK: 0.0050 BTC @ $63195.0
+2026-07-11 02:38:24,740 - INFO - t=38s | mark=64195.1 | pos=+0.0050 BTC | PnL=$-0.06 | vol=$4172.92
+2026-07-11 02:38:24,740 - INFO - State: ASKING | Avail USD: $658.92
+2026-07-11 02:38:24,740 - INFO - -------------------------------------------------------
+2026-07-11 02:38:27,641 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:38:27,689 - INFO - Order created: id=22d398aa-4aa8-4631-8df1-467ac20e0658 status=pending
+2026-07-11 02:38:27,689 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:38:27,689 - INFO - PLACED BID: 0.0050 BTC @ $65189.0
+2026-07-11 02:38:27,689 - INFO - t=41s | mark=64189.0 | pos=+0.0000 BTC | PnL=$-0.03 | vol=$4493.87
+2026-07-11 02:38:27,689 - INFO - State: BIDDING | Avail USD: $979.79
+2026-07-11 02:38:27,689 - INFO - -------------------------------------------------------
+2026-07-11 02:38:30,872 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:38:30,921 - INFO - Order created: id=a3df78a8-d661-4c97-bc10-2a906765bb88 status=pending
+2026-07-11 02:38:30,922 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:38:30,922 - INFO - PLACED ASK: 0.0050 BTC @ $63189.0
+2026-07-11 02:38:30,922 - INFO - t=44s | mark=64189.0 | pos=+0.0050 BTC | PnL=$-0.07 | vol=$4814.81
+2026-07-11 02:38:30,922 - INFO - State: ASKING | Avail USD: $658.68
+2026-07-11 02:38:30,922 - INFO - -------------------------------------------------------
+2026-07-11 02:38:33,770 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:38:33,825 - INFO - Order created: id=c23dbfcd-c966-4fa5-a7a6-d2ee1bf46007 status=pending
+2026-07-11 02:38:33,825 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:38:33,825 - INFO - PLACED BID: 0.0050 BTC @ $65189.0
+2026-07-11 02:38:33,825 - INFO - t=47s | mark=64189.0 | pos=+0.0000 BTC | PnL=$-0.07 | vol=$5135.76
+2026-07-11 02:38:33,826 - INFO - State: BIDDING | Avail USD: $979.50
+2026-07-11 02:38:33,826 - INFO - -------------------------------------------------------
+2026-07-11 02:38:36,545 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:38:36,596 - INFO - Order created: id=441ccdf1-d8a8-4190-9d34-b5b54bdbf8a8 status=pending
+2026-07-11 02:38:36,597 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:38:36,597 - INFO - PLACED ASK: 0.0050 BTC @ $63189.0
+2026-07-11 02:38:36,597 - INFO - t=50s | mark=64189.0 | pos=+0.0050 BTC | PnL=$-0.08 | vol=$5456.70
+2026-07-11 02:38:36,597 - INFO - State: ASKING | Avail USD: $658.42
+2026-07-11 02:38:36,597 - INFO - -------------------------------------------------------
+2026-07-11 02:38:39,150 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:38:39,198 - INFO - Order created: id=d1ed0d93-2faa-4ff3-be49-c4daf4d729b6 status=pending
+2026-07-11 02:38:39,198 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:38:39,198 - INFO - PLACED BID: 0.0050 BTC @ $65189.0
+2026-07-11 02:38:39,198 - INFO - t=53s | mark=64189.0 | pos=+0.0000 BTC | PnL=$-0.08 | vol=$5777.65
+2026-07-11 02:38:39,198 - INFO - State: BIDDING | Avail USD: $979.24
+2026-07-11 02:38:39,198 - INFO - -------------------------------------------------------
+2026-07-11 02:38:41,752 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:38:41,800 - INFO - Order created: id=c328a7d2-a087-44c5-a491-f03343b8f113 status=pending
+2026-07-11 02:38:41,800 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:38:41,800 - INFO - PLACED ASK: 0.0050 BTC @ $63186.0
+2026-07-11 02:38:41,801 - INFO - t=55s | mark=64185.8 | pos=+0.0050 BTC | PnL=$-0.10 | vol=$6098.58
+2026-07-11 02:38:41,801 - INFO - State: ASKING | Avail USD: $658.15
+2026-07-11 02:38:41,801 - INFO - -------------------------------------------------------
+2026-07-11 02:38:44,655 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:38:44,707 - INFO - Order created: id=f08e6e79-0c11-4afb-ba3c-d219fd40ff0b status=pending
+2026-07-11 02:38:44,707 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:38:44,707 - INFO - PLACED BID: 0.0050 BTC @ $65186.0
+2026-07-11 02:38:44,707 - INFO - t=58s | mark=64185.8 | pos=+0.0000 BTC | PnL=$-0.09 | vol=$6419.51
+2026-07-11 02:38:44,707 - INFO - State: BIDDING | Avail USD: $978.97
+2026-07-11 02:38:44,707 - INFO - -------------------------------------------------------
+2026-07-11 02:38:47,257 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:38:47,317 - INFO - Order created: id=c1bb99ee-c3e1-406e-a5cd-d7adc17f8455 status=pending
+2026-07-11 02:38:47,317 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:38:47,317 - INFO - PLACED ASK: 0.0050 BTC @ $63186.0
+2026-07-11 02:38:47,317 - INFO - t=61s | mark=64185.8 | pos=+0.0050 BTC | PnL=$-0.09 | vol=$6740.43
+2026-07-11 02:38:47,317 - INFO - State: ASKING | Avail USD: $657.91
+2026-07-11 02:38:47,317 - INFO - -------------------------------------------------------
+2026-07-11 02:38:49,923 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:38:49,973 - INFO - Order created: id=6dbe5b8a-6144-4866-aa69-f068e349e9c4 status=pending
+2026-07-11 02:38:49,973 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:38:49,973 - INFO - PLACED BID: 0.0050 BTC @ $65186.0
+2026-07-11 02:38:49,973 - INFO - t=64s | mark=64185.8 | pos=+0.0000 BTC | PnL=$-0.09 | vol=$7061.36
+2026-07-11 02:38:49,973 - INFO - State: BIDDING | Avail USD: $978.71
+2026-07-11 02:38:49,973 - INFO - -------------------------------------------------------
+2026-07-11 02:38:52,517 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:38:52,568 - INFO - Order created: id=46bb39b4-1412-4b84-89f2-96c0a8410749 status=pending
+2026-07-11 02:38:52,568 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:38:52,569 - INFO - PLACED ASK: 0.0050 BTC @ $63186.0
+2026-07-11 02:38:52,569 - INFO - t=66s | mark=64185.8 | pos=+0.0050 BTC | PnL=$-0.10 | vol=$7382.29
+2026-07-11 02:38:52,569 - INFO - State: ASKING | Avail USD: $657.64
+2026-07-11 02:38:52,569 - INFO - -------------------------------------------------------
+2026-07-11 02:38:55,142 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:38:55,190 - INFO - Order created: id=e6016417-62b0-4d2e-a059-98d1d23e080c status=pending
+2026-07-11 02:38:55,190 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:38:55,190 - INFO - PLACED BID: 0.0050 BTC @ $65186.0
+2026-07-11 02:38:55,190 - INFO - t=69s | mark=64185.8 | pos=+0.0000 BTC | PnL=$-0.10 | vol=$7703.22
+2026-07-11 02:38:55,190 - INFO - State: BIDDING | Avail USD: $978.45
+2026-07-11 02:38:55,190 - INFO - -------------------------------------------------------
+2026-07-11 02:38:57,952 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:38:58,008 - INFO - Order created: id=2c4822f8-ed7f-4488-ae06-eaac29281927 status=pending
+2026-07-11 02:38:58,008 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:38:58,008 - INFO - PLACED ASK: 0.0050 BTC @ $63186.0
+2026-07-11 02:38:58,008 - INFO - t=71s | mark=64185.8 | pos=+0.0050 BTC | PnL=$-0.10 | vol=$8024.15
+2026-07-11 02:38:58,009 - INFO - State: ASKING | Avail USD: $657.38
+2026-07-11 02:38:58,009 - INFO - -------------------------------------------------------
+2026-07-11 02:39:00,553 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:39:00,602 - INFO - Order created: id=3f185dad-2816-4115-a209-83c632eefdf4 status=pending
+2026-07-11 02:39:00,602 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:39:00,602 - INFO - PLACED BID: 0.0050 BTC @ $65186.0
+2026-07-11 02:39:00,602 - INFO - t=74s | mark=64185.8 | pos=+0.0000 BTC | PnL=$-0.10 | vol=$8345.08
+2026-07-11 02:39:00,603 - INFO - State: BIDDING | Avail USD: $978.19
+2026-07-11 02:39:00,603 - INFO - -------------------------------------------------------
+2026-07-11 02:39:03,172 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:39:03,221 - INFO - Order created: id=d56a41b6-61bf-4472-8c0e-3d56d6c0c32b status=pending
+2026-07-11 02:39:03,221 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:39:03,221 - INFO - PLACED ASK: 0.0050 BTC @ $63186.0
+2026-07-11 02:39:03,221 - INFO - t=77s | mark=64185.8 | pos=+0.0050 BTC | PnL=$-0.11 | vol=$8666.01
+2026-07-11 02:39:03,221 - INFO - State: ASKING | Avail USD: $657.12
+2026-07-11 02:39:03,221 - INFO - -------------------------------------------------------
+2026-07-11 02:39:05,774 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:39:05,821 - INFO - Order created: id=33b9a101-cc7b-414a-8e9e-2b757b3d5fdc status=pending
+2026-07-11 02:39:05,821 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:39:05,822 - INFO - PLACED BID: 0.0050 BTC @ $65186.0
+2026-07-11 02:39:05,822 - INFO - t=79s | mark=64185.8 | pos=+0.0000 BTC | PnL=$-0.11 | vol=$8986.94
+2026-07-11 02:39:05,822 - INFO - State: BIDDING | Avail USD: $977.92
+2026-07-11 02:39:05,822 - INFO - -------------------------------------------------------
+2026-07-11 02:39:08,389 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:39:08,437 - INFO - Order created: id=0c338067-7e9d-4350-abfb-096250ffdbd5 status=pending
+2026-07-11 02:39:08,437 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:39:08,437 - INFO - PLACED ASK: 0.0050 BTC @ $63190.0
+2026-07-11 02:39:08,437 - INFO - t=82s | mark=64190.2 | pos=+0.0050 BTC | PnL=$-0.09 | vol=$9307.89
+2026-07-11 02:39:08,437 - INFO - State: ASKING | Avail USD: $656.86
+2026-07-11 02:39:08,437 - INFO - -------------------------------------------------------
+2026-07-11 02:39:11,132 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:39:11,187 - INFO - Order created: id=05065603-5c97-44e6-b4e1-8c0c0110e6e4 status=pending
+2026-07-11 02:39:11,188 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:39:11,188 - INFO - PLACED BID: 0.0050 BTC @ $65189.0
+2026-07-11 02:39:11,188 - INFO - t=85s | mark=64189.3 | pos=+0.0000 BTC | PnL=$-0.11 | vol=$9628.84
+2026-07-11 02:39:11,188 - INFO - State: BIDDING | Avail USD: $977.66
+2026-07-11 02:39:11,188 - INFO - -------------------------------------------------------
+2026-07-11 02:39:13,705 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:39:13,784 - INFO - Order created: id=8021d517-e2b1-4cf1-920a-21efd1f87e9f status=pending
+2026-07-11 02:39:13,785 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:39:13,785 - INFO - PLACED ASK: 0.0050 BTC @ $63189.0
+2026-07-11 02:39:13,785 - INFO - t=87s | mark=64189.3 | pos=+0.0050 BTC | PnL=$-0.12 | vol=$9949.78
+2026-07-11 02:39:13,785 - INFO - State: ASKING | Avail USD: $656.58
+2026-07-11 02:39:13,785 - INFO - -------------------------------------------------------
+2026-07-11 02:39:16,339 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:39:16,390 - INFO - Order created: id=51742f4b-8cf7-4803-aadb-dafd1ca4aba1 status=pending
+2026-07-11 02:39:16,390 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:39:16,390 - INFO - PLACED BID: 0.0050 BTC @ $65189.0
+2026-07-11 02:39:16,390 - INFO - t=90s | mark=64189.3 | pos=+0.0000 BTC | PnL=$-0.12 | vol=$10270.73
+2026-07-11 02:39:16,390 - INFO - State: BIDDING | Avail USD: $977.40
+2026-07-11 02:39:16,390 - INFO - -------------------------------------------------------
+2026-07-11 02:39:18,931 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:39:18,985 - INFO - Order created: id=cb9637b5-6fa4-4c0b-9df7-7a61a27cf3a8 status=pending
+2026-07-11 02:39:18,985 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:39:18,985 - INFO - PLACED ASK: 0.0050 BTC @ $63189.0
+2026-07-11 02:39:18,985 - INFO - t=93s | mark=64189.3 | pos=+0.0050 BTC | PnL=$-0.12 | vol=$10591.67
+2026-07-11 02:39:18,985 - INFO - State: ASKING | Avail USD: $656.32
+2026-07-11 02:39:18,985 - INFO - -------------------------------------------------------
+2026-07-11 02:39:21,531 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:39:22,263 - INFO - Order created: id=20e97649-dbd7-42ef-84ec-622d431fe45c status=pending
+2026-07-11 02:39:22,263 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:39:22,263 - INFO - PLACED BID: 0.0050 BTC @ $65189.0
+2026-07-11 02:39:22,264 - INFO - t=95s | mark=64189.3 | pos=+0.0000 BTC | PnL=$-0.12 | vol=$10912.62
+2026-07-11 02:39:22,264 - INFO - State: BIDDING | Avail USD: $977.14
+2026-07-11 02:39:22,264 - INFO - -------------------------------------------------------
+2026-07-11 02:39:24,943 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:39:24,993 - INFO - Order created: id=7e98513d-54c4-4f61-91c0-0ca24f6bade2 status=pending
+2026-07-11 02:39:24,994 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:39:24,994 - INFO - PLACED ASK: 0.0050 BTC @ $63187.0
+2026-07-11 02:39:24,994 - INFO - t=99s | mark=64187.4 | pos=+0.0050 BTC | PnL=$-0.13 | vol=$11233.56
+2026-07-11 02:39:24,994 - INFO - State: ASKING | Avail USD: $656.06
+2026-07-11 02:39:24,994 - INFO - -------------------------------------------------------
+2026-07-11 02:39:27,544 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:39:27,591 - INFO - Order created: id=798a8b31-0b1b-4186-8406-f4b860cc9daf status=pending
+2026-07-11 02:39:27,591 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:39:27,591 - INFO - PLACED BID: 0.0050 BTC @ $65187.0
+2026-07-11 02:39:27,591 - INFO - t=101s | mark=64187.4 | pos=+0.0000 BTC | PnL=$-0.13 | vol=$11554.49
+2026-07-11 02:39:27,591 - INFO - State: BIDDING | Avail USD: $976.87
+2026-07-11 02:39:27,591 - INFO - -------------------------------------------------------
+2026-07-11 02:39:30,128 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:39:30,180 - INFO - Order created: id=0965c548-67c0-451c-9039-ae61709c7b63 status=pending
+2026-07-11 02:39:30,180 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:39:30,180 - INFO - PLACED ASK: 0.0050 BTC @ $63187.0
+2026-07-11 02:39:30,180 - INFO - t=104s | mark=64187.4 | pos=+0.0050 BTC | PnL=$-0.14 | vol=$11875.43
+2026-07-11 02:39:30,180 - INFO - State: ASKING | Avail USD: $655.80
+2026-07-11 02:39:30,181 - INFO - -------------------------------------------------------
+2026-07-11 02:39:32,723 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:39:32,783 - INFO - Order created: id=f9c56e9a-ee03-49f5-b013-433891d09ea8 status=pending
+2026-07-11 02:39:32,783 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:39:32,783 - INFO - PLACED BID: 0.0050 BTC @ $65183.0
+2026-07-11 02:39:32,783 - INFO - t=106s | mark=64182.6 | pos=+0.0000 BTC | PnL=$-0.13 | vol=$12196.34
+2026-07-11 02:39:32,784 - INFO - State: BIDDING | Avail USD: $976.61
+2026-07-11 02:39:32,784 - INFO - -------------------------------------------------------
+2026-07-11 02:39:35,310 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:39:35,358 - INFO - Order created: id=d9a63194-837e-46f9-bf64-05062436e58b status=pending
+2026-07-11 02:39:35,358 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:39:35,358 - INFO - PLACED ASK: 0.0050 BTC @ $63183.0
+2026-07-11 02:39:35,358 - INFO - t=109s | mark=64182.6 | pos=+0.0050 BTC | PnL=$-0.17 | vol=$12517.26
+2026-07-11 02:39:35,358 - INFO - State: ASKING | Avail USD: $655.53
+2026-07-11 02:39:35,358 - INFO - -------------------------------------------------------
+2026-07-11 02:39:37,938 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:39:38,047 - INFO - Order created: id=dc7c157e-20e4-415c-9d0f-01d8f82297b1 status=pending
+2026-07-11 02:39:38,047 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:39:38,047 - INFO - PLACED BID: 0.0050 BTC @ $65179.0
+2026-07-11 02:39:38,047 - INFO - t=112s | mark=64178.9 | pos=+0.0000 BTC | PnL=$-0.16 | vol=$12838.15
+2026-07-11 02:39:38,047 - INFO - State: BIDDING | Avail USD: $976.32
+2026-07-11 02:39:38,047 - INFO - -------------------------------------------------------
+2026-07-11 02:39:40,605 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:39:40,651 - INFO - Order created: id=224a038a-919e-4796-ad74-dcd4a5b7a810 status=pending
+2026-07-11 02:39:40,652 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:39:40,652 - INFO - PLACED ASK: 0.0050 BTC @ $63170.0
+2026-07-11 02:39:40,652 - INFO - t=114s | mark=64169.9 | pos=+0.0050 BTC | PnL=$-0.24 | vol=$13159.00
+2026-07-11 02:39:40,652 - INFO - State: ASKING | Avail USD: $655.27
+2026-07-11 02:39:40,652 - INFO - -------------------------------------------------------
+2026-07-11 02:39:43,320 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:39:43,395 - INFO - Order created: id=a95bc888-f1b8-4456-928e-b1d2bfa2b906 status=pending
+2026-07-11 02:39:43,395 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:39:43,395 - INFO - PLACED BID: 0.0050 BTC @ $65170.0
+2026-07-11 02:39:43,395 - INFO - t=117s | mark=64169.9 | pos=+0.0000 BTC | PnL=$-0.19 | vol=$13479.85
+2026-07-11 02:39:43,395 - INFO - State: BIDDING | Avail USD: $976.04
+2026-07-11 02:39:43,395 - INFO - -------------------------------------------------------
+2026-07-11 02:39:46,041 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:39:46,089 - INFO - Order created: id=139e0d88-e0fc-4ece-9acd-01e213cb54bb status=pending
+2026-07-11 02:39:46,090 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:39:46,090 - INFO - PLACED ASK: 0.0050 BTC @ $63170.0
+2026-07-11 02:39:46,090 - INFO - t=120s | mark=64169.9 | pos=+0.0050 BTC | PnL=$-0.20 | vol=$13800.70
+2026-07-11 02:39:46,090 - INFO - State: ASKING | Avail USD: $655.05
+2026-07-11 02:39:46,090 - INFO - -------------------------------------------------------
+2026-07-11 02:39:48,726 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:39:48,781 - INFO - Order created: id=98bc9ea2-3ef9-42ea-a9d2-53c4e2175f46 status=pending
+2026-07-11 02:39:48,781 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:39:48,782 - INFO - PLACED BID: 0.0050 BTC @ $65170.0
+2026-07-11 02:39:48,782 - INFO - t=122s | mark=64170.2 | pos=+0.0000 BTC | PnL=$-0.20 | vol=$14121.55
+2026-07-11 02:39:48,782 - INFO - State: BIDDING | Avail USD: $975.78
+2026-07-11 02:39:48,782 - INFO - -------------------------------------------------------
+2026-07-11 02:39:51,354 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:39:51,404 - INFO - Order created: id=017366d9-6abd-4f3d-9be5-a91a4ef83064 status=pending
+2026-07-11 02:39:51,404 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:39:51,404 - INFO - PLACED ASK: 0.0050 BTC @ $63170.0
+2026-07-11 02:39:51,404 - INFO - t=125s | mark=64170.2 | pos=+0.0050 BTC | PnL=$-0.21 | vol=$14442.40
+2026-07-11 02:39:51,404 - INFO - State: ASKING | Avail USD: $654.79
+2026-07-11 02:39:51,404 - INFO - -------------------------------------------------------
+2026-07-11 02:39:53,954 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:39:54,004 - INFO - Order created: id=cd969a8d-7230-4f52-9929-d201ebe13c52 status=pending
+2026-07-11 02:39:54,004 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:39:54,004 - INFO - PLACED BID: 0.0050 BTC @ $65170.0
+2026-07-11 02:39:54,004 - INFO - t=128s | mark=64170.2 | pos=+0.0000 BTC | PnL=$-0.20 | vol=$14763.25
+2026-07-11 02:39:54,004 - INFO - State: BIDDING | Avail USD: $975.52
+2026-07-11 02:39:54,004 - INFO - -------------------------------------------------------
+2026-07-11 02:39:56,719 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:39:56,769 - INFO - Order created: id=67a60668-1313-4aa4-89aa-a24442622ad1 status=pending
+2026-07-11 02:39:56,769 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:39:56,769 - INFO - PLACED ASK: 0.0050 BTC @ $63170.0
+2026-07-11 02:39:56,769 - INFO - t=130s | mark=64170.2 | pos=+0.0050 BTC | PnL=$-0.21 | vol=$15084.10
+2026-07-11 02:39:56,769 - INFO - State: ASKING | Avail USD: $654.53
+2026-07-11 02:39:56,769 - INFO - -------------------------------------------------------
+2026-07-11 02:39:59,306 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:39:59,358 - INFO - Order created: id=30d988da-2c01-4f1e-952f-af0bb2c2ca1d status=pending
+2026-07-11 02:39:59,358 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:39:59,358 - INFO - PLACED BID: 0.0050 BTC @ $65170.0
+2026-07-11 02:39:59,358 - INFO - t=133s | mark=64170.2 | pos=+0.0000 BTC | PnL=$-0.21 | vol=$15404.95
+2026-07-11 02:39:59,358 - INFO - State: BIDDING | Avail USD: $975.25
+2026-07-11 02:39:59,358 - INFO - -------------------------------------------------------
+2026-07-11 02:40:02,452 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:40:02,503 - INFO - Order created: id=7b580c31-5c98-4e02-8079-d21068d6d6eb status=pending
+2026-07-11 02:40:02,503 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:40:02,503 - INFO - PLACED ASK: 0.0050 BTC @ $63170.0
+2026-07-11 02:40:02,503 - INFO - t=136s | mark=64170.2 | pos=+0.0050 BTC | PnL=$-0.22 | vol=$15725.81
+2026-07-11 02:40:02,503 - INFO - State: ASKING | Avail USD: $654.27
+2026-07-11 02:40:02,503 - INFO - -------------------------------------------------------
+2026-07-11 02:40:05,058 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:40:05,153 - INFO - Order created: id=6a252f9b-c4bb-4c3d-a18d-61b10620d1f7 status=pending
+2026-07-11 02:40:05,153 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:40:05,154 - INFO - PLACED BID: 0.0050 BTC @ $65170.0
+2026-07-11 02:40:05,154 - INFO - t=139s | mark=64170.2 | pos=+0.0000 BTC | PnL=$-0.21 | vol=$16046.66
+2026-07-11 02:40:05,154 - INFO - State: BIDDING | Avail USD: $974.99
+2026-07-11 02:40:05,154 - INFO - -------------------------------------------------------
+2026-07-11 02:40:07,702 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:40:07,753 - INFO - Order created: id=498526fa-282b-4898-a316-9bdca977e7ff status=pending
+2026-07-11 02:40:07,754 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:40:07,754 - INFO - PLACED ASK: 0.0050 BTC @ $63170.0
+2026-07-11 02:40:07,754 - INFO - t=141s | mark=64170.2 | pos=+0.0050 BTC | PnL=$-0.22 | vol=$16367.51
+2026-07-11 02:40:07,754 - INFO - State: ASKING | Avail USD: $654.00
+2026-07-11 02:40:07,754 - INFO - -------------------------------------------------------
+2026-07-11 02:40:10,332 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:40:10,388 - INFO - Order created: id=1f44c1b9-849f-4682-b1d5-be1bba2aacef status=pending
+2026-07-11 02:40:10,388 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:40:10,388 - INFO - PLACED BID: 0.0050 BTC @ $65170.0
+2026-07-11 02:40:10,388 - INFO - t=144s | mark=64170.2 | pos=+0.0000 BTC | PnL=$-0.22 | vol=$16688.36
+2026-07-11 02:40:10,388 - INFO - State: BIDDING | Avail USD: $974.73
+2026-07-11 02:40:10,388 - INFO - -------------------------------------------------------
+2026-07-11 02:40:12,956 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:40:13,037 - INFO - Order created: id=9d1a6343-3aea-4bca-9e97-c1e81f2f7b57 status=pending
+2026-07-11 02:40:13,038 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:40:13,038 - INFO - PLACED ASK: 0.0050 BTC @ $63170.0
+2026-07-11 02:40:13,038 - INFO - t=147s | mark=64170.2 | pos=+0.0050 BTC | PnL=$-0.23 | vol=$17009.21
+2026-07-11 02:40:13,038 - INFO - State: ASKING | Avail USD: $653.74
+2026-07-11 02:40:13,038 - INFO - -------------------------------------------------------
+2026-07-11 02:40:15,652 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:40:15,701 - INFO - Order created: id=ae8b24b5-5f91-43b5-ae68-f2e26b6314c4 status=pending
+2026-07-11 02:40:15,701 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:40:15,702 - INFO - PLACED BID: 0.0050 BTC @ $65170.0
+2026-07-11 02:40:15,702 - INFO - t=149s | mark=64170.2 | pos=+0.0000 BTC | PnL=$-0.22 | vol=$17330.06
+2026-07-11 02:40:15,702 - INFO - State: BIDDING | Avail USD: $974.47
+2026-07-11 02:40:15,702 - INFO - -------------------------------------------------------
+2026-07-11 02:40:18,256 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:40:18,309 - INFO - Order created: id=1c80e948-4be5-4a00-9d98-fe72b414e51a status=pending
+2026-07-11 02:40:18,310 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:40:18,310 - INFO - PLACED ASK: 0.0050 BTC @ $63170.0
+2026-07-11 02:40:18,310 - INFO - t=152s | mark=64170.2 | pos=+0.0050 BTC | PnL=$-0.23 | vol=$17650.91
+2026-07-11 02:40:18,310 - INFO - State: ASKING | Avail USD: $653.48
+2026-07-11 02:40:18,310 - INFO - -------------------------------------------------------
+2026-07-11 02:40:20,876 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:40:20,925 - INFO - Order created: id=71a924a8-eaa7-446e-95f8-7da1e5c9a863 status=pending
+2026-07-11 02:40:20,925 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:40:20,925 - INFO - PLACED BID: 0.0050 BTC @ $65170.0
+2026-07-11 02:40:20,925 - INFO - t=155s | mark=64170.2 | pos=+0.0000 BTC | PnL=$-0.23 | vol=$17971.76
+2026-07-11 02:40:20,925 - INFO - State: BIDDING | Avail USD: $974.21
+2026-07-11 02:40:20,925 - INFO - -------------------------------------------------------
+2026-07-11 02:40:23,499 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:40:23,546 - INFO - Order created: id=1731a72d-bf08-412a-93f9-85d6f13fcb4b status=pending
+2026-07-11 02:40:23,546 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:40:23,547 - INFO - PLACED ASK: 0.0050 BTC @ $63170.0
+2026-07-11 02:40:23,547 - INFO - t=157s | mark=64170.2 | pos=+0.0050 BTC | PnL=$-0.24 | vol=$18292.61
+2026-07-11 02:40:23,547 - INFO - State: ASKING | Avail USD: $653.22
+2026-07-11 02:40:23,547 - INFO - -------------------------------------------------------
+2026-07-11 02:40:26,121 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:40:26,176 - INFO - Order created: id=df150b02-360b-4453-b29b-7c0d0932d896 status=pending
+2026-07-11 02:40:26,176 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:40:26,176 - INFO - PLACED BID: 0.0050 BTC @ $65170.0
+2026-07-11 02:40:26,176 - INFO - t=160s | mark=64170.2 | pos=+0.0000 BTC | PnL=$-0.23 | vol=$18613.46
+2026-07-11 02:40:26,176 - INFO - State: BIDDING | Avail USD: $973.95
+2026-07-11 02:40:26,176 - INFO - -------------------------------------------------------
+2026-07-11 02:40:28,723 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:40:28,786 - INFO - Order created: id=df3c2eba-d016-429d-9479-0862be1b2120 status=pending
+2026-07-11 02:40:28,786 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:40:28,786 - INFO - PLACED ASK: 0.0050 BTC @ $63177.0
+2026-07-11 02:40:28,786 - INFO - t=162s | mark=64177.0 | pos=+0.0050 BTC | PnL=$-0.21 | vol=$18934.35
+2026-07-11 02:40:28,786 - INFO - State: ASKING | Avail USD: $652.96
+2026-07-11 02:40:28,786 - INFO - -------------------------------------------------------
+2026-07-11 02:40:31,334 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:40:31,392 - INFO - Order created: id=af5fab36-e81f-4bae-97ba-98f9c66bb71f status=pending
+2026-07-11 02:40:31,392 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:40:31,392 - INFO - PLACED BID: 0.0050 BTC @ $65177.0
+2026-07-11 02:40:31,392 - INFO - t=165s | mark=64177.0 | pos=+0.0000 BTC | PnL=$-0.27 | vol=$19255.23
+2026-07-11 02:40:31,392 - INFO - State: BIDDING | Avail USD: $973.66
+2026-07-11 02:40:31,392 - INFO - -------------------------------------------------------
+2026-07-11 02:40:34,177 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:40:34,233 - INFO - Order created: id=7b081c83-42c1-4cc5-80cf-c46e47e5391c status=pending
+2026-07-11 02:40:34,233 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:40:34,233 - INFO - PLACED ASK: 0.0050 BTC @ $63181.0
+2026-07-11 02:40:34,233 - INFO - t=168s | mark=64181.1 | pos=+0.0050 BTC | PnL=$-0.25 | vol=$19576.14
+2026-07-11 02:40:34,233 - INFO - State: ASKING | Avail USD: $652.63
+2026-07-11 02:40:34,233 - INFO - -------------------------------------------------------
+2026-07-11 02:40:36,820 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:40:36,892 - INFO - Order created: id=2099b830-5506-485d-b494-7ab629e04f11 status=pending
+2026-07-11 02:40:36,893 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:40:36,893 - INFO - PLACED BID: 0.0050 BTC @ $65181.0
+2026-07-11 02:40:36,893 - INFO - t=170s | mark=64181.3 | pos=+0.0000 BTC | PnL=$-0.27 | vol=$19897.05
+2026-07-11 02:40:36,893 - INFO - State: BIDDING | Avail USD: $973.39
+2026-07-11 02:40:36,893 - INFO - -------------------------------------------------------
+2026-07-11 02:40:39,450 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:40:39,533 - INFO - Order created: id=e83ff12e-39aa-4518-89cd-167cfb3e520a status=pending
+2026-07-11 02:40:39,533 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:40:39,533 - INFO - PLACED ASK: 0.0050 BTC @ $63181.0
+2026-07-11 02:40:39,533 - INFO - t=173s | mark=64181.3 | pos=+0.0050 BTC | PnL=$-0.28 | vol=$20217.95
+2026-07-11 02:40:39,533 - INFO - State: ASKING | Avail USD: $652.35
+2026-07-11 02:40:39,533 - INFO - -------------------------------------------------------
+2026-07-11 02:40:42,289 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:40:42,348 - INFO - Order created: id=1eef86cc-fd1c-4a38-bfa5-1ce1a636a47b status=pending
+2026-07-11 02:40:42,348 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:40:42,348 - INFO - PLACED BID: 0.0050 BTC @ $65181.0
+2026-07-11 02:40:42,348 - INFO - t=176s | mark=64181.3 | pos=+0.0000 BTC | PnL=$-0.28 | vol=$20538.86
+2026-07-11 02:40:42,348 - INFO - State: BIDDING | Avail USD: $973.13
+2026-07-11 02:40:42,348 - INFO - -------------------------------------------------------
+2026-07-11 02:40:44,896 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:40:44,946 - INFO - Order created: id=bc18f754-f915-45ba-96fb-74c4d36adc33 status=pending
+2026-07-11 02:40:44,946 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:40:44,947 - INFO - PLACED ASK: 0.0050 BTC @ $63181.0
+2026-07-11 02:40:44,947 - INFO - t=179s | mark=64181.3 | pos=+0.0050 BTC | PnL=$-0.29 | vol=$20859.77
+2026-07-11 02:40:44,947 - INFO - State: ASKING | Avail USD: $652.09
+2026-07-11 02:40:44,947 - INFO - -------------------------------------------------------
+2026-07-11 02:40:47,513 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:40:47,563 - INFO - Order created: id=0080d85c-1f0e-449f-a813-1f09a5553ff0 status=pending
+2026-07-11 02:40:47,564 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:40:47,564 - INFO - PLACED BID: 0.0050 BTC @ $65181.0
+2026-07-11 02:40:47,564 - INFO - t=181s | mark=64181.3 | pos=+0.0000 BTC | PnL=$-0.28 | vol=$21180.67
+2026-07-11 02:40:47,564 - INFO - State: BIDDING | Avail USD: $972.87
+2026-07-11 02:40:47,564 - INFO - -------------------------------------------------------
+2026-07-11 02:40:50,110 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:40:50,164 - INFO - Order created: id=85b55562-9c78-40ba-9530-ca8a368ae4bb status=pending
+2026-07-11 02:40:50,164 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:40:50,164 - INFO - PLACED ASK: 0.0050 BTC @ $63181.0
+2026-07-11 02:40:50,164 - INFO - t=184s | mark=64181.3 | pos=+0.0050 BTC | PnL=$-0.29 | vol=$21501.58
+2026-07-11 02:40:50,164 - INFO - State: ASKING | Avail USD: $651.83
+2026-07-11 02:40:50,164 - INFO - -------------------------------------------------------
+2026-07-11 02:40:52,708 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:40:52,756 - INFO - Order created: id=1862252d-75a5-4d12-bf90-729e8e02f8fd status=pending
+2026-07-11 02:40:52,756 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:40:52,756 - INFO - PLACED BID: 0.0050 BTC @ $65181.0
+2026-07-11 02:40:52,756 - INFO - t=186s | mark=64181.3 | pos=+0.0000 BTC | PnL=$-0.29 | vol=$21822.49
+2026-07-11 02:40:52,756 - INFO - State: BIDDING | Avail USD: $972.61
+2026-07-11 02:40:52,756 - INFO - -------------------------------------------------------
+2026-07-11 02:40:55,285 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:40:55,335 - INFO - Order created: id=963071b4-7e7c-4be2-90f6-c53ad7120fcc status=pending
+2026-07-11 02:40:55,335 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:40:55,335 - INFO - PLACED ASK: 0.0050 BTC @ $63181.0
+2026-07-11 02:40:55,335 - INFO - t=189s | mark=64181.3 | pos=+0.0050 BTC | PnL=$-0.30 | vol=$22143.39
+2026-07-11 02:40:55,335 - INFO - State: ASKING | Avail USD: $651.56
+2026-07-11 02:40:55,335 - INFO - -------------------------------------------------------
+2026-07-11 02:40:57,926 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:40:58,093 - INFO - Order created: id=8575f2d2-7b59-4230-a8df-d6b0cf721469 status=pending
+2026-07-11 02:40:58,093 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:40:58,093 - INFO - PLACED BID: 0.0050 BTC @ $65181.0
+2026-07-11 02:40:58,093 - INFO - t=192s | mark=64181.3 | pos=+0.0000 BTC | PnL=$-0.29 | vol=$22464.30
+2026-07-11 02:40:58,093 - INFO - State: BIDDING | Avail USD: $972.35
+2026-07-11 02:40:58,093 - INFO - -------------------------------------------------------
+2026-07-11 02:41:00,728 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:41:00,792 - INFO - Order created: id=4f8878a4-3684-4439-aa34-64f966bed5eb status=pending
+2026-07-11 02:41:00,792 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:41:00,792 - INFO - PLACED ASK: 0.0050 BTC @ $63181.0
+2026-07-11 02:41:00,792 - INFO - t=194s | mark=64181.3 | pos=+0.0050 BTC | PnL=$-0.30 | vol=$22785.21
+2026-07-11 02:41:00,792 - INFO - State: ASKING | Avail USD: $651.30
+2026-07-11 02:41:00,792 - INFO - -------------------------------------------------------
+2026-07-11 02:41:03,439 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:41:03,503 - INFO - Order created: id=f9ac591d-fdc6-4eb1-99de-50b289a13ba8 status=pending
+2026-07-11 02:41:03,503 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:41:03,503 - INFO - PLACED BID: 0.0050 BTC @ $65181.0
+2026-07-11 02:41:03,503 - INFO - t=197s | mark=64181.3 | pos=+0.0000 BTC | PnL=$-0.30 | vol=$23106.11
+2026-07-11 02:41:03,503 - INFO - State: BIDDING | Avail USD: $972.08
+2026-07-11 02:41:03,503 - INFO - -------------------------------------------------------
+2026-07-11 02:41:06,080 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:41:06,151 - INFO - Order created: id=922ebde2-dfd3-43a9-a6d5-3986c5b89332 status=pending
+2026-07-11 02:41:06,151 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:41:06,151 - INFO - PLACED ASK: 0.0050 BTC @ $63181.0
+2026-07-11 02:41:06,151 - INFO - t=200s | mark=64181.3 | pos=+0.0050 BTC | PnL=$-0.31 | vol=$23427.02
+2026-07-11 02:41:06,151 - INFO - State: ASKING | Avail USD: $651.04
+2026-07-11 02:41:06,151 - INFO - -------------------------------------------------------
+2026-07-11 02:41:08,707 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:41:08,756 - INFO - Order created: id=88623585-9519-4f39-a42c-85394df070ed status=pending
+2026-07-11 02:41:08,757 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:41:08,757 - INFO - PLACED BID: 0.0050 BTC @ $65181.0
+2026-07-11 02:41:08,757 - INFO - t=202s | mark=64181.3 | pos=+0.0000 BTC | PnL=$-0.30 | vol=$23747.93
+2026-07-11 02:41:08,757 - INFO - State: BIDDING | Avail USD: $971.82
+2026-07-11 02:41:08,757 - INFO - -------------------------------------------------------
+2026-07-11 02:41:11,315 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:41:11,431 - INFO - Order created: id=4f51a400-565c-4915-9f62-dbcb86813208 status=pending
+2026-07-11 02:41:11,431 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:41:11,431 - INFO - PLACED ASK: 0.0050 BTC @ $63181.0
+2026-07-11 02:41:11,431 - INFO - t=205s | mark=64181.3 | pos=+0.0050 BTC | PnL=$-0.31 | vol=$24068.83
+2026-07-11 02:41:11,431 - INFO - State: ASKING | Avail USD: $650.78
+2026-07-11 02:41:11,431 - INFO - -------------------------------------------------------
+2026-07-11 02:41:13,980 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:41:14,030 - INFO - Order created: id=51310873-57c7-4e5e-8c9b-dfea211f2b9b status=pending
+2026-07-11 02:41:14,030 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:41:14,030 - INFO - PLACED BID: 0.0050 BTC @ $65181.0
+2026-07-11 02:41:14,030 - INFO - t=208s | mark=64181.3 | pos=+0.0000 BTC | PnL=$-0.31 | vol=$24389.74
+2026-07-11 02:41:14,030 - INFO - State: BIDDING | Avail USD: $971.56
+2026-07-11 02:41:14,030 - INFO - -------------------------------------------------------
+2026-07-11 02:41:16,548 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:41:16,597 - INFO - Order created: id=4f2ddfe9-dd85-411b-a7ac-e496215f679d status=pending
+2026-07-11 02:41:16,597 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:41:16,598 - INFO - PLACED ASK: 0.0050 BTC @ $63181.0
+2026-07-11 02:41:16,598 - INFO - t=210s | mark=64181.3 | pos=+0.0050 BTC | PnL=$-0.32 | vol=$24710.65
+2026-07-11 02:41:16,598 - INFO - State: ASKING | Avail USD: $650.52
+2026-07-11 02:41:16,598 - INFO - -------------------------------------------------------
+2026-07-11 02:41:19,124 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:41:19,176 - INFO - Order created: id=47580a24-2771-4ba2-9608-cd154b38066c status=pending
+2026-07-11 02:41:19,176 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:41:19,176 - INFO - PLACED BID: 0.0050 BTC @ $65181.0
+2026-07-11 02:41:19,176 - INFO - t=213s | mark=64181.4 | pos=+0.0000 BTC | PnL=$-0.31 | vol=$25031.55
+2026-07-11 02:41:19,176 - INFO - State: BIDDING | Avail USD: $971.30
+2026-07-11 02:41:19,176 - INFO - -------------------------------------------------------
+2026-07-11 02:41:21,717 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:41:21,763 - INFO - Order created: id=8829c29c-e0b9-456f-a60a-13ca398d1a5c status=pending
+2026-07-11 02:41:21,763 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:41:21,763 - INFO - PLACED ASK: 0.0050 BTC @ $63175.0
+2026-07-11 02:41:21,763 - INFO - t=215s | mark=64175.4 | pos=+0.0050 BTC | PnL=$-0.35 | vol=$25352.43
+2026-07-11 02:41:21,763 - INFO - State: ASKING | Avail USD: $650.25
+2026-07-11 02:41:21,763 - INFO - -------------------------------------------------------
+2026-07-11 02:41:24,589 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:41:24,644 - INFO - Order created: id=9504d31b-bba9-4c1a-8fa5-dd16275b1fbf status=pending
+2026-07-11 02:41:24,644 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:41:24,644 - INFO - PLACED BID: 0.0050 BTC @ $65175.0
+2026-07-11 02:41:24,644 - INFO - t=218s | mark=64175.4 | pos=+0.0000 BTC | PnL=$-0.35 | vol=$25673.31
+2026-07-11 02:41:24,644 - INFO - State: BIDDING | Avail USD: $971.01
+2026-07-11 02:41:24,645 - INFO - -------------------------------------------------------
+2026-07-11 02:41:27,164 - INFO - >>> BID FILLED! 0.005 Switching to ASK.
+2026-07-11 02:41:27,211 - INFO - Order created: id=05822f7c-7597-4145-ab9c-1e2ad135e260 status=pending
+2026-07-11 02:41:27,212 - INFO - Order complete: SELL 0.0050 base BTC/USDC
+2026-07-11 02:41:27,212 - INFO - PLACED ASK: 0.0050 BTC @ $63174.0
+2026-07-11 02:41:27,212 - INFO - t=221s | mark=64174.4 | pos=+0.0050 BTC | PnL=$-0.36 | vol=$25994.18
+2026-07-11 02:41:27,212 - INFO - State: ASKING | Avail USD: $649.99
+2026-07-11 02:41:27,212 - INFO - -------------------------------------------------------
+2026-07-11 02:41:29,743 - INFO - >>> ASK FILLED! 0.0 Switching back to BID.
+2026-07-11 02:41:29,795 - INFO - Order created: id=19df5081-6232-49f6-836c-0ef7d532b1e4 status=pending
+2026-07-11 02:41:29,795 - INFO - Order complete: BUY 0.0050 base BTC/USDC
+2026-07-11 02:41:29,795 - INFO - PLACED BID: 0.0050 BTC @ $65173.0
+2026-07-11 02:41:29,795 - INFO - t=223s | mark=64173.2 | pos=+0.0000 BTC | PnL=$-0.36 | vol=$26315.05
+2026-07-11 02:41:29,796 - INFO - State: BIDDING | Avail USD: $970.74
+2026-07-11 02:41:29,796 - INFO - -------------------------------------------------------
+2026-07-11 02:41:32,441 - INFO - >>> NO FLIP! 0.00376 STAYING ON bidding
+2026-07-11 02:41:32,441 - INFO - >>> 0.00376 || 0.005
+2026-07-11 02:41:32,442 - INFO - t=226s | mark=64173.2 | pos=+0.0038 BTC | PnL=$-0.66 | vol=$26556.34
+2026-07-11 02:41:32,442 - INFO - State: BIDDING | Avail USD: $648.20
+2026-07-11 02:41:32,442 - INFO - -------------------------------------------------------
+2026-07-11 02:41:34,979 - INFO - >>> NO FLIP! 0.00376 STAYING ON bidding
+2026-07-11 02:41:34,980 - INFO - >>> 0.00376 || 0.005
+2026-07-11 02:41:34,980 - INFO - t=229s | mark=64173.2 | pos=+0.0038 BTC | PnL=$-0.66 | vol=$26556.34
+2026-07-11 02:41:34,980 - INFO - State: BIDDING | Avail USD: $648.20
+2026-07-11 02:41:34,980 - INFO - -------------------------------------------------------
+2026-07-11 02:41:37,534 - INFO - >>> NO FLIP! 0.00376 STAYING ON bidding
+2026-07-11 02:41:37,534 - INFO - >>> 0.00376 || 0.005
+2026-07-11 02:41:37,534 - INFO - t=231s | mark=64173.2 | pos=+0.0038 BTC | PnL=$-0.66 | vol=$26556.34
+2026-07-11 02:41:37,534 - INFO - State: BIDDING | Avail USD: $648.20
+2026-07-11 02:41:37,534 - INFO - -------------------------------------------------------

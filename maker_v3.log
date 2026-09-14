@@ -1,0 +1,1536 @@
+2026-06-25 10:56:53,811  INFO      Auth: JWT minted successfully.
+2026-06-25 10:56:53,811  INFO      Cancelling pre-existing TrueMarkets open orders...
+2026-06-25 10:56:53,827  INFO      Coinbase WS: subscribed to ticker for BTC-USD.
+2026-06-25 10:56:53,843  INFO      maker_v3 started: TrueMarkets BTC/USDC size=0.0001, Coinbase BTC-USD guardrail, tick=0.1, thin_pct=0.25
+2026-06-25 10:56:55,191  INFO      Order created: id=8f6cba0a-2a42-4911-961d-e8f465a2b0eb status=pending
+2026-06-25 10:56:55,191  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 10:56:55,191  INFO      Post BID 0.0001 @ 59483.3  order_id=8f6cba0a status=pending
+2026-06-25 10:56:55,250  INFO      Order created: id=55acd7ab-7ea3-4f55-a04f-c1bceed2c541 status=pending
+2026-06-25 10:56:55,250  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-06-25 10:56:55,250  INFO      Post ASK 0.0001 @ 59799.0  order_id=55acd7ab status=pending
+2026-06-25 10:56:56,456  INFO      TrueMarkets quote echoes our order (bid_echo=False ask_echo=True); not chasing our own quote.
+2026-06-25 10:56:56,678  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 10:56:56,710  INFO      Cancel 8f6cba0a-2a42-4911-961d-e8f465a2b0eb: HTTP 202
+2026-06-25 10:56:56,711  INFO      Cancel bid 8f6cba0a ok=True
+2026-06-25 10:56:56,765  INFO      Order created: id=6e05031b-a5bf-4a99-aa3e-217241d3be73 status=pending
+2026-06-25 10:56:56,765  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 10:56:56,766  INFO      Post BID 0.0001 @ 59441.0  order_id=6e05031b status=pending
+2026-06-25 10:56:56,891  INFO      Cancel 55acd7ab-7ea3-4f55-a04f-c1bceed2c541: HTTP 202
+2026-06-25 10:56:56,891  INFO      Cancel ask 55acd7ab ok=True
+2026-06-25 10:57:00,234  INFO      Cancel 6e05031b-a5bf-4a99-aa3e-217241d3be73: HTTP 202
+2026-06-25 10:57:00,235  INFO      Cancel bid 6e05031b ok=True
+2026-06-25 10:57:00,896  INFO      Order created: id=f9b8a4d2-4f07-4ce8-85e1-0b0b53d06eb0 status=pending
+2026-06-25 10:57:00,896  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 10:57:00,897  INFO      Post BID 0.0001 @ 59441.2  order_id=f9b8a4d2 status=pending
+2026-06-25 10:57:01,568  INFO      Order created: id=d555b76f-2c58-4eea-b387-f970fb5ed925 status=pending
+2026-06-25 10:57:01,568  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-06-25 10:57:01,568  INFO      Post ASK 0.0001 @ 59738.3  order_id=d555b76f status=pending
+2026-06-25 10:57:04,220  INFO      TrueMarkets quote echoes our order (bid_echo=False ask_echo=True); not chasing our own quote.
+2026-06-25 10:57:05,046  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 10:57:05,549  INFO      Cancel f9b8a4d2-4f07-4ce8-85e1-0b0b53d06eb0: HTTP 202
+2026-06-25 10:57:05,549  INFO      Cancel bid f9b8a4d2 ok=True
+2026-06-25 10:57:06,241  INFO      Order created: id=c84af720-f4ca-4e0b-ac67-b01fd2019fea status=pending
+2026-06-25 10:57:06,241  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 10:57:06,241  INFO      Post BID 0.0001 @ 59455.7  order_id=c84af720 status=pending
+2026-06-25 10:57:06,892  INFO      Cancel d555b76f-2c58-4eea-b387-f970fb5ed925: HTTP 202
+2026-06-25 10:57:06,893  INFO      Cancel ask d555b76f ok=True
+2026-06-25 10:57:10,214  INFO      Cancel c84af720-f4ca-4e0b-ac67-b01fd2019fea: HTTP 202
+2026-06-25 10:57:10,214  INFO      Cancel bid c84af720 ok=True
+2026-06-25 10:57:10,908  INFO      Order created: id=86f78196-2ff6-4f31-bf27-e249e6628500 status=pending
+2026-06-25 10:57:10,908  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 10:57:10,909  INFO      Post BID 0.0001 @ 59439.1  order_id=86f78196 status=pending
+2026-06-25 10:57:11,574  INFO      Order created: id=7fa0e9ed-0244-4f17-9a67-a5d6c2e8c8a8 status=pending
+2026-06-25 10:57:11,586  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-06-25 10:57:11,586  INFO      Post ASK 0.0001 @ 59811.9  order_id=7fa0e9ed status=pending
+2026-06-25 10:57:15,117  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 10:57:15,545  INFO      Cancel 86f78196-2ff6-4f31-bf27-e249e6628500: HTTP 202
+2026-06-25 10:57:15,545  INFO      Cancel bid 86f78196 ok=True
+2026-06-25 10:57:16,633  INFO      Order created: id=e611aeec-9d94-4465-a8fa-00ef82a0a2e9 status=pending
+2026-06-25 10:57:16,633  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 10:57:16,633  INFO      Post BID 0.0001 @ 59467.5  order_id=e611aeec status=pending
+2026-06-25 10:57:16,888  INFO      Cancel 7fa0e9ed-0244-4f17-9a67-a5d6c2e8c8a8: HTTP 202
+2026-06-25 10:57:16,888  INFO      Cancel ask 7fa0e9ed ok=True
+2026-06-25 10:57:20,220  INFO      Cancel e611aeec-9d94-4465-a8fa-00ef82a0a2e9: HTTP 202
+2026-06-25 10:57:20,220  INFO      Cancel bid e611aeec ok=True
+2026-06-25 10:57:20,910  INFO      Order created: id=049d40f3-8164-453b-b146-fa26523889b2 status=pending
+2026-06-25 10:57:20,911  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 10:57:20,911  INFO      Post BID 0.0001 @ 59458.2  order_id=049d40f3 status=pending
+2026-06-25 10:57:21,564  INFO      Order created: id=d71a5ee3-2dd8-4aa4-8dd6-7e603480c312 status=pending
+2026-06-25 10:57:21,564  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-06-25 10:57:21,565  INFO      Post ASK 0.0001 @ 59811.9  order_id=d71a5ee3 status=pending
+2026-06-25 10:57:24,214  ERROR     POST /v1/conductor/quotes → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:24,214  WARNING   TrueMarkets quote fetch failed; falling back to Coinbase guardrails only.
+2026-06-25 10:57:25,079  WARNING   Ask suppressed: BTC balance 0.00000000 < size 0.00010000
+2026-06-25 10:57:25,545  INFO      Cancel 049d40f3-8164-453b-b146-fa26523889b2: HTTP 400
+2026-06-25 10:57:25,545  INFO      Cancel bid 049d40f3 ok=False
+2026-06-25 10:57:26,221  ERROR     POST /v1/conductor/orders → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:26,221  ERROR     Failed to post bid @ 59446.6
+2026-06-25 10:57:26,878  INFO      Cancel d71a5ee3-2dd8-4aa4-8dd6-7e603480c312: HTTP 400
+2026-06-25 10:57:26,878  INFO      Cancel ask d71a5ee3 ok=False
+2026-06-25 10:57:27,909  ERROR     POST /v1/conductor/quotes → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:28,212  ERROR     POST /v1/conductor/quotes → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:28,212  WARNING   TrueMarkets quote fetch failed; falling back to Coinbase guardrails only.
+2026-06-25 10:57:29,045  WARNING   Ask suppressed: BTC balance 0.00000000 < size 0.00010000
+2026-06-25 10:57:29,549  ERROR     POST /v1/conductor/orders → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:29,549  ERROR     Failed to post bid @ 59452.7
+2026-06-25 10:57:30,581  ERROR     POST /v1/conductor/quotes → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:30,887  ERROR     POST /v1/conductor/quotes → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:30,888  WARNING   TrueMarkets quote fetch failed; falling back to Coinbase guardrails only.
+2026-06-25 10:57:31,775  WARNING   Ask suppressed: BTC balance 0.00000000 < size 0.00010000
+2026-06-25 10:57:32,214  ERROR     POST /v1/conductor/orders → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:32,215  ERROR     Failed to post bid @ 59414.9
+2026-06-25 10:57:33,257  ERROR     POST /v1/conductor/quotes → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:33,553  ERROR     POST /v1/conductor/quotes → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:33,553  WARNING   TrueMarkets quote fetch failed; falling back to Coinbase guardrails only.
+2026-06-25 10:57:34,382  WARNING   Ask suppressed: BTC balance 0.00000000 < size 0.00010000
+2026-06-25 10:57:34,893  ERROR     POST /v1/conductor/orders → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:35,233  ERROR     Failed to post bid @ 59400.7
+2026-06-25 10:57:36,267  ERROR     POST /v1/conductor/quotes → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:36,299  ERROR     POST /v1/conductor/quotes → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:36,299  WARNING   TrueMarkets quote fetch failed; falling back to Coinbase guardrails only.
+2026-06-25 10:57:37,109  WARNING   Ask suppressed: BTC balance 0.00000000 < size 0.00010000
+2026-06-25 10:57:37,562  ERROR     POST /v1/conductor/orders → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:37,562  ERROR     Failed to post bid @ 59407.9
+2026-06-25 10:57:38,609  ERROR     POST /v1/conductor/quotes → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:38,886  ERROR     POST /v1/conductor/quotes → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:38,887  WARNING   TrueMarkets quote fetch failed; falling back to Coinbase guardrails only.
+2026-06-25 10:57:39,719  WARNING   Ask suppressed: BTC balance 0.00000000 < size 0.00010000
+2026-06-25 10:57:40,226  ERROR     POST /v1/conductor/orders → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:40,226  ERROR     Failed to post bid @ 59405.6
+2026-06-25 10:57:41,256  ERROR     POST /v1/conductor/quotes → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:41,541  ERROR     POST /v1/conductor/quotes → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:41,541  WARNING   TrueMarkets quote fetch failed; falling back to Coinbase guardrails only.
+2026-06-25 10:57:42,486  WARNING   Ask suppressed: BTC balance 0.00000000 < size 0.00010000
+2026-06-25 10:57:42,896  ERROR     POST /v1/conductor/orders → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:42,896  ERROR     Failed to post bid @ 59417.8
+2026-06-25 10:57:43,999  ERROR     POST /v1/conductor/quotes → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:44,211  ERROR     POST /v1/conductor/quotes → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:44,211  WARNING   TrueMarkets quote fetch failed; falling back to Coinbase guardrails only.
+2026-06-25 10:57:45,065  WARNING   Ask suppressed: BTC balance 0.00000000 < size 0.00010000
+2026-06-25 10:57:45,551  ERROR     POST /v1/conductor/orders → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:45,551  ERROR     Failed to post bid @ 59436.0
+2026-06-25 10:57:46,582  ERROR     POST /v1/conductor/quotes → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:46,874  ERROR     POST /v1/conductor/quotes → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:46,875  WARNING   TrueMarkets quote fetch failed; falling back to Coinbase guardrails only.
+2026-06-25 10:57:47,705  WARNING   Ask suppressed: BTC balance 0.00000000 < size 0.00010000
+2026-06-25 10:57:48,215  ERROR     POST /v1/conductor/orders → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:48,215  ERROR     Failed to post bid @ 59421.6
+2026-06-25 10:57:49,247  ERROR     POST /v1/conductor/quotes → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:49,539  ERROR     POST /v1/conductor/quotes → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:49,539  WARNING   TrueMarkets quote fetch failed; falling back to Coinbase guardrails only.
+2026-06-25 10:57:50,471  WARNING   Ask suppressed: BTC balance 0.00000000 < size 0.00010000
+2026-06-25 10:57:50,897  ERROR     POST /v1/conductor/orders → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:50,897  ERROR     Failed to post bid @ 59434.1
+2026-06-25 10:57:51,924  ERROR     POST /v1/conductor/quotes → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:52,279  ERROR     POST /v1/conductor/quotes → 500: {'error': '', 'message': 'internal server error', 'code': 500}
+2026-06-25 10:57:52,279  WARNING   TrueMarkets quote fetch failed; falling back to Coinbase guardrails only.
+2026-06-25 10:57:53,084  WARNING   Ask suppressed: BTC balance 0.00000000 < size 0.00010000
+2026-06-25 10:57:53,632  INFO      Order created: id=ca164c83-b9d2-448f-b790-97e371e1387f status=pending
+2026-06-25 10:57:53,632  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 10:57:53,632  INFO      Post BID 0.0001 @ 59432.3  order_id=ca164c83 status=pending
+2026-06-25 10:57:56,406  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 10:57:56,951  INFO      Cancel ca164c83-b9d2-448f-b790-97e371e1387f: HTTP 202
+2026-06-25 10:57:56,951  INFO      Cancel bid ca164c83 ok=True
+2026-06-25 10:57:57,548  WARNING   POST /v1/conductor/orders → 429 rate-limited; backing off 2.0s
+2026-06-25 10:57:59,592  WARNING   Rate-limit budget low (0 left) — waiting 3.0s
+2026-06-25 10:58:00,500  INFO      Shutting down.
+2026-06-25 11:26:22,694  INFO      Auth: JWT minted successfully.
+2026-06-25 11:26:22,694  INFO      Cancelling pre-existing TrueMarkets open orders...
+2026-06-25 11:26:22,748  INFO      maker_v3 started: TrueMarkets BTC/USDC size=0.0001, Coinbase BTC-USD guardrail, tick=0.1, thin_pct=0.25, poll=3.0s, req=50.0/min, max_loss=$5.00
+2026-06-25 11:26:22,772  INFO      Coinbase WS: subscribed to ticker for BTC-USD.
+2026-06-25 11:26:26,121  INFO      Order created: id=1eaaea44-0a17-4387-a420-696229ae7d81 status=pending
+2026-06-25 11:26:26,121  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:26:26,121  INFO      Post BID 0.0001 @ 59164.1  order_id=1eaaea44 status=pending
+2026-06-25 11:26:27,017  INFO      Order created: id=6ba3dd5a-3690-43f9-a42f-f5100947fd09 status=pending
+2026-06-25 11:26:27,017  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-06-25 11:26:27,017  INFO      Post ASK 0.0001 @ 59406.2  order_id=6ba3dd5a status=pending
+2026-06-25 11:26:30,090  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=True); not chasing our own quote.
+2026-06-25 11:26:30,615  INFO      Cancel 1eaaea44-0a17-4387-a420-696229ae7d81: HTTP 202
+2026-06-25 11:26:30,615  INFO      Cancel bid 1eaaea44 ok=True
+2026-06-25 11:26:31,814  INFO      Order created: id=9040eca9-1468-4420-a832-038e50cce130 status=pending
+2026-06-25 11:26:31,814  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:26:31,814  INFO      Post BID 0.0001 @ 59122.2  order_id=9040eca9 status=pending
+2026-06-25 11:26:32,995  INFO      Cancel 6ba3dd5a-3690-43f9-a42f-f5100947fd09: HTTP 202
+2026-06-25 11:26:32,995  INFO      Cancel ask 6ba3dd5a ok=True
+2026-06-25 11:26:34,210  INFO      Order created: id=8310f992-91f5-4d18-8b97-0ce585e0644c status=pending
+2026-06-25 11:26:34,210  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-06-25 11:26:34,210  INFO      Post ASK 0.0001 @ 59124.0  order_id=8310f992 status=pending
+2026-06-25 11:26:38,981  INFO      Cancel 9040eca9-1468-4420-a832-038e50cce130: HTTP 202
+2026-06-25 11:26:38,992  INFO      Cancel bid 9040eca9 ok=True
+2026-06-25 11:26:40,206  INFO      Order created: id=536a887b-b45c-4683-8d21-3aec46e4f28f status=pending
+2026-06-25 11:26:40,206  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:26:40,206  INFO      Post BID 0.0001 @ 59144.8  order_id=536a887b status=pending
+2026-06-25 11:26:41,385  INFO      Cancel 8310f992-91f5-4d18-8b97-0ce585e0644c: HTTP 400
+2026-06-25 11:26:41,385  INFO      Cancel ask 8310f992 ok=False
+2026-06-25 11:26:41,385  WARNING   Cancel failed for ask; not placing replacement.
+2026-06-25 11:26:56,550  INFO      Fill SELL 0.0001 BTC @ 59124.0  session_pos=-0.00010000 BTC fills=1
+2026-06-25 11:26:56,659  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:26:57,800  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:26:58,841  INFO      Cancel 536a887b-b45c-4683-8d21-3aec46e4f28f: HTTP 202
+2026-06-25 11:26:58,841  INFO      Cancel bid 536a887b ok=True
+2026-06-25 11:27:00,052  INFO      Order created: id=ad97f186-f6ce-463d-bf95-00cee0aab835 status=pending
+2026-06-25 11:27:00,052  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:27:00,053  INFO      Post BID 0.0001 @ 59196.0  order_id=ad97f186 status=pending
+2026-06-25 11:27:03,135  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:27:03,643  INFO      Cancel ad97f186-f6ce-463d-bf95-00cee0aab835: HTTP 202
+2026-06-25 11:27:03,644  INFO      Cancel bid ad97f186 ok=True
+2026-06-25 11:27:04,858  INFO      Order created: id=68ae78a9-ba6e-4cb0-b3fd-f87fcdf50d5b status=pending
+2026-06-25 11:27:04,858  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:27:04,858  INFO      Post BID 0.0001 @ 59204.0  order_id=68ae78a9 status=pending
+2026-06-25 11:27:08,172  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:27:08,447  INFO      Cancel 68ae78a9-ba6e-4cb0-b3fd-f87fcdf50d5b: HTTP 202
+2026-06-25 11:27:08,447  INFO      Cancel bid 68ae78a9 ok=True
+2026-06-25 11:27:09,665  INFO      Order created: id=ada3a12e-ce5f-4108-b1a4-81d88c751d6d status=pending
+2026-06-25 11:27:09,666  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:27:09,666  INFO      Post BID 0.0001 @ 59227.3  order_id=ada3a12e status=pending
+2026-06-25 11:27:13,475  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:27:14,424  INFO      Cancel ada3a12e-ce5f-4108-b1a4-81d88c751d6d: HTTP 202
+2026-06-25 11:27:14,424  INFO      Cancel bid ada3a12e ok=True
+2026-06-25 11:27:15,645  INFO      Order created: id=6f583091-f4e3-4318-8f98-43bc4d61a9c3 status=pending
+2026-06-25 11:27:15,645  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:27:15,645  INFO      Post BID 0.0001 @ 59235.4  order_id=6f583091 status=pending
+2026-06-25 11:27:18,747  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:27:18,747  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:27:19,313  INFO      Cancel 6f583091-f4e3-4318-8f98-43bc4d61a9c3: HTTP 202
+2026-06-25 11:27:19,314  INFO      Cancel bid 6f583091 ok=True
+2026-06-25 11:27:20,459  INFO      Order created: id=62c7373c-80af-47e3-b644-2047c4184a17 status=pending
+2026-06-25 11:27:20,460  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:27:20,460  INFO      Post BID 0.0001 @ 59228.6  order_id=62c7373c status=pending
+2026-06-25 11:27:23,550  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:27:23,550  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:27:24,039  INFO      Cancel 62c7373c-80af-47e3-b644-2047c4184a17: HTTP 202
+2026-06-25 11:27:24,039  INFO      Cancel bid 62c7373c ok=True
+2026-06-25 11:27:25,260  INFO      Order created: id=4f6260ae-cd1b-4c2b-a73a-b00d8618e059 status=pending
+2026-06-25 11:27:25,260  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:27:25,260  INFO      Post BID 0.0001 @ 59220.8  order_id=4f6260ae status=pending
+2026-06-25 11:27:28,327  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:27:29,452  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:27:30,036  INFO      Cancel 4f6260ae-cd1b-4c2b-a73a-b00d8618e059: HTTP 202
+2026-06-25 11:27:30,036  INFO      Cancel bid 4f6260ae ok=True
+2026-06-25 11:27:31,258  INFO      Order created: id=b76b9ec5-c5fc-43e7-98ee-07947e3b98ad status=pending
+2026-06-25 11:27:31,258  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:27:31,258  INFO      Post BID 0.0001 @ 59216.2  order_id=b76b9ec5 status=pending
+2026-06-25 11:27:34,322  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:27:34,827  INFO      Cancel b76b9ec5-c5fc-43e7-98ee-07947e3b98ad: HTTP 202
+2026-06-25 11:27:34,828  INFO      Cancel bid b76b9ec5 ok=True
+2026-06-25 11:27:36,079  INFO      Order created: id=22a98737-1ab1-45ff-a611-1f67f4d43aab status=pending
+2026-06-25 11:27:36,080  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:27:36,080  INFO      Post BID 0.0001 @ 59227.7  order_id=22a98737 status=pending
+2026-06-25 11:27:39,144  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:27:39,144  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:27:39,635  INFO      Cancel 22a98737-1ab1-45ff-a611-1f67f4d43aab: HTTP 202
+2026-06-25 11:27:39,635  INFO      Cancel bid 22a98737 ok=True
+2026-06-25 11:27:40,854  INFO      Order created: id=4b7051c3-ffcf-4b44-9c78-fb3aa873fa91 status=pending
+2026-06-25 11:27:40,855  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:27:40,855  INFO      Post BID 0.0001 @ 59226.5  order_id=4b7051c3 status=pending
+2026-06-25 11:27:43,942  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:27:44,600  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:27:45,627  INFO      Cancel 4b7051c3-ffcf-4b44-9c78-fb3aa873fa91: HTTP 202
+2026-06-25 11:27:45,627  INFO      Cancel bid 4b7051c3 ok=True
+2026-06-25 11:27:46,880  INFO      Order created: id=cd1c55f4-8e38-4dbb-9043-df53ef8b8043 status=pending
+2026-06-25 11:27:46,880  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:27:46,881  INFO      Post BID 0.0001 @ 59227.3  order_id=cd1c55f4 status=pending
+2026-06-25 11:27:49,946  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:27:50,582  INFO      Cancel cd1c55f4-8e38-4dbb-9043-df53ef8b8043: HTTP 202
+2026-06-25 11:27:50,582  INFO      Cancel bid cd1c55f4 ok=True
+2026-06-25 11:27:51,664  INFO      Order created: id=164d8fb1-359e-4a75-af3c-b703c2a0aed9 status=pending
+2026-06-25 11:27:51,665  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:27:51,665  INFO      Post BID 0.0001 @ 59231.6  order_id=164d8fb1 status=pending
+2026-06-25 11:27:54,768  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:27:54,768  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:27:55,240  INFO      Cancel 164d8fb1-359e-4a75-af3c-b703c2a0aed9: HTTP 202
+2026-06-25 11:27:55,240  INFO      Cancel bid 164d8fb1 ok=True
+2026-06-25 11:27:56,456  INFO      Order created: id=1d270276-e2b6-4d6b-a3d3-d4ddd4dd27ce status=pending
+2026-06-25 11:27:56,456  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:27:56,456  INFO      Post BID 0.0001 @ 59214.0  order_id=1d270276 status=pending
+2026-06-25 11:27:59,552  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:28:00,207  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:28:01,286  INFO      Cancel 1d270276-e2b6-4d6b-a3d3-d4ddd4dd27ce: HTTP 202
+2026-06-25 11:28:01,286  INFO      Cancel bid 1d270276 ok=True
+2026-06-25 11:28:02,458  INFO      Order created: id=1b058adf-969c-473f-98ca-78e263d99354 status=pending
+2026-06-25 11:28:02,458  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:28:02,458  INFO      Post BID 0.0001 @ 59189.0  order_id=1b058adf status=pending
+2026-06-25 11:28:05,531  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:28:05,531  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:28:06,028  INFO      Cancel 1b058adf-969c-473f-98ca-78e263d99354: HTTP 202
+2026-06-25 11:28:06,028  INFO      Cancel bid 1b058adf ok=True
+2026-06-25 11:28:07,253  INFO      Order created: id=c3c6e413-cd33-4680-ac53-287c15679b9b status=pending
+2026-06-25 11:28:07,254  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:28:07,255  INFO      Post BID 0.0001 @ 59155.9  order_id=c3c6e413 status=pending
+2026-06-25 11:28:10,343  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:28:10,879  INFO      Cancel c3c6e413-cd33-4680-ac53-287c15679b9b: HTTP 202
+2026-06-25 11:28:10,879  INFO      Cancel bid c3c6e413 ok=True
+2026-06-25 11:28:12,065  INFO      Order created: id=2a8e975c-1c51-4e29-aa36-3ae60bca50af status=pending
+2026-06-25 11:28:12,065  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:28:12,065  INFO      Post BID 0.0001 @ 59152.8  order_id=2a8e975c status=pending
+2026-06-25 11:28:15,154  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:28:15,803  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:28:16,893  INFO      Cancel 2a8e975c-1c51-4e29-aa36-3ae60bca50af: HTTP 202
+2026-06-25 11:28:16,893  INFO      Cancel bid 2a8e975c ok=True
+2026-06-25 11:28:18,061  INFO      Order created: id=b6e337c9-d158-475f-9a7b-9920bda0a337 status=pending
+2026-06-25 11:28:18,062  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:28:18,062  INFO      Post BID 0.0001 @ 59163.3  order_id=b6e337c9 status=pending
+2026-06-25 11:28:21,153  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:28:21,154  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:28:21,639  INFO      Cancel b6e337c9-d158-475f-9a7b-9920bda0a337: HTTP 202
+2026-06-25 11:28:21,639  INFO      Cancel bid b6e337c9 ok=True
+2026-06-25 11:28:22,853  INFO      Order created: id=713c4c65-d22a-4bf1-81c0-4a0c54e33e55 status=pending
+2026-06-25 11:28:22,854  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:28:22,854  INFO      Post BID 0.0001 @ 59140.9  order_id=713c4c65 status=pending
+2026-06-25 11:28:25,938  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:28:26,437  INFO      Cancel 713c4c65-d22a-4bf1-81c0-4a0c54e33e55: HTTP 202
+2026-06-25 11:28:26,437  INFO      Cancel bid 713c4c65 ok=True
+2026-06-25 11:28:27,658  INFO      Order created: id=de884435-6d34-4655-b1ff-1235b356513c status=pending
+2026-06-25 11:28:27,659  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:28:27,659  INFO      Post BID 0.0001 @ 59160.0  order_id=de884435 status=pending
+2026-06-25 11:28:30,735  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:28:31,478  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:28:32,439  INFO      Cancel de884435-6d34-4655-b1ff-1235b356513c: HTTP 202
+2026-06-25 11:28:32,439  INFO      Cancel bid de884435 ok=True
+2026-06-25 11:28:33,661  INFO      Order created: id=44a32660-a329-497e-94f7-41e58cb09ce6 status=pending
+2026-06-25 11:28:33,662  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:28:33,662  INFO      Post BID 0.0001 @ 59147.2  order_id=44a32660 status=pending
+2026-06-25 11:28:36,727  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:28:37,231  INFO      Cancel 44a32660-a329-497e-94f7-41e58cb09ce6: HTTP 202
+2026-06-25 11:28:37,232  INFO      Cancel bid 44a32660 ok=True
+2026-06-25 11:28:38,448  INFO      Order created: id=cb040f3d-26b5-4c63-9d08-0225d5669df5 status=pending
+2026-06-25 11:28:38,448  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:28:38,449  INFO      Post BID 0.0001 @ 59160.1  order_id=cb040f3d status=pending
+2026-06-25 11:28:41,588  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:28:44,731  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:28:44,732  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:28:45,660  INFO      Cancel cb040f3d-26b5-4c63-9d08-0225d5669df5: HTTP 202
+2026-06-25 11:28:45,662  INFO      Cancel bid cb040f3d ok=True
+2026-06-25 11:28:46,847  INFO      Order created: id=d44e3697-6bc6-404f-81fc-26fbc1feb529 status=pending
+2026-06-25 11:28:46,847  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:28:46,847  INFO      Post BID 0.0001 @ 59207.6  order_id=d44e3697 status=pending
+2026-06-25 11:28:49,928  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:28:50,615  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:28:51,629  INFO      Cancel d44e3697-6bc6-404f-81fc-26fbc1feb529: HTTP 202
+2026-06-25 11:28:51,630  INFO      Cancel bid d44e3697 ok=True
+2026-06-25 11:28:52,849  INFO      Order created: id=22079d06-2702-4a6a-92f5-ebdf6f649b43 status=pending
+2026-06-25 11:28:52,849  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:28:52,849  INFO      Post BID 0.0001 @ 59202.0  order_id=22079d06 status=pending
+2026-06-25 11:28:55,924  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:28:59,049  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:28:59,049  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:29:00,032  INFO      Cancel 22079d06-2702-4a6a-92f5-ebdf6f649b43: HTTP 202
+2026-06-25 11:29:00,032  INFO      Cancel bid 22079d06 ok=True
+2026-06-25 11:29:01,362  INFO      Order created: id=904054df-ea7b-4213-81d0-b2bbc1e14a1c status=pending
+2026-06-25 11:29:01,362  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:29:01,362  INFO      Post BID 0.0001 @ 59208.0  order_id=904054df status=pending
+2026-06-25 11:29:04,452  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:29:04,565  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:29:04,839  INFO      Cancel 904054df-ea7b-4213-81d0-b2bbc1e14a1c: HTTP 202
+2026-06-25 11:29:04,839  INFO      Cancel bid 904054df ok=True
+2026-06-25 11:29:06,051  INFO      Order created: id=711d5c03-b8f3-409d-ad4d-4b050367f131 status=pending
+2026-06-25 11:29:06,051  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:29:06,051  INFO      Post BID 0.0001 @ 59188.2  order_id=711d5c03 status=pending
+2026-06-25 11:29:09,175  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:29:09,864  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:29:10,834  INFO      Cancel 711d5c03-b8f3-409d-ad4d-4b050367f131: HTTP 202
+2026-06-25 11:29:10,834  INFO      Cancel bid 711d5c03 ok=True
+2026-06-25 11:29:12,051  INFO      Order created: id=fd02e81d-d805-4187-923e-8449894edfc7 status=pending
+2026-06-25 11:29:12,051  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:29:12,051  INFO      Post BID 0.0001 @ 59137.0  order_id=fd02e81d status=pending
+2026-06-25 11:29:15,115  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:29:15,646  INFO      Cancel fd02e81d-d805-4187-923e-8449894edfc7: HTTP 202
+2026-06-25 11:29:15,646  INFO      Cancel bid fd02e81d ok=True
+2026-06-25 11:29:16,936  INFO      Order created: id=91c5ea4a-9889-4165-83fc-613672dab5da status=pending
+2026-06-25 11:29:16,936  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:29:16,936  INFO      Post BID 0.0001 @ 59152.3  order_id=91c5ea4a status=pending
+2026-06-25 11:29:20,001  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:29:20,001  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:29:20,430  INFO      Cancel 91c5ea4a-9889-4165-83fc-613672dab5da: HTTP 202
+2026-06-25 11:29:20,431  INFO      Cancel bid 91c5ea4a ok=True
+2026-06-25 11:29:21,650  INFO      Order created: id=cbd995ff-76c2-4a73-bdea-b7221feb50e1 status=pending
+2026-06-25 11:29:21,650  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:29:21,650  INFO      Post BID 0.0001 @ 59143.6  order_id=cbd995ff status=pending
+2026-06-25 11:29:24,718  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:29:25,426  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:29:26,440  INFO      Cancel cbd995ff-76c2-4a73-bdea-b7221feb50e1: HTTP 202
+2026-06-25 11:29:26,441  INFO      Cancel bid cbd995ff ok=True
+2026-06-25 11:29:27,652  INFO      Order created: id=9ff28dfa-0646-49e1-a803-cc0a1a79fd98 status=pending
+2026-06-25 11:29:27,652  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:29:27,652  INFO      Post BID 0.0001 @ 59163.9  order_id=9ff28dfa status=pending
+2026-06-25 11:29:30,715  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:29:31,233  INFO      Cancel 9ff28dfa-0646-49e1-a803-cc0a1a79fd98: HTTP 202
+2026-06-25 11:29:31,233  INFO      Cancel bid 9ff28dfa ok=True
+2026-06-25 11:29:32,450  INFO      Order created: id=602928eb-e80e-4006-8cfd-808858dae924 status=pending
+2026-06-25 11:29:32,451  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:29:32,451  INFO      Post BID 0.0001 @ 59149.8  order_id=602928eb status=pending
+2026-06-25 11:29:35,556  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:29:35,556  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:29:36,034  INFO      Cancel 602928eb-e80e-4006-8cfd-808858dae924: HTTP 202
+2026-06-25 11:29:36,038  INFO      Cancel bid 602928eb ok=True
+2026-06-25 11:29:37,255  INFO      Order created: id=d2cb893c-6279-4d35-9748-8a62b5b6e618 status=pending
+2026-06-25 11:29:37,255  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:29:37,256  INFO      Post BID 0.0001 @ 59171.2  order_id=d2cb893c status=pending
+2026-06-25 11:29:40,323  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:29:41,006  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:29:42,041  INFO      Cancel d2cb893c-6279-4d35-9748-8a62b5b6e618: HTTP 202
+2026-06-25 11:29:42,042  INFO      Cancel bid d2cb893c ok=True
+2026-06-25 11:29:43,249  INFO      Order created: id=e2c0caf3-2392-49bf-8df9-e024feaf420b status=pending
+2026-06-25 11:29:43,249  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:29:43,250  INFO      Post BID 0.0001 @ 59167.7  order_id=e2c0caf3 status=pending
+2026-06-25 11:29:46,319  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:29:46,833  INFO      Cancel e2c0caf3-2392-49bf-8df9-e024feaf420b: HTTP 202
+2026-06-25 11:29:46,833  INFO      Cancel bid e2c0caf3 ok=True
+2026-06-25 11:29:48,056  INFO      Order created: id=5d6365fd-5365-40b5-b9a5-8503b020dddb status=pending
+2026-06-25 11:29:48,056  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:29:48,056  INFO      Post BID 0.0001 @ 59181.0  order_id=5d6365fd status=pending
+2026-06-25 11:29:51,122  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:29:51,123  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:29:51,641  INFO      Cancel 5d6365fd-5365-40b5-b9a5-8503b020dddb: HTTP 202
+2026-06-25 11:29:51,641  INFO      Cancel bid 5d6365fd ok=True
+2026-06-25 11:29:52,848  INFO      Order created: id=7f645ce5-b443-40e2-9447-97527ab7e73a status=pending
+2026-06-25 11:29:52,848  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:29:52,848  INFO      Post BID 0.0001 @ 59116.7  order_id=7f645ce5 status=pending
+2026-06-25 11:29:56,605  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:29:57,631  INFO      Cancel 7f645ce5-b443-40e2-9447-97527ab7e73a: HTTP 202
+2026-06-25 11:29:57,632  INFO      Cancel bid 7f645ce5 ok=True
+2026-06-25 11:29:58,848  INFO      Order created: id=fb3783ec-e441-45bd-9457-a07f355e7501 status=pending
+2026-06-25 11:29:58,848  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:29:58,848  INFO      Post BID 0.0001 @ 59143.7  order_id=fb3783ec status=pending
+2026-06-25 11:30:01,923  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:30:02,430  INFO      Cancel fb3783ec-e441-45bd-9457-a07f355e7501: HTTP 202
+2026-06-25 11:30:02,431  INFO      Cancel bid fb3783ec ok=True
+2026-06-25 11:30:03,652  INFO      Order created: id=e0bf8bb4-e0e1-468e-ae8a-335d48bae67e status=pending
+2026-06-25 11:30:03,653  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:30:03,653  INFO      Post BID 0.0001 @ 59156.0  order_id=e0bf8bb4 status=pending
+2026-06-25 11:30:06,952  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:30:06,952  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:30:07,239  INFO      Cancel e0bf8bb4-e0e1-468e-ae8a-335d48bae67e: HTTP 202
+2026-06-25 11:30:07,239  INFO      Cancel bid e0bf8bb4 ok=True
+2026-06-25 11:30:08,460  INFO      Order created: id=89b5a5d7-1906-4544-a1a3-69602d6b58ff status=pending
+2026-06-25 11:30:08,460  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:30:08,461  INFO      Post BID 0.0001 @ 59176.0  order_id=89b5a5d7 status=pending
+2026-06-25 11:30:11,526  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:30:12,204  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:30:13,249  INFO      Cancel 89b5a5d7-1906-4544-a1a3-69602d6b58ff: HTTP 202
+2026-06-25 11:30:13,249  INFO      Cancel bid 89b5a5d7 ok=True
+2026-06-25 11:30:14,456  INFO      Order created: id=bbda9d16-b5f8-4d8b-9112-bf647f21302c status=pending
+2026-06-25 11:30:14,457  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:30:14,457  INFO      Post BID 0.0001 @ 59146.7  order_id=bbda9d16 status=pending
+2026-06-25 11:30:17,521  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:30:18,030  INFO      Cancel bbda9d16-b5f8-4d8b-9112-bf647f21302c: HTTP 202
+2026-06-25 11:30:18,030  INFO      Cancel bid bbda9d16 ok=True
+2026-06-25 11:30:19,257  INFO      Order created: id=db714328-9429-4291-bc6a-75a6345ebf93 status=pending
+2026-06-25 11:30:19,258  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:30:19,258  INFO      Post BID 0.0001 @ 59148.6  order_id=db714328 status=pending
+2026-06-25 11:30:22,319  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:30:22,319  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:30:22,834  INFO      Cancel db714328-9429-4291-bc6a-75a6345ebf93: HTTP 202
+2026-06-25 11:30:22,834  INFO      Cancel bid db714328 ok=True
+2026-06-25 11:30:24,055  INFO      Order created: id=aa207bcf-9b01-447d-b008-547bfa10ab58 status=pending
+2026-06-25 11:30:24,055  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:30:24,055  INFO      Post BID 0.0001 @ 59197.1  order_id=aa207bcf status=pending
+2026-06-25 11:30:27,140  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:30:27,841  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:30:28,831  INFO      Cancel aa207bcf-9b01-447d-b008-547bfa10ab58: HTTP 202
+2026-06-25 11:30:28,832  INFO      Cancel bid aa207bcf ok=True
+2026-06-25 11:30:30,049  INFO      Order created: id=ab048655-92c3-450e-983e-44f5eb5c6367 status=pending
+2026-06-25 11:30:30,049  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:30:30,049  INFO      Post BID 0.0001 @ 59186.5  order_id=ab048655 status=pending
+2026-06-25 11:30:33,372  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:30:33,372  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:30:33,641  INFO      Cancel ab048655-92c3-450e-983e-44f5eb5c6367: HTTP 202
+2026-06-25 11:30:33,641  INFO      Cancel bid ab048655 ok=True
+2026-06-25 11:30:34,860  INFO      Order created: id=b342f68b-871b-4313-a8b2-5b89ea7eabcf status=pending
+2026-06-25 11:30:34,860  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:30:34,860  INFO      Post BID 0.0001 @ 59145.9  order_id=b342f68b status=pending
+2026-06-25 11:30:37,945  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:30:38,433  INFO      Cancel b342f68b-871b-4313-a8b2-5b89ea7eabcf: HTTP 202
+2026-06-25 11:30:38,433  INFO      Cancel bid b342f68b ok=True
+2026-06-25 11:30:39,651  INFO      Order created: id=c04f2607-8266-4bb8-8682-baa0fae4d897 status=pending
+2026-06-25 11:30:39,652  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:30:39,652  INFO      Post BID 0.0001 @ 59147.2  order_id=c04f2607 status=pending
+2026-06-25 11:30:42,717  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:30:43,489  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:30:44,433  INFO      Cancel c04f2607-8266-4bb8-8682-baa0fae4d897: HTTP 202
+2026-06-25 11:30:44,433  INFO      Cancel bid c04f2607 ok=True
+2026-06-25 11:30:45,652  INFO      Order created: id=a5060746-4f46-4fae-b670-ad514ae0b524 status=pending
+2026-06-25 11:30:45,652  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:30:45,652  INFO      Post BID 0.0001 @ 59125.5  order_id=a5060746 status=pending
+2026-06-25 11:30:48,715  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:30:49,235  INFO      Cancel a5060746-4f46-4fae-b670-ad514ae0b524: HTTP 202
+2026-06-25 11:30:49,235  INFO      Cancel bid a5060746 ok=True
+2026-06-25 11:30:50,494  INFO      Order created: id=66d62243-c296-4666-a09d-15fc03560f26 status=pending
+2026-06-25 11:30:50,495  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:30:50,495  INFO      Post BID 0.0001 @ 59164.5  order_id=66d62243 status=pending
+2026-06-25 11:30:53,564  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:30:54,074  INFO      Cancel 66d62243-c296-4666-a09d-15fc03560f26: HTTP 202
+2026-06-25 11:30:54,077  INFO      Cancel bid 66d62243 ok=True
+2026-06-25 11:30:55,264  INFO      Order created: id=db22c2ce-ce2f-4dcf-ad63-f3d2a488ae60 status=pending
+2026-06-25 11:30:55,264  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:30:55,264  INFO      Post BID 0.0001 @ 59182.2  order_id=db22c2ce status=pending
+2026-06-25 11:30:59,023  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:31:00,041  INFO      Cancel db22c2ce-ce2f-4dcf-ad63-f3d2a488ae60: HTTP 202
+2026-06-25 11:31:00,042  INFO      Cancel bid db22c2ce ok=True
+2026-06-25 11:31:01,279  INFO      Order created: id=a4fef0d4-6192-439e-86a2-f21221a36364 status=pending
+2026-06-25 11:31:01,279  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:31:01,279  INFO      Post BID 0.0001 @ 59195.0  order_id=a4fef0d4 status=pending
+2026-06-25 11:31:04,361  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:31:04,361  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:31:04,860  INFO      Cancel a4fef0d4-6192-439e-86a2-f21221a36364: HTTP 202
+2026-06-25 11:31:04,860  INFO      Cancel bid a4fef0d4 ok=True
+2026-06-25 11:31:06,065  INFO      Order created: id=32d99488-66ce-45f1-9349-e001d17410bf status=pending
+2026-06-25 11:31:06,065  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:31:06,065  INFO      Post BID 0.0001 @ 59183.4  order_id=32d99488 status=pending
+2026-06-25 11:31:09,160  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:31:09,635  INFO      Cancel 32d99488-66ce-45f1-9349-e001d17410bf: HTTP 202
+2026-06-25 11:31:09,635  INFO      Cancel bid 32d99488 ok=True
+2026-06-25 11:31:10,864  INFO      Order created: id=b1a83370-3882-44cf-a701-0f26f244fc6d status=pending
+2026-06-25 11:31:10,864  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:31:10,864  INFO      Post BID 0.0001 @ 59192.1  order_id=b1a83370 status=pending
+2026-06-25 11:31:14,701  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:31:15,634  INFO      Cancel b1a83370-3882-44cf-a701-0f26f244fc6d: HTTP 202
+2026-06-25 11:31:15,634  INFO      Cancel bid b1a83370 ok=True
+2026-06-25 11:31:16,855  INFO      Order created: id=9a4bd30d-ea03-4e6c-aa26-86a2a643060b status=pending
+2026-06-25 11:31:16,855  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:31:16,855  INFO      Post BID 0.0001 @ 59220.7  order_id=9a4bd30d status=pending
+2026-06-25 11:31:19,929  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:31:20,446  INFO      Cancel 9a4bd30d-ea03-4e6c-aa26-86a2a643060b: HTTP 202
+2026-06-25 11:31:20,446  INFO      Cancel bid 9a4bd30d ok=True
+2026-06-25 11:31:21,663  INFO      Order created: id=34c10ebd-4555-40c6-bcfe-0332791b5bd8 status=pending
+2026-06-25 11:31:21,663  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:31:21,663  INFO      Post BID 0.0001 @ 59224.6  order_id=34c10ebd status=pending
+2026-06-25 11:31:24,731  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:31:24,731  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:31:27,849  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:31:27,849  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:31:28,845  INFO      Cancel 34c10ebd-4555-40c6-bcfe-0332791b5bd8: HTTP 202
+2026-06-25 11:31:28,845  INFO      Cancel bid 34c10ebd ok=True
+2026-06-25 11:31:30,050  INFO      Order created: id=9d53d04d-bdcb-4333-9284-c0289a472ccc status=pending
+2026-06-25 11:31:30,050  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:31:30,050  INFO      Post BID 0.0001 @ 59197.0  order_id=9d53d04d status=pending
+2026-06-25 11:31:33,834  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:31:34,834  INFO      Cancel 9d53d04d-bdcb-4333-9284-c0289a472ccc: HTTP 202
+2026-06-25 11:31:34,834  INFO      Cancel bid 9d53d04d ok=True
+2026-06-25 11:31:36,062  INFO      Order created: id=a4ffa404-eef3-4952-89b3-45bed0aceda4 status=pending
+2026-06-25 11:31:36,062  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:31:36,062  INFO      Post BID 0.0001 @ 59201.8  order_id=a4ffa404 status=pending
+2026-06-25 11:31:39,175  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:31:39,176  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:31:39,636  INFO      Cancel a4ffa404-eef3-4952-89b3-45bed0aceda4: HTTP 202
+2026-06-25 11:31:39,636  INFO      Cancel bid a4ffa404 ok=True
+2026-06-25 11:31:40,859  INFO      Order created: id=c727b65f-f1e4-478e-bf53-4a01723c823e status=pending
+2026-06-25 11:31:40,859  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:31:40,859  INFO      Post BID 0.0001 @ 59156.8  order_id=c727b65f status=pending
+2026-06-25 11:31:43,952  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:31:44,445  INFO      Cancel c727b65f-f1e4-478e-bf53-4a01723c823e: HTTP 202
+2026-06-25 11:31:44,445  INFO      Cancel bid c727b65f ok=True
+2026-06-25 11:31:45,660  INFO      Order created: id=5ed3b706-f72c-4b0f-8c92-feaefeb895ce status=pending
+2026-06-25 11:31:45,660  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:31:45,661  INFO      Post BID 0.0001 @ 59157.8  order_id=5ed3b706 status=pending
+2026-06-25 11:31:48,727  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:31:49,490  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:31:50,435  INFO      Cancel 5ed3b706-f72c-4b0f-8c92-feaefeb895ce: HTTP 202
+2026-06-25 11:31:50,435  INFO      Cancel bid 5ed3b706 ok=True
+2026-06-25 11:31:51,655  INFO      Order created: id=77f3e981-2431-452b-8236-a5fdebe43c45 status=pending
+2026-06-25 11:31:51,656  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:31:51,656  INFO      Post BID 0.0001 @ 59145.8  order_id=77f3e981 status=pending
+2026-06-25 11:31:54,728  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:31:55,268  INFO      Cancel 77f3e981-2431-452b-8236-a5fdebe43c45: HTTP 202
+2026-06-25 11:31:55,269  INFO      Cancel bid 77f3e981 ok=True
+2026-06-25 11:31:56,475  INFO      Order created: id=923a2d1c-9e5f-4819-8701-e70f072c46f6 status=pending
+2026-06-25 11:31:56,475  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:31:56,475  INFO      Post BID 0.0001 @ 59132.9  order_id=923a2d1c status=pending
+2026-06-25 11:31:59,555  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:32:00,050  INFO      Cancel 923a2d1c-9e5f-4819-8701-e70f072c46f6: HTTP 202
+2026-06-25 11:32:00,051  INFO      Cancel bid 923a2d1c ok=True
+2026-06-25 11:32:01,254  INFO      Order created: id=4e97c397-6fa2-4094-bb90-46107171a648 status=pending
+2026-06-25 11:32:01,255  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:32:01,255  INFO      Post BID 0.0001 @ 59143.3  order_id=4e97c397 status=pending
+2026-06-25 11:32:05,045  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:32:06,033  INFO      Cancel 4e97c397-6fa2-4094-bb90-46107171a648: HTTP 202
+2026-06-25 11:32:06,033  INFO      Cancel bid 4e97c397 ok=True
+2026-06-25 11:32:07,252  INFO      Order created: id=1d3832a1-42a1-4473-b04f-5b6fbba145f6 status=pending
+2026-06-25 11:32:07,253  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:32:07,253  INFO      Post BID 0.0001 @ 59152.4  order_id=1d3832a1 status=pending
+2026-06-25 11:32:10,317  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:32:10,317  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:32:10,834  INFO      Cancel 1d3832a1-42a1-4473-b04f-5b6fbba145f6: HTTP 202
+2026-06-25 11:32:10,834  INFO      Cancel bid 1d3832a1 ok=True
+2026-06-25 11:32:12,063  INFO      Order created: id=dd2563e7-7993-4422-852f-c7665d68c980 status=pending
+2026-06-25 11:32:12,063  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:32:12,063  INFO      Post BID 0.0001 @ 59154.8  order_id=dd2563e7 status=pending
+2026-06-25 11:32:15,132  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:32:15,636  INFO      Cancel dd2563e7-7993-4422-852f-c7665d68c980: HTTP 202
+2026-06-25 11:32:15,636  INFO      Cancel bid dd2563e7 ok=True
+2026-06-25 11:32:16,874  INFO      Order created: id=52834b54-e0df-4f6a-922f-e20b7c992efd status=pending
+2026-06-25 11:32:16,874  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:32:16,874  INFO      Post BID 0.0001 @ 59164.1  order_id=52834b54 status=pending
+2026-06-25 11:32:20,722  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:32:21,641  INFO      Cancel 52834b54-e0df-4f6a-922f-e20b7c992efd: HTTP 202
+2026-06-25 11:32:21,641  INFO      Cancel bid 52834b54 ok=True
+2026-06-25 11:32:22,849  INFO      Order created: id=a5f137f5-c774-411f-8d60-4e7ca246d5b7 status=pending
+2026-06-25 11:32:22,849  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:32:22,849  INFO      Post BID 0.0001 @ 59160.6  order_id=a5f137f5 status=pending
+2026-06-25 11:32:25,968  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:32:26,436  INFO      Cancel a5f137f5-c774-411f-8d60-4e7ca246d5b7: HTTP 202
+2026-06-25 11:32:26,436  INFO      Cancel bid a5f137f5 ok=True
+2026-06-25 11:32:27,663  INFO      Order created: id=5a4df6a5-764f-47ca-b556-cbc0ba0148c3 status=pending
+2026-06-25 11:32:27,663  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:32:27,663  INFO      Post BID 0.0001 @ 59171.1  order_id=5a4df6a5 status=pending
+2026-06-25 11:32:30,734  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:32:31,244  INFO      Cancel 5a4df6a5-764f-47ca-b556-cbc0ba0148c3: HTTP 202
+2026-06-25 11:32:31,245  INFO      Cancel bid 5a4df6a5 ok=True
+2026-06-25 11:32:32,459  INFO      Order created: id=6e13648b-2694-417a-abfc-5108aeb9b79d status=pending
+2026-06-25 11:32:32,459  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:32:32,460  INFO      Post BID 0.0001 @ 59158.9  order_id=6e13648b status=pending
+2026-06-25 11:32:35,522  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:32:36,275  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:32:37,244  INFO      Cancel 6e13648b-2694-417a-abfc-5108aeb9b79d: HTTP 202
+2026-06-25 11:32:37,244  INFO      Cancel bid 6e13648b ok=True
+2026-06-25 11:32:38,467  INFO      Order created: id=a2787ba9-a28c-470c-b5c7-a39952745dc1 status=pending
+2026-06-25 11:32:38,467  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:32:38,467  INFO      Post BID 0.0001 @ 59163.6  order_id=a2787ba9 status=pending
+2026-06-25 11:32:41,563  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:32:41,563  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:32:42,051  INFO      Cancel a2787ba9-a28c-470c-b5c7-a39952745dc1: HTTP 202
+2026-06-25 11:32:42,051  INFO      Cancel bid a2787ba9 ok=True
+2026-06-25 11:32:43,258  INFO      Order created: id=62bc82c5-141c-46ff-9b80-ec4392116408 status=pending
+2026-06-25 11:32:43,258  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:32:43,258  INFO      Post BID 0.0001 @ 59137.5  order_id=62bc82c5 status=pending
+2026-06-25 11:32:46,346  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:32:46,346  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:32:46,839  INFO      Cancel 62bc82c5-141c-46ff-9b80-ec4392116408: HTTP 202
+2026-06-25 11:32:46,839  INFO      Cancel bid 62bc82c5 ok=True
+2026-06-25 11:32:48,057  INFO      Order created: id=e763d234-f2fa-4bdf-b478-6f4e54a07884 status=pending
+2026-06-25 11:32:48,057  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:32:48,058  INFO      Post BID 0.0001 @ 59122.2  order_id=e763d234 status=pending
+2026-06-25 11:32:51,128  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:32:51,842  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:32:52,848  INFO      Cancel e763d234-f2fa-4bdf-b478-6f4e54a07884: HTTP 202
+2026-06-25 11:32:52,848  INFO      Cancel bid e763d234 ok=True
+2026-06-25 11:32:54,056  INFO      Order created: id=e8a2328b-8995-4016-8763-11abb6d47eac status=pending
+2026-06-25 11:32:54,056  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:32:54,056  INFO      Post BID 0.0001 @ 59089.0  order_id=e8a2328b status=pending
+2026-06-25 11:32:57,142  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:32:57,651  INFO      Cancel e8a2328b-8995-4016-8763-11abb6d47eac: HTTP 202
+2026-06-25 11:32:57,651  INFO      Cancel bid e8a2328b ok=True
+2026-06-25 11:32:58,860  INFO      Order created: id=8d10d369-45e7-4a29-b9d6-63ed1490a373 status=pending
+2026-06-25 11:32:58,860  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:32:58,860  INFO      Post BID 0.0001 @ 59091.7  order_id=8d10d369 status=pending
+2026-06-25 11:33:02,007  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:33:02,441  INFO      Cancel 8d10d369-45e7-4a29-b9d6-63ed1490a373: HTTP 202
+2026-06-25 11:33:02,442  INFO      Cancel bid 8d10d369 ok=True
+2026-06-25 11:33:03,658  INFO      Order created: id=511e02b8-f089-4842-abfc-1b71f62bce7a status=pending
+2026-06-25 11:33:03,658  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:33:03,658  INFO      Post BID 0.0001 @ 59108.0  order_id=511e02b8 status=pending
+2026-06-25 11:33:07,437  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:33:08,446  INFO      Cancel 511e02b8-f089-4842-abfc-1b71f62bce7a: HTTP 202
+2026-06-25 11:33:08,446  INFO      Cancel bid 511e02b8 ok=True
+2026-06-25 11:33:09,661  INFO      Order created: id=29506467-95d0-4a49-a1f9-71c120fff7ed status=pending
+2026-06-25 11:33:09,662  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:33:09,662  INFO      Post BID 0.0001 @ 59125.5  order_id=29506467 status=pending
+2026-06-25 11:33:12,754  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:33:13,244  INFO      Cancel 29506467-95d0-4a49-a1f9-71c120fff7ed: HTTP 202
+2026-06-25 11:33:13,244  INFO      Cancel bid 29506467 ok=True
+2026-06-25 11:33:14,468  INFO      Order created: id=6b1c6f13-2126-46a6-8e11-168f2bc859a0 status=pending
+2026-06-25 11:33:14,469  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:33:14,469  INFO      Post BID 0.0001 @ 59135.1  order_id=6b1c6f13 status=pending
+2026-06-25 11:33:17,565  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:33:17,565  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:33:18,048  INFO      Cancel 6b1c6f13-2126-46a6-8e11-168f2bc859a0: HTTP 202
+2026-06-25 11:33:18,048  INFO      Cancel bid 6b1c6f13 ok=True
+2026-06-25 11:33:19,256  INFO      Order created: id=4b6c6bce-0a5b-4864-8618-0b4812d85796 status=pending
+2026-06-25 11:33:19,257  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:33:19,257  INFO      Post BID 0.0001 @ 59122.2  order_id=4b6c6bce status=pending
+2026-06-25 11:33:24,038  INFO      Cancel 4b6c6bce-0a5b-4864-8618-0b4812d85796: HTTP 400
+2026-06-25 11:33:24,038  INFO      Cancel bid 4b6c6bce ok=False
+2026-06-25 11:33:24,038  WARNING   Cancel failed for bid; not placing replacement.
+2026-06-25 11:33:25,264  INFO      Order created: id=23b2ef79-f1a5-4685-b064-378c0f4ceee0 status=pending
+2026-06-25 11:33:25,264  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-06-25 11:33:25,264  INFO      Post ASK 0.0001 @ 59130.3  order_id=23b2ef79 status=pending
+2026-06-25 11:33:40,389  INFO      Fill BUY 0.0001 BTC @ 59122.2  session_pos=+0.00000000 BTC fills=2
+2026-06-25 11:33:41,687  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:33:42,737  INFO      Order created: id=c4621620-7836-4568-ad17-1cabee94d028 status=pending
+2026-06-25 11:33:42,737  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:33:42,737  INFO      Post BID 0.0001 @ 59081.2  order_id=c4621620 status=pending
+2026-06-25 11:33:43,913  INFO      Cancel 23b2ef79-f1a5-4685-b064-378c0f4ceee0: HTTP 202
+2026-06-25 11:33:43,913  INFO      Cancel ask 23b2ef79 ok=True
+2026-06-25 11:33:47,013  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:33:47,542  INFO      Cancel c4621620-7836-4568-ad17-1cabee94d028: HTTP 202
+2026-06-25 11:33:47,542  INFO      Cancel bid c4621620 ok=True
+2026-06-25 11:33:48,725  INFO      Order created: id=51d3ef3a-8ab2-4561-b31f-0729c5f1177d status=pending
+2026-06-25 11:33:48,725  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:33:48,726  INFO      Post BID 0.0001 @ 59116.2  order_id=51d3ef3a status=pending
+2026-06-25 11:33:51,810  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:33:51,810  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:33:52,314  INFO      Cancel 51d3ef3a-8ab2-4561-b31f-0729c5f1177d: HTTP 202
+2026-06-25 11:33:52,314  INFO      Cancel bid 51d3ef3a ok=True
+2026-06-25 11:33:53,521  INFO      Order created: id=9148febd-099e-43c0-84a0-a3ed4b83bcea status=pending
+2026-06-25 11:33:53,521  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:33:53,521  INFO      Post BID 0.0001 @ 59158.0  order_id=9148febd status=pending
+2026-06-25 11:33:56,588  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:33:58,323  INFO      Order created: id=f3194517-8188-4752-be73-ff43bda124e2 status=pending
+2026-06-25 11:33:58,323  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-06-25 11:33:58,324  INFO      Post ASK 0.0001 @ 59160.0  order_id=f3194517 status=pending
+2026-06-25 11:34:01,904  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=True); not chasing our own quote.
+2026-06-25 11:34:03,116  INFO      Cancel 9148febd-099e-43c0-84a0-a3ed4b83bcea: HTTP 202
+2026-06-25 11:34:03,116  INFO      Cancel bid 9148febd ok=True
+2026-06-25 11:34:04,332  INFO      Order created: id=33a79686-288c-4030-b6e6-f0cfb16aaa55 status=pending
+2026-06-25 11:34:04,332  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:34:04,332  INFO      Post BID 0.0001 @ 59175.9  order_id=33a79686 status=pending
+2026-06-25 11:34:05,517  INFO      Cancel f3194517-8188-4752-be73-ff43bda124e2: HTTP 202
+2026-06-25 11:34:05,518  INFO      Cancel ask f3194517 ok=True
+2026-06-25 11:34:06,726  INFO      Order created: id=297d7691-5ce1-41aa-854b-77b4f5ff1f9e status=pending
+2026-06-25 11:34:06,726  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-06-25 11:34:06,726  INFO      Post ASK 0.0001 @ 59176.0  order_id=297d7691 status=pending
+2026-06-25 11:34:09,819  INFO      Bid 33a79686 terminal status=canceled
+2026-06-25 11:34:11,527  INFO      Order created: id=49099e47-69a1-47d3-af64-d6cabfec4a70 status=pending
+2026-06-25 11:34:11,528  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:34:11,528  INFO      Post BID 0.0001 @ 59162.1  order_id=49099e47 status=pending
+2026-06-25 11:34:12,705  INFO      Cancel 297d7691-5ce1-41aa-854b-77b4f5ff1f9e: HTTP 202
+2026-06-25 11:34:12,705  INFO      Cancel ask 297d7691 ok=True
+2026-06-25 11:34:13,919  INFO      Order created: id=1e88c1e1-94a1-49ed-bcfc-be048413d4ab status=pending
+2026-06-25 11:34:13,919  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-06-25 11:34:13,919  INFO      Post ASK 0.0001 @ 59174.4  order_id=1e88c1e1 status=pending
+2026-06-25 11:34:17,501  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:34:18,884  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:34:19,910  INFO      Cancel 49099e47-69a1-47d3-af64-d6cabfec4a70: HTTP 202
+2026-06-25 11:34:19,911  INFO      Cancel bid 49099e47 ok=True
+2026-06-25 11:34:21,125  INFO      Order created: id=9a008345-86c8-416c-904c-7696129e8336 status=pending
+2026-06-25 11:34:21,126  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:34:21,126  INFO      Post BID 0.0001 @ 59210.9  order_id=9a008345 status=pending
+2026-06-25 11:34:22,309  INFO      Cancel 1e88c1e1-94a1-49ed-bcfc-be048413d4ab: HTTP 400
+2026-06-25 11:34:22,309  INFO      Cancel ask 1e88c1e1 ok=False
+2026-06-25 11:34:37,398  INFO      Fill BUY 0.0001 BTC @ 59210.9  session_pos=+0.00010000 BTC fills=3
+2026-06-25 11:34:37,448  INFO      Fill SELL 0.0001 BTC @ 59174.4  session_pos=+0.00000000 BTC fills=4
+2026-06-25 11:34:39,777  INFO      Order created: id=6c0e1303-d5d8-4d3f-b47b-964f542137ae status=pending
+2026-06-25 11:34:39,777  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:34:39,778  INFO      Post BID 0.0001 @ 59170.1  order_id=6c0e1303 status=pending
+2026-06-25 11:34:40,966  INFO      Order created: id=46d3c8da-f2e3-4926-8ccd-f30c52d652cb status=pending
+2026-06-25 11:34:40,966  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-06-25 11:34:40,966  INFO      Post ASK 0.0001 @ 59182.1  order_id=46d3c8da status=pending
+2026-06-25 11:34:44,553  INFO      Cancel 6c0e1303-d5d8-4d3f-b47b-964f542137ae: HTTP 202
+2026-06-25 11:34:44,553  INFO      Cancel bid 6c0e1303 ok=True
+2026-06-25 11:34:45,776  INFO      Order created: id=bcc11a3d-938f-4ce6-b729-111c12353ab7 status=pending
+2026-06-25 11:34:45,776  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:34:45,776  INFO      Post BID 0.0001 @ 59162.7  order_id=bcc11a3d status=pending
+2026-06-25 11:34:46,955  INFO      Cancel 46d3c8da-f2e3-4926-8ccd-f30c52d652cb: HTTP 202
+2026-06-25 11:34:46,956  INFO      Cancel ask 46d3c8da ok=True
+2026-06-25 11:34:48,174  INFO      Order created: id=0e9c3944-5551-476b-bafd-40114399c959 status=pending
+2026-06-25 11:34:48,174  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-06-25 11:34:48,174  INFO      Post ASK 0.0001 @ 59176.8  order_id=0e9c3944 status=pending
+2026-06-25 11:34:51,753  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=True); not chasing our own quote.
+2026-06-25 11:34:52,946  INFO      Cancel bcc11a3d-938f-4ce6-b729-111c12353ab7: HTTP 202
+2026-06-25 11:34:52,946  INFO      Cancel bid bcc11a3d ok=True
+2026-06-25 11:34:54,166  INFO      Order created: id=cc3163a0-6ac4-4864-bcdb-f011f5aa18c3 status=pending
+2026-06-25 11:34:54,166  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:34:54,166  INFO      Post BID 0.0001 @ 59140.1  order_id=cc3163a0 status=pending
+2026-06-25 11:34:55,357  INFO      Cancel 0e9c3944-5551-476b-bafd-40114399c959: HTTP 202
+2026-06-25 11:34:55,357  INFO      Cancel ask 0e9c3944 ok=True
+2026-06-25 11:34:56,567  INFO      Order created: id=42cffa85-1d1d-446c-9c3d-1a605cb08dad status=pending
+2026-06-25 11:34:56,567  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-06-25 11:34:56,567  INFO      Post ASK 0.0001 @ 59144.5  order_id=42cffa85 status=pending
+2026-06-25 11:35:01,529  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:35:02,544  INFO      Cancel cc3163a0-6ac4-4864-bcdb-f011f5aa18c3: HTTP 202
+2026-06-25 11:35:02,544  INFO      Cancel bid cc3163a0 ok=True
+2026-06-25 11:35:03,769  INFO      Order created: id=3bd813c7-1147-4fa1-aeee-4ac04a879328 status=pending
+2026-06-25 11:35:03,770  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:35:03,770  INFO      Post BID 0.0001 @ 59161.9  order_id=3bd813c7 status=pending
+2026-06-25 11:35:04,948  INFO      Cancel 42cffa85-1d1d-446c-9c3d-1a605cb08dad: HTTP 400
+2026-06-25 11:35:04,949  INFO      Cancel ask 42cffa85 ok=False
+2026-06-25 11:35:20,133  INFO      Fill SELL 0.0001 BTC @ 59144.5  session_pos=-0.00010000 BTC fills=5
+2026-06-25 11:35:21,389  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:35:22,391  INFO      Cancel 3bd813c7-1147-4fa1-aeee-4ac04a879328: HTTP 202
+2026-06-25 11:35:22,391  INFO      Cancel bid 3bd813c7 ok=True
+2026-06-25 11:35:23,672  INFO      Order created: id=390da07c-db7c-4f51-a05c-279837f35555 status=pending
+2026-06-25 11:35:23,673  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:35:23,673  INFO      Post BID 0.0001 @ 59218.3  order_id=390da07c status=pending
+2026-06-25 11:35:26,744  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:35:27,209  INFO      Cancel 390da07c-db7c-4f51-a05c-279837f35555: HTTP 202
+2026-06-25 11:35:27,209  INFO      Cancel bid 390da07c ok=True
+2026-06-25 11:35:28,419  INFO      Order created: id=43defcd8-2927-48ed-9063-f1d95a90e211 status=pending
+2026-06-25 11:35:28,419  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:35:28,419  INFO      Post BID 0.0001 @ 59237.8  order_id=43defcd8 status=pending
+2026-06-25 11:35:31,570  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:35:32,001  INFO      Cancel 43defcd8-2927-48ed-9063-f1d95a90e211: HTTP 202
+2026-06-25 11:35:32,002  INFO      Cancel bid 43defcd8 ok=True
+2026-06-25 11:35:33,467  INFO      Order created: id=13a85a55-dcb7-4e62-9710-0dfba7220a2e status=pending
+2026-06-25 11:35:33,467  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:35:33,468  INFO      Post BID 0.0001 @ 59230.0  order_id=13a85a55 status=pending
+2026-06-25 11:35:37,051  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:35:38,005  INFO      Cancel 13a85a55-dcb7-4e62-9710-0dfba7220a2e: HTTP 202
+2026-06-25 11:35:38,006  INFO      Cancel bid 13a85a55 ok=True
+2026-06-25 11:35:39,212  INFO      Order created: id=d8ffa6c6-10a4-4954-ab17-44590b853e1a status=pending
+2026-06-25 11:35:39,212  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:35:39,212  INFO      Post BID 0.0001 @ 59225.6  order_id=d8ffa6c6 status=pending
+2026-06-25 11:35:42,297  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:35:42,792  INFO      Cancel d8ffa6c6-10a4-4954-ab17-44590b853e1a: HTTP 202
+2026-06-25 11:35:42,792  INFO      Cancel bid d8ffa6c6 ok=True
+2026-06-25 11:35:44,009  INFO      Order created: id=81ba0517-5df7-4aa4-8181-b1c671fdd05a status=pending
+2026-06-25 11:35:44,009  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:35:44,009  INFO      Post BID 0.0001 @ 59244.3  order_id=81ba0517 status=pending
+2026-06-25 11:35:47,072  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:35:47,598  INFO      Cancel 81ba0517-5df7-4aa4-8181-b1c671fdd05a: HTTP 202
+2026-06-25 11:35:47,598  INFO      Cancel bid 81ba0517 ok=True
+2026-06-25 11:35:48,808  INFO      Order created: id=87921cfb-b3f5-42ef-afdd-280ed59287d1 status=pending
+2026-06-25 11:35:48,808  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:35:48,809  INFO      Post BID 0.0001 @ 59238.5  order_id=87921cfb status=pending
+2026-06-25 11:35:52,549  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:35:53,600  INFO      Cancel 87921cfb-b3f5-42ef-afdd-280ed59287d1: HTTP 202
+2026-06-25 11:35:53,600  INFO      Cancel bid 87921cfb ok=True
+2026-06-25 11:35:54,806  INFO      Order created: id=725f16f5-eafd-4d1b-8097-8d2fce092b0b status=pending
+2026-06-25 11:35:54,806  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:35:54,806  INFO      Post BID 0.0001 @ 59246.6  order_id=725f16f5 status=pending
+2026-06-25 11:35:57,896  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:35:57,896  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:35:58,393  INFO      Cancel 725f16f5-eafd-4d1b-8097-8d2fce092b0b: HTTP 202
+2026-06-25 11:35:58,393  INFO      Cancel bid 725f16f5 ok=True
+2026-06-25 11:35:59,627  INFO      Order created: id=a18650a8-0d26-4b3c-b69e-78100ae67b43 status=pending
+2026-06-25 11:35:59,627  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:35:59,627  INFO      Post BID 0.0001 @ 59247.7  order_id=a18650a8 status=pending
+2026-06-25 11:36:02,714  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:36:03,203  INFO      Cancel a18650a8-0d26-4b3c-b69e-78100ae67b43: HTTP 202
+2026-06-25 11:36:03,203  INFO      Cancel bid a18650a8 ok=True
+2026-06-25 11:36:04,420  INFO      Order created: id=38cc9145-2e49-4524-88cd-f321a37b1757 status=pending
+2026-06-25 11:36:04,421  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:36:04,421  INFO      Post BID 0.0001 @ 59250.7  order_id=38cc9145 status=pending
+2026-06-25 11:36:08,186  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:36:09,204  INFO      Cancel 38cc9145-2e49-4524-88cd-f321a37b1757: HTTP 202
+2026-06-25 11:36:09,204  INFO      Cancel bid 38cc9145 ok=True
+2026-06-25 11:36:10,408  INFO      Order created: id=f6b7f011-be13-4071-82e1-eb56a21da229 status=pending
+2026-06-25 11:36:10,408  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:36:10,408  INFO      Post BID 0.0001 @ 59256.2  order_id=f6b7f011 status=pending
+2026-06-25 11:36:13,472  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:36:14,003  INFO      Cancel f6b7f011-be13-4071-82e1-eb56a21da229: HTTP 202
+2026-06-25 11:36:14,004  INFO      Cancel bid f6b7f011 ok=True
+2026-06-25 11:36:15,210  INFO      Order created: id=7709aa76-90de-4045-a3d7-e9e1c18f3735 status=pending
+2026-06-25 11:36:15,210  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:36:15,210  INFO      Post BID 0.0001 @ 59295.9  order_id=7709aa76 status=pending
+2026-06-25 11:36:18,272  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:36:18,817  INFO      Cancel 7709aa76-90de-4045-a3d7-e9e1c18f3735: HTTP 202
+2026-06-25 11:36:18,817  INFO      Cancel bid 7709aa76 ok=True
+2026-06-25 11:36:20,007  INFO      Order created: id=9485129f-4e70-43b8-aae8-db5af9a2f3a2 status=pending
+2026-06-25 11:36:20,007  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:36:20,007  INFO      Post BID 0.0001 @ 59304.6  order_id=9485129f status=pending
+2026-06-25 11:36:23,076  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:36:23,951  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:36:24,789  INFO      Cancel 9485129f-4e70-43b8-aae8-db5af9a2f3a2: HTTP 202
+2026-06-25 11:36:24,789  INFO      Cancel bid 9485129f ok=True
+2026-06-25 11:36:26,019  INFO      Order created: id=a73f838f-573e-406a-9fe0-9934c225a97e status=pending
+2026-06-25 11:36:26,019  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:36:26,020  INFO      Post BID 0.0001 @ 59422.7  order_id=a73f838f status=pending
+2026-06-25 11:36:29,090  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:36:29,090  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:36:29,592  INFO      Cancel a73f838f-573e-406a-9fe0-9934c225a97e: HTTP 202
+2026-06-25 11:36:29,592  INFO      Cancel bid a73f838f ok=True
+2026-06-25 11:36:30,821  INFO      Order created: id=57fe9dfb-ac4f-4b96-b706-e367760fd289 status=pending
+2026-06-25 11:36:30,821  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:36:30,821  INFO      Post BID 0.0001 @ 59372.6  order_id=57fe9dfb status=pending
+2026-06-25 11:36:33,884  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:36:33,885  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:36:34,394  INFO      Cancel 57fe9dfb-ac4f-4b96-b706-e367760fd289: HTTP 202
+2026-06-25 11:36:34,394  INFO      Cancel bid 57fe9dfb ok=True
+2026-06-25 11:36:35,613  INFO      Order created: id=99a6e7e6-eb8c-433b-b89b-240bf1a23089 status=pending
+2026-06-25 11:36:35,613  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:36:35,613  INFO      Post BID 0.0001 @ 59354.8  order_id=99a6e7e6 status=pending
+2026-06-25 11:36:38,698  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:36:39,377  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:36:40,394  INFO      Cancel 99a6e7e6-eb8c-433b-b89b-240bf1a23089: HTTP 202
+2026-06-25 11:36:40,394  INFO      Cancel bid 99a6e7e6 ok=True
+2026-06-25 11:36:41,608  INFO      Order created: id=8027b4b1-d81a-4e88-a6c6-4f1048a101dc status=pending
+2026-06-25 11:36:41,608  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:36:41,608  INFO      Post BID 0.0001 @ 59328.0  order_id=8027b4b1 status=pending
+2026-06-25 11:36:44,697  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:36:44,698  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:36:45,190  INFO      Cancel 8027b4b1-d81a-4e88-a6c6-4f1048a101dc: HTTP 202
+2026-06-25 11:36:45,190  INFO      Cancel bid 8027b4b1 ok=True
+2026-06-25 11:36:46,419  INFO      Order created: id=d0647acc-1076-480f-b556-0326570dfcf5 status=pending
+2026-06-25 11:36:46,420  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:36:46,420  INFO      Post BID 0.0001 @ 59312.4  order_id=d0647acc status=pending
+2026-06-25 11:36:49,497  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:36:49,497  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:36:52,622  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:36:52,623  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:36:53,600  INFO      Cancel d0647acc-1076-480f-b556-0326570dfcf5: HTTP 202
+2026-06-25 11:36:53,600  INFO      Cancel bid d0647acc ok=True
+2026-06-25 11:36:54,812  INFO      Order created: id=e59cdbb4-1524-44a2-b57b-1722c92bf19c status=pending
+2026-06-25 11:36:54,812  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:36:54,812  INFO      Post BID 0.0001 @ 59293.7  order_id=e59cdbb4 status=pending
+2026-06-25 11:36:57,892  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:36:58,552  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:36:59,598  INFO      Cancel e59cdbb4-1524-44a2-b57b-1722c92bf19c: HTTP 202
+2026-06-25 11:36:59,599  INFO      Cancel bid e59cdbb4 ok=True
+2026-06-25 11:37:00,818  INFO      Order created: id=1e10cdbf-3e72-45e7-9520-39aa5af6188a status=pending
+2026-06-25 11:37:00,818  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:37:00,818  INFO      Post BID 0.0001 @ 59275.0  order_id=1e10cdbf status=pending
+2026-06-25 11:37:03,891  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:37:04,399  INFO      Cancel 1e10cdbf-3e72-45e7-9520-39aa5af6188a: HTTP 202
+2026-06-25 11:37:04,399  INFO      Cancel bid 1e10cdbf ok=True
+2026-06-25 11:37:05,610  INFO      Order created: id=474db0ee-8fd7-43ad-9fa0-45dbb79ced52 status=pending
+2026-06-25 11:37:05,610  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:37:05,610  INFO      Post BID 0.0001 @ 59283.9  order_id=474db0ee status=pending
+2026-06-25 11:37:08,680  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:37:08,680  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:37:09,203  INFO      Cancel 474db0ee-8fd7-43ad-9fa0-45dbb79ced52: HTTP 202
+2026-06-25 11:37:09,203  INFO      Cancel bid 474db0ee ok=True
+2026-06-25 11:37:10,412  INFO      Order created: id=fef820ac-9c35-4c17-977f-746940437592 status=pending
+2026-06-25 11:37:10,412  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:37:10,412  INFO      Post BID 0.0001 @ 59296.6  order_id=fef820ac status=pending
+2026-06-25 11:37:15,198  INFO      Cancel fef820ac-9c35-4c17-977f-746940437592: HTTP 400
+2026-06-25 11:37:15,199  INFO      Cancel bid fef820ac ok=False
+2026-06-25 11:37:15,199  WARNING   Cancel failed for bid; not placing replacement.
+2026-06-25 11:37:16,411  INFO      Order created: id=419542ca-29b7-468d-999c-7f4739f17d7b status=pending
+2026-06-25 11:37:16,411  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-06-25 11:37:16,411  INFO      Post ASK 0.0001 @ 59315.1  order_id=419542ca status=pending
+2026-06-25 11:37:31,533  INFO      Fill BUY 0.0001 BTC @ 59296.6  session_pos=+0.00000000 BTC fills=6
+2026-06-25 11:37:32,970  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:37:33,957  INFO      Order created: id=91396712-a1ed-4942-a5e3-f09469af81c6 status=pending
+2026-06-25 11:37:33,957  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:37:33,957  INFO      Post BID 0.0001 @ 59288.1  order_id=91396712 status=pending
+2026-06-25 11:37:35,073  INFO      Cancel 419542ca-29b7-468d-999c-7f4739f17d7b: HTTP 202
+2026-06-25 11:37:35,073  INFO      Cancel ask 419542ca ok=True
+2026-06-25 11:37:38,128  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-06-25 11:37:38,128  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:37:38,674  INFO      Cancel 91396712-a1ed-4942-a5e3-f09469af81c6: HTTP 202
+2026-06-25 11:37:38,675  INFO      Cancel bid 91396712 ok=True
+2026-06-25 11:37:39,895  INFO      Order created: id=f23fafd6-733f-4bc2-bac1-407a6a80aca0 status=pending
+2026-06-25 11:37:39,895  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-06-25 11:37:39,895  INFO      Post BID 0.0001 @ 59287.2  order_id=f23fafd6 status=pending
+2026-06-25 11:37:42,969  WARNING   Ask suppressed: BTC balance 0.00009000 < size 0.00010000
+2026-06-25 11:37:43,482  INFO      Cancel f23fafd6-733f-4bc2-bac1-407a6a80aca0: HTTP 202
+2026-06-25 11:37:43,482  INFO      Cancel bid f23fafd6 ok=True
+2026-06-25 11:37:44,279  INFO      Shutting down.
+2026-07-01 15:16:40,615  INFO      Auth: JWT minted successfully.
+2026-07-01 15:16:40,615  INFO      Cancelling pre-existing TrueMarkets open orders...
+2026-07-01 15:16:40,637  INFO      Coinbase WS: subscribed to ticker for BTC-USD.
+2026-07-01 15:16:40,672  INFO      maker_v3 started: TrueMarkets BTC/USDC size=0.0001, Coinbase BTC-USD guardrail, tick=0.1, thin_pct=0.25, poll=1.0s, req=95.0/min, max_loss=$5.00
+2026-07-01 15:16:41,941  INFO      Order created: id=b1b4477f-cfea-4160-92a7-39039bc93242 status=pending
+2026-07-01 15:16:41,942  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:16:41,942  INFO      Post BID 0.0001 @ 60260.4  order_id=b1b4477f status=pending
+2026-07-01 15:16:42,004  INFO      Order created: id=1b7d11c8-8730-42f3-8e7a-43529943730a status=pending
+2026-07-01 15:16:42,004  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:16:42,005  INFO      Post ASK 0.0001 @ 60260.5  order_id=1b7d11c8 status=pending
+2026-07-01 15:16:47,074  INFO      Fill BUY 0.0001 BTC @ 60260.4  session_pos=+0.00010000 BTC fills=1
+2026-07-01 15:16:47,453  INFO      Order created: id=338625ba-cd49-4250-9734-d3f461af6b1a status=pending
+2026-07-01 15:16:47,454  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:16:47,454  INFO      Post BID 0.0001 @ 60260.4  order_id=338625ba status=pending
+2026-07-01 15:16:48,493  INFO      Cancel 338625ba-cd49-4250-9734-d3f461af6b1a: HTTP 400
+2026-07-01 15:16:48,494  INFO      Cancel bid 338625ba ok=False
+2026-07-01 15:16:48,494  WARNING   Cancel failed for bid; not placing replacement.
+2026-07-01 15:16:48,541  INFO      Cancel 1b7d11c8-8730-42f3-8e7a-43529943730a: HTTP 202
+2026-07-01 15:16:48,542  INFO      Cancel ask 1b7d11c8 ok=True
+2026-07-01 15:16:48,605  INFO      Order created: id=bb659570-c3e9-442c-a2da-59dc2e19df66 status=pending
+2026-07-01 15:16:48,605  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:16:48,606  INFO      Post ASK 0.0001 @ 60272.3  order_id=bb659570 status=pending
+2026-07-01 15:17:03,713  INFO      Fill BUY 0.0001 BTC @ 60260.4  session_pos=+0.00020000 BTC fills=2
+2026-07-01 15:17:04,082  INFO      Order created: id=facbe334-0ae5-42fe-8b0d-edb629d74b0b status=pending
+2026-07-01 15:17:04,082  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:17:04,082  INFO      Post BID 0.0001 @ 60266.4  order_id=facbe334 status=pending
+2026-07-01 15:17:04,121  INFO      Cancel bb659570-c3e9-442c-a2da-59dc2e19df66: HTTP 202
+2026-07-01 15:17:04,121  INFO      Cancel ask bb659570 ok=True
+2026-07-01 15:17:04,184  INFO      Order created: id=df845870-6fd3-4d5d-aa10-a4b84f5c0441 status=pending
+2026-07-01 15:17:04,184  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:17:04,185  INFO      Post ASK 0.0001 @ 60266.5  order_id=df845870 status=pending
+2026-07-01 15:17:05,228  INFO      Cancel facbe334-0ae5-42fe-8b0d-edb629d74b0b: HTTP 400
+2026-07-01 15:17:05,229  INFO      Cancel bid facbe334 ok=False
+2026-07-01 15:17:05,229  WARNING   Cancel failed for bid; not placing replacement.
+2026-07-01 15:17:05,288  INFO      Cancel df845870-6fd3-4d5d-aa10-a4b84f5c0441: HTTP 202
+2026-07-01 15:17:05,288  INFO      Cancel ask df845870 ok=True
+2026-07-01 15:17:05,338  INFO      Order created: id=a8aa7c14-b717-466d-a64d-29c7c7cc6a56 status=pending
+2026-07-01 15:17:05,338  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:17:05,338  INFO      Post ASK 0.0001 @ 60271.1  order_id=a8aa7c14 status=pending
+2026-07-01 15:17:20,471  INFO      Fill BUY 0.0001 BTC @ 60266.4  session_pos=+0.00030000 BTC fills=3
+2026-07-01 15:17:20,813  INFO      Order created: id=060a1ba1-a63d-4c83-9966-aa2b16bccf24 status=pending
+2026-07-01 15:17:20,813  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:17:20,814  INFO      Post BID 0.0001 @ 60254.8  order_id=060a1ba1 status=pending
+2026-07-01 15:17:20,847  INFO      Cancel a8aa7c14-b717-466d-a64d-29c7c7cc6a56: HTTP 202
+2026-07-01 15:17:20,847  INFO      Cancel ask a8aa7c14 ok=True
+2026-07-01 15:17:20,899  INFO      Order created: id=30f75504-751d-4f1e-89a1-70e18cec81f9 status=pending
+2026-07-01 15:17:20,899  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:17:20,900  INFO      Post ASK 0.0001 @ 60254.9  order_id=30f75504 status=pending
+2026-07-01 15:17:21,940  INFO      Cancel 060a1ba1-a63d-4c83-9966-aa2b16bccf24: HTTP 400
+2026-07-01 15:17:21,940  INFO      Cancel bid 060a1ba1 ok=False
+2026-07-01 15:17:21,941  WARNING   Cancel failed for bid; not placing replacement.
+2026-07-01 15:17:21,976  INFO      Cancel 30f75504-751d-4f1e-89a1-70e18cec81f9: HTTP 202
+2026-07-01 15:17:21,976  INFO      Cancel ask 30f75504 ok=True
+2026-07-01 15:17:22,032  INFO      Order created: id=78b98b2e-ec8f-4505-9a1c-87fbedda2b89 status=pending
+2026-07-01 15:17:22,032  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:17:22,032  INFO      Post ASK 0.0001 @ 60253.4  order_id=78b98b2e status=pending
+2026-07-01 15:17:37,178  INFO      Fill BUY 0.0001 BTC @ 60254.8  session_pos=+0.00040000 BTC fills=4
+2026-07-01 15:17:37,546  INFO      Order created: id=644651f7-53a4-49fc-8b64-415b634f49a3 status=pending
+2026-07-01 15:17:37,546  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:17:37,546  INFO      Post BID 0.0001 @ 60262.3  order_id=644651f7 status=pending
+2026-07-01 15:17:37,589  INFO      Cancel 78b98b2e-ec8f-4505-9a1c-87fbedda2b89: HTTP 202
+2026-07-01 15:17:37,589  INFO      Cancel ask 78b98b2e ok=True
+2026-07-01 15:17:37,657  INFO      Order created: id=f44ab5bc-b818-4b5d-8463-7653c10038a3 status=pending
+2026-07-01 15:17:37,657  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:17:37,657  INFO      Post ASK 0.0001 @ 60262.4  order_id=f44ab5bc status=pending
+2026-07-01 15:17:40,692  INFO      Cancel 644651f7-53a4-49fc-8b64-415b634f49a3: HTTP 400
+2026-07-01 15:17:40,692  INFO      Cancel bid 644651f7 ok=False
+2026-07-01 15:17:40,693  WARNING   Cancel failed for bid; not placing replacement.
+2026-07-01 15:17:40,727  INFO      Cancel f44ab5bc-b818-4b5d-8463-7653c10038a3: HTTP 202
+2026-07-01 15:17:40,727  INFO      Cancel ask f44ab5bc ok=True
+2026-07-01 15:17:40,794  INFO      Order created: id=104084e4-b282-460b-a861-6d76df05d34f status=pending
+2026-07-01 15:17:40,794  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:17:40,794  INFO      Post ASK 0.0001 @ 60254.9  order_id=104084e4 status=pending
+2026-07-01 15:17:55,905  INFO      Fill BUY 0.0001 BTC @ 60262.3  session_pos=+0.00050000 BTC fills=5
+2026-07-01 15:17:56,259  INFO      Order created: id=c4c2072b-5ecd-4df7-8e88-c014d98a8129 status=pending
+2026-07-01 15:17:56,259  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:17:56,259  INFO      Post BID 0.0001 @ 60247.8  order_id=c4c2072b status=pending
+2026-07-01 15:17:56,289  INFO      Cancel 104084e4-b282-460b-a861-6d76df05d34f: HTTP 202
+2026-07-01 15:17:56,289  INFO      Cancel ask 104084e4 ok=True
+2026-07-01 15:17:56,345  INFO      Order created: id=b36b7617-2a14-43f1-abe6-3934c2f9fc8b status=pending
+2026-07-01 15:17:56,346  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:17:56,346  INFO      Post ASK 0.0001 @ 60247.9  order_id=b36b7617 status=pending
+2026-07-01 15:18:01,400  INFO      Fill BUY 0.0001 BTC @ 60247.8  session_pos=+0.00060000 BTC fills=6
+2026-07-01 15:18:01,718  INFO      Order created: id=a83bcf4f-91c7-46ec-b2f9-ff1453c0461c status=pending
+2026-07-01 15:18:01,718  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:18:01,718  INFO      Post BID 0.0001 @ 60247.8  order_id=a83bcf4f status=pending
+2026-07-01 15:18:03,750  INFO      Cancel a83bcf4f-91c7-46ec-b2f9-ff1453c0461c: HTTP 400
+2026-07-01 15:18:03,750  INFO      Cancel bid a83bcf4f ok=False
+2026-07-01 15:18:03,750  WARNING   Cancel failed for bid; not placing replacement.
+2026-07-01 15:18:03,803  INFO      Cancel b36b7617-2a14-43f1-abe6-3934c2f9fc8b: HTTP 202
+2026-07-01 15:18:03,803  INFO      Cancel ask b36b7617 ok=True
+2026-07-01 15:18:03,866  INFO      Order created: id=4e56a9f9-3c18-4e57-b67f-f242fa76c508 status=pending
+2026-07-01 15:18:03,866  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:18:03,866  INFO      Post ASK 0.0001 @ 60237.8  order_id=4e56a9f9 status=pending
+2026-07-01 15:18:18,989  INFO      Fill BUY 0.0001 BTC @ 60247.8  session_pos=+0.00070000 BTC fills=7
+2026-07-01 15:18:19,365  INFO      Order created: id=c347282f-5e4c-4115-82d8-bd5cbee251ea status=pending
+2026-07-01 15:18:19,365  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:18:19,365  INFO      Post BID 0.0001 @ 60230.4  order_id=c347282f status=pending
+2026-07-01 15:18:19,395  INFO      Cancel 4e56a9f9-3c18-4e57-b67f-f242fa76c508: HTTP 202
+2026-07-01 15:18:19,396  INFO      Cancel ask 4e56a9f9 ok=True
+2026-07-01 15:18:19,450  INFO      Order created: id=138fafda-9042-4451-bbe4-307cb28f2945 status=pending
+2026-07-01 15:18:19,450  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:18:19,450  INFO      Post ASK 0.0001 @ 60230.5  order_id=138fafda status=pending
+2026-07-01 15:18:20,477  INFO      Cancel c347282f-5e4c-4115-82d8-bd5cbee251ea: HTTP 400
+2026-07-01 15:18:20,477  INFO      Cancel bid c347282f ok=False
+2026-07-01 15:18:20,477  WARNING   Cancel failed for bid; not placing replacement.
+2026-07-01 15:18:20,515  INFO      Cancel 138fafda-9042-4451-bbe4-307cb28f2945: HTTP 202
+2026-07-01 15:18:20,515  INFO      Cancel ask 138fafda ok=True
+2026-07-01 15:18:20,565  INFO      Order created: id=03cc21bc-32bb-47a6-8d31-5e993cf3b948 status=pending
+2026-07-01 15:18:20,565  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:18:20,565  INFO      Post ASK 0.0001 @ 60231.4  order_id=03cc21bc status=pending
+2026-07-01 15:18:35,700  INFO      Fill BUY 0.0001 BTC @ 60230.4  session_pos=+0.00080000 BTC fills=8
+2026-07-01 15:18:36,046  INFO      Order created: id=12ed2368-651c-465e-a7b4-f06ec30c5848 status=pending
+2026-07-01 15:18:36,047  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:18:36,047  INFO      Post BID 0.0001 @ 60219.9  order_id=12ed2368 status=pending
+2026-07-01 15:18:36,087  INFO      Cancel 03cc21bc-32bb-47a6-8d31-5e993cf3b948: HTTP 202
+2026-07-01 15:18:36,087  INFO      Cancel ask 03cc21bc ok=True
+2026-07-01 15:18:36,145  INFO      Order created: id=4673c347-f1bc-48b3-adb9-fbdf2cf04948 status=pending
+2026-07-01 15:18:36,145  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:18:36,145  INFO      Post ASK 0.0001 @ 60220.0  order_id=4673c347 status=pending
+2026-07-01 15:18:37,189  INFO      Cancel 12ed2368-651c-465e-a7b4-f06ec30c5848: HTTP 202
+2026-07-01 15:18:37,190  INFO      Cancel bid 12ed2368 ok=True
+2026-07-01 15:18:37,251  INFO      Order created: id=ac2e6b1d-6436-4d43-98f3-580687ab673c status=pending
+2026-07-01 15:18:37,251  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:18:37,251  INFO      Post BID 0.0001 @ 60218.4  order_id=ac2e6b1d status=pending
+2026-07-01 15:18:38,293  INFO      Cancel 4673c347-f1bc-48b3-adb9-fbdf2cf04948: HTTP 400
+2026-07-01 15:18:38,293  INFO      Cancel ask 4673c347 ok=False
+2026-07-01 15:18:38,293  WARNING   Cancel failed for ask; not placing replacement.
+2026-07-01 15:18:53,490  INFO      Fill SELL 0.0001 BTC @ 60220.0  session_pos=+0.00070000 BTC fills=9
+2026-07-01 15:18:53,756  INFO      Cancel ac2e6b1d-6436-4d43-98f3-580687ab673c: HTTP 202
+2026-07-01 15:18:53,756  INFO      Cancel bid ac2e6b1d ok=True
+2026-07-01 15:18:53,838  INFO      Order created: id=80463de6-c58b-4d92-9996-e166e607347c status=pending
+2026-07-01 15:18:53,839  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:18:53,839  INFO      Post BID 0.0001 @ 60215.6  order_id=80463de6 status=pending
+2026-07-01 15:18:53,944  INFO      Order created: id=dbf4ff2a-96a4-4607-8e41-718ce1075283 status=pending
+2026-07-01 15:18:53,945  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:18:53,945  INFO      Post ASK 0.0001 @ 60215.7  order_id=dbf4ff2a status=pending
+2026-07-01 15:18:59,079  INFO      Fill SELL 0.0001 BTC @ 60215.7  session_pos=+0.00060000 BTC fills=10
+2026-07-01 15:18:59,342  INFO      Order created: id=70727ff2-ba60-47e1-a825-1b6bab7900e1 status=pending
+2026-07-01 15:18:59,342  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:18:59,342  INFO      Post ASK 0.0001 @ 60215.7  order_id=70727ff2 status=pending
+2026-07-01 15:19:00,384  INFO      Cancel 80463de6-c58b-4d92-9996-e166e607347c: HTTP 202
+2026-07-01 15:19:00,384  INFO      Cancel bid 80463de6 ok=True
+2026-07-01 15:19:00,449  INFO      Order created: id=9fd0fcc4-acb0-4de0-8bb7-32ae0848bbee status=pending
+2026-07-01 15:19:00,450  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:19:00,450  INFO      Post BID 0.0001 @ 60210.0  order_id=9fd0fcc4 status=pending
+2026-07-01 15:19:00,485  INFO      Cancel 70727ff2-ba60-47e1-a825-1b6bab7900e1: HTTP 400
+2026-07-01 15:19:00,485  INFO      Cancel ask 70727ff2 ok=False
+2026-07-01 15:19:00,485  WARNING   Cancel failed for ask; not placing replacement.
+2026-07-01 15:19:15,670  INFO      Fill SELL 0.0001 BTC @ 60215.7  session_pos=+0.00050000 BTC fills=11
+2026-07-01 15:19:15,930  INFO      Cancel 9fd0fcc4-acb0-4de0-8bb7-32ae0848bbee: HTTP 202
+2026-07-01 15:19:15,930  INFO      Cancel bid 9fd0fcc4 ok=True
+2026-07-01 15:19:15,996  INFO      Order created: id=64b8451c-4f1a-45e7-afab-56c1ab61efb1 status=pending
+2026-07-01 15:19:15,996  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:19:15,996  INFO      Post BID 0.0001 @ 60206.4  order_id=64b8451c status=pending
+2026-07-01 15:19:16,055  INFO      Order created: id=762120e5-a4be-4ee2-9f86-7d9542c4acf8 status=pending
+2026-07-01 15:19:16,055  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:19:16,055  INFO      Post ASK 0.0001 @ 60206.6  order_id=762120e5 status=pending
+2026-07-01 15:19:17,102  INFO      Cancel 64b8451c-4f1a-45e7-afab-56c1ab61efb1: HTTP 202
+2026-07-01 15:19:17,102  INFO      Cancel bid 64b8451c ok=True
+2026-07-01 15:19:17,157  INFO      Order created: id=e9e6bd1b-c4e4-44e4-8a09-9b02e7a6d538 status=pending
+2026-07-01 15:19:17,158  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:19:17,158  INFO      Post BID 0.0001 @ 60181.6  order_id=e9e6bd1b status=pending
+2026-07-01 15:19:17,188  INFO      Cancel 762120e5-a4be-4ee2-9f86-7d9542c4acf8: HTTP 400
+2026-07-01 15:19:17,189  INFO      Cancel ask 762120e5 ok=False
+2026-07-01 15:19:17,189  WARNING   Cancel failed for ask; not placing replacement.
+2026-07-01 15:19:32,378  INFO      Fill SELL 0.0001 BTC @ 60206.6  session_pos=+0.00040000 BTC fills=12
+2026-07-01 15:19:32,620  INFO      Cancel e9e6bd1b-c4e4-44e4-8a09-9b02e7a6d538: HTTP 202
+2026-07-01 15:19:32,620  INFO      Cancel bid e9e6bd1b ok=True
+2026-07-01 15:19:32,686  INFO      Order created: id=d39714c8-303d-49e4-9e75-ce5bfd5f2172 status=pending
+2026-07-01 15:19:32,687  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:19:32,687  INFO      Post BID 0.0001 @ 60194.9  order_id=d39714c8 status=pending
+2026-07-01 15:19:32,740  INFO      Order created: id=8bde3eb9-0655-4b8b-a789-e29f5e239302 status=pending
+2026-07-01 15:19:32,740  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:19:32,740  INFO      Post ASK 0.0001 @ 60195.0  order_id=8bde3eb9 status=pending
+2026-07-01 15:19:34,790  INFO      Cancel 8bde3eb9-0655-4b8b-a789-e29f5e239302: HTTP 400
+2026-07-01 15:19:34,790  INFO      Cancel ask 8bde3eb9 ok=False
+2026-07-01 15:19:34,791  WARNING   Cancel failed for ask; not placing replacement.
+2026-07-01 15:19:49,975  INFO      Fill SELL 0.0001 BTC @ 60195.0  session_pos=+0.00030000 BTC fills=13
+2026-07-01 15:19:50,252  INFO      Cancel d39714c8-303d-49e4-9e75-ce5bfd5f2172: HTTP 202
+2026-07-01 15:19:50,253  INFO      Cancel bid d39714c8 ok=True
+2026-07-01 15:19:50,319  INFO      Order created: id=17f5bca8-dacc-4eb6-8c20-fefbb823389f status=pending
+2026-07-01 15:19:50,319  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:19:50,319  INFO      Post BID 0.0001 @ 60222.7  order_id=17f5bca8 status=pending
+2026-07-01 15:19:50,385  INFO      Order created: id=b5fc41b6-fb0d-4f45-ac1f-3e50d97dff19 status=pending
+2026-07-01 15:19:50,385  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:19:50,386  INFO      Post ASK 0.0001 @ 60222.8  order_id=b5fc41b6 status=pending
+2026-07-01 15:19:51,425  INFO      Cancel 17f5bca8-dacc-4eb6-8c20-fefbb823389f: HTTP 400
+2026-07-01 15:19:51,425  INFO      Cancel bid 17f5bca8 ok=False
+2026-07-01 15:19:51,425  WARNING   Cancel failed for bid; not placing replacement.
+2026-07-01 15:20:06,610  INFO      Fill BUY 0.0001 BTC @ 60222.7  session_pos=+0.00040000 BTC fills=14
+2026-07-01 15:20:07,025  INFO      Order created: id=72fc1c3e-c242-45c8-b775-bbb90b94b20a status=pending
+2026-07-01 15:20:07,025  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:20:07,025  INFO      Post BID 0.0001 @ 60175.4  order_id=72fc1c3e status=pending
+2026-07-01 15:20:07,100  INFO      Cancel b5fc41b6-fb0d-4f45-ac1f-3e50d97dff19: HTTP 202
+2026-07-01 15:20:07,101  INFO      Cancel ask b5fc41b6 ok=True
+2026-07-01 15:20:07,184  INFO      Order created: id=019d92e9-a04c-42ea-bf11-fd1dd7a792ac status=pending
+2026-07-01 15:20:07,184  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:20:07,184  INFO      Post ASK 0.0001 @ 60176.3  order_id=019d92e9 status=pending
+2026-07-01 15:20:11,245  INFO      Cancel 72fc1c3e-c242-45c8-b775-bbb90b94b20a: HTTP 202
+2026-07-01 15:20:11,245  INFO      Cancel bid 72fc1c3e ok=True
+2026-07-01 15:20:11,313  INFO      Order created: id=5efe73f6-5b58-45df-8e3f-745b82d4cec0 status=pending
+2026-07-01 15:20:11,313  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:20:11,313  INFO      Post BID 0.0001 @ 60183.9  order_id=5efe73f6 status=pending
+2026-07-01 15:20:11,342  INFO      Cancel 019d92e9-a04c-42ea-bf11-fd1dd7a792ac: HTTP 400
+2026-07-01 15:20:11,343  INFO      Cancel ask 019d92e9 ok=False
+2026-07-01 15:20:11,343  WARNING   Cancel failed for ask; not placing replacement.
+2026-07-01 15:20:26,471  ERROR     GET /v1/conductor/orders/5efe73f6-5b58-45df-8e3f-745b82d4cec0/status → 503: {'_raw': 'upstream connect error or disconnect/reset before headers. reset reason: remote connection failure, transport failure reason: delayed connect error: Connection refused'}
+2026-07-01 15:20:26,535  ERROR     GET /v1/conductor/orders/019d92e9-a04c-42ea-bf11-fd1dd7a792ac/status → 503: {'_raw': 'upstream connect error or disconnect/reset before headers. reset reason: remote connection failure, transport failure reason: delayed connect error: Connection refused'}
+2026-07-01 15:20:26,582  ERROR     GET /v1/conductor/balances → 503: {'_raw': 'upstream connect error or disconnect/reset before headers. reset reason: remote connection failure, transport failure reason: delayed connect error: Connection refused'}
+2026-07-01 15:20:26,582  WARNING   Bid suppressed: quote balance 0.00 < required 6.08 USDC
+2026-07-01 15:20:26,582  WARNING   Ask suppressed: BTC balance 0.00000000 < size 0.00010000
+2026-07-01 15:20:26,622  INFO      Cancel 5efe73f6-5b58-45df-8e3f-745b82d4cec0: HTTP 503
+2026-07-01 15:20:26,622  INFO      Cancel bid 5efe73f6 ok=False
+2026-07-01 15:20:26,671  INFO      Cancel 019d92e9-a04c-42ea-bf11-fd1dd7a792ac: HTTP 503
+2026-07-01 15:20:26,671  INFO      Cancel ask 019d92e9 ok=False
+2026-07-01 15:20:41,788  INFO      Fill BUY 0.0001 BTC @ 60183.9  session_pos=+0.00050000 BTC fills=15
+2026-07-01 15:20:41,826  INFO      Fill SELL 0.0001 BTC @ 60176.3  session_pos=+0.00040000 BTC fills=16
+2026-07-01 15:20:42,162  INFO      Order created: id=7308ccbf-84aa-4f4f-a329-faa261a711dc status=pending
+2026-07-01 15:20:42,163  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:20:42,163  INFO      Post BID 0.0001 @ 60165.0  order_id=7308ccbf status=pending
+2026-07-01 15:20:42,224  INFO      Order created: id=3ffa677b-a61c-45c8-983d-adc3527aadb3 status=pending
+2026-07-01 15:20:42,224  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:20:42,224  INFO      Post ASK 0.0001 @ 60166.0  order_id=3ffa677b status=pending
+2026-07-01 15:20:43,273  INFO      Cancel 7308ccbf-84aa-4f4f-a329-faa261a711dc: HTTP 202
+2026-07-01 15:20:43,273  INFO      Cancel bid 7308ccbf ok=True
+2026-07-01 15:20:43,327  INFO      Order created: id=d74df5f9-ae3d-47d9-8ed1-4678519889c5 status=pending
+2026-07-01 15:20:43,327  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:20:43,327  INFO      Post BID 0.0001 @ 60169.5  order_id=d74df5f9 status=pending
+2026-07-01 15:20:43,363  INFO      Cancel 3ffa677b-a61c-45c8-983d-adc3527aadb3: HTTP 400
+2026-07-01 15:20:43,363  INFO      Cancel ask 3ffa677b ok=False
+2026-07-01 15:20:43,363  WARNING   Cancel failed for ask; not placing replacement.
+2026-07-01 15:20:58,547  INFO      Fill SELL 0.0001 BTC @ 60166.0  session_pos=+0.00030000 BTC fills=17
+2026-07-01 15:20:58,786  INFO      Cancel d74df5f9-ae3d-47d9-8ed1-4678519889c5: HTTP 202
+2026-07-01 15:20:58,786  INFO      Cancel bid d74df5f9 ok=True
+2026-07-01 15:20:58,837  INFO      Order created: id=0d6cd1a5-e0f5-4982-af78-d18b23a0da74 status=pending
+2026-07-01 15:20:58,838  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:20:58,838  INFO      Post BID 0.0001 @ 60166.0  order_id=0d6cd1a5 status=pending
+2026-07-01 15:20:58,892  INFO      Order created: id=4d644ea8-7ab9-43d0-9279-9d2ccd65e141 status=pending
+2026-07-01 15:20:58,892  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:20:58,892  INFO      Post ASK 0.0001 @ 60166.1  order_id=4d644ea8 status=pending
+2026-07-01 15:21:03,025  INFO      Cancel 0d6cd1a5-e0f5-4982-af78-d18b23a0da74: HTTP 202
+2026-07-01 15:21:03,025  INFO      Cancel bid 0d6cd1a5 ok=True
+2026-07-01 15:21:03,089  INFO      Order created: id=d7ad7dd4-aab1-4b86-adc0-0785b10dce0c status=pending
+2026-07-01 15:21:03,090  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:21:03,090  INFO      Post BID 0.0001 @ 60164.5  order_id=d7ad7dd4 status=pending
+2026-07-01 15:21:03,115  INFO      Cancel 4d644ea8-7ab9-43d0-9279-9d2ccd65e141: HTTP 400
+2026-07-01 15:21:03,115  INFO      Cancel ask 4d644ea8 ok=False
+2026-07-01 15:21:03,115  WARNING   Cancel failed for ask; not placing replacement.
+2026-07-01 15:21:18,281  INFO      Fill SELL 0.0001 BTC @ 60166.1  session_pos=+0.00020000 BTC fills=18
+2026-07-01 15:21:18,528  INFO      Cancel d7ad7dd4-aab1-4b86-adc0-0785b10dce0c: HTTP 202
+2026-07-01 15:21:18,529  INFO      Cancel bid d7ad7dd4 ok=True
+2026-07-01 15:21:18,597  INFO      Order created: id=3ed3bf03-b1e1-49a3-820c-b6669ff38a72 status=pending
+2026-07-01 15:21:18,597  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:21:18,598  INFO      Post BID 0.0001 @ 60171.2  order_id=3ed3bf03 status=pending
+2026-07-01 15:21:18,659  INFO      Order created: id=ebe6bec3-7778-4336-91f4-a328f776f476 status=pending
+2026-07-01 15:21:18,660  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:21:18,660  INFO      Post ASK 0.0001 @ 60171.3  order_id=ebe6bec3 status=pending
+2026-07-01 15:21:19,696  INFO      Cancel 3ed3bf03-b1e1-49a3-820c-b6669ff38a72: HTTP 202
+2026-07-01 15:21:19,696  INFO      Cancel bid 3ed3bf03 ok=True
+2026-07-01 15:21:19,744  INFO      Order created: id=bbb1e562-a467-4ce7-9efa-9d5cefb564a7 status=pending
+2026-07-01 15:21:19,744  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:21:19,744  INFO      Post BID 0.0001 @ 60178.0  order_id=bbb1e562 status=pending
+2026-07-01 15:21:19,778  INFO      Cancel ebe6bec3-7778-4336-91f4-a328f776f476: HTTP 400
+2026-07-01 15:21:19,778  INFO      Cancel ask ebe6bec3 ok=False
+2026-07-01 15:21:19,778  WARNING   Cancel failed for ask; not placing replacement.
+2026-07-01 15:21:35,076  INFO      Fill SELL 0.0001 BTC @ 60171.3  session_pos=+0.00010000 BTC fills=19
+2026-07-01 15:21:35,363  INFO      Order created: id=3c6be9a8-0712-4931-8724-d7c9f829e41e status=pending
+2026-07-01 15:21:35,363  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:21:35,364  INFO      Post ASK 0.0001 @ 60178.1  order_id=3c6be9a8 status=pending
+2026-07-01 15:21:40,484  INFO      Fill SELL 0.0001 BTC @ 60178.1  session_pos=+0.00000000 BTC fills=20
+2026-07-01 15:21:40,977  INFO      Order created: id=af01d81d-9420-478a-ba9f-95ff8de22760 status=pending
+2026-07-01 15:21:40,977  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:21:40,977  INFO      Post ASK 0.0001 @ 60178.1  order_id=af01d81d status=pending
+2026-07-01 15:21:46,097  INFO      Fill SELL 0.0001 BTC @ 60178.1  session_pos=-0.00010000 BTC fills=21
+2026-07-01 15:21:46,374  INFO      Order created: id=793e9bd2-ee37-49b4-9641-21367924a8e5 status=pending
+2026-07-01 15:21:46,375  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:21:46,375  INFO      Post ASK 0.0001 @ 60178.1  order_id=793e9bd2 status=pending
+2026-07-01 15:21:47,415  INFO      Cancel bbb1e562-a467-4ce7-9efa-9d5cefb564a7: HTTP 202
+2026-07-01 15:21:47,416  INFO      Cancel bid bbb1e562 ok=True
+2026-07-01 15:21:47,480  INFO      Order created: id=2b21afa0-ea18-4c3e-bb0a-e4ad79bbccde status=pending
+2026-07-01 15:21:47,481  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:21:47,481  INFO      Post BID 0.0001 @ 60169.2  order_id=2b21afa0 status=pending
+2026-07-01 15:21:47,508  INFO      Cancel 793e9bd2-ee37-49b4-9641-21367924a8e5: HTTP 400
+2026-07-01 15:21:47,508  INFO      Cancel ask 793e9bd2 ok=False
+2026-07-01 15:21:47,508  WARNING   Cancel failed for ask; not placing replacement.
+2026-07-01 15:22:02,705  INFO      Fill SELL 0.0001 BTC @ 60178.1  session_pos=-0.00020000 BTC fills=22
+2026-07-01 15:22:02,939  INFO      Cancel 2b21afa0-ea18-4c3e-bb0a-e4ad79bbccde: HTTP 202
+2026-07-01 15:22:02,939  INFO      Cancel bid 2b21afa0 ok=True
+2026-07-01 15:22:02,993  INFO      Order created: id=1d512830-33f1-483b-bfef-a72e2996cf6c status=pending
+2026-07-01 15:22:02,994  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:22:02,994  INFO      Post BID 0.0001 @ 60178.0  order_id=1d512830 status=pending
+2026-07-01 15:22:03,051  INFO      Order created: id=6b717645-6217-42aa-a161-27fafc76afeb status=pending
+2026-07-01 15:22:03,052  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:22:03,052  INFO      Post ASK 0.0001 @ 60178.1  order_id=6b717645 status=pending
+2026-07-01 15:22:04,106  INFO      Cancel 1d512830-33f1-483b-bfef-a72e2996cf6c: HTTP 202
+2026-07-01 15:22:04,106  INFO      Cancel bid 1d512830 ok=True
+2026-07-01 15:22:04,185  INFO      Order created: id=ed7499a8-12c7-46e0-9a00-1cc5b55016b2 status=pending
+2026-07-01 15:22:04,186  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:22:04,186  INFO      Post BID 0.0001 @ 60179.4  order_id=ed7499a8 status=pending
+2026-07-01 15:22:04,222  INFO      Cancel 6b717645-6217-42aa-a161-27fafc76afeb: HTTP 400
+2026-07-01 15:22:04,222  INFO      Cancel ask 6b717645 ok=False
+2026-07-01 15:22:04,223  WARNING   Cancel failed for ask; not placing replacement.
+2026-07-01 15:22:19,396  INFO      Fill SELL 0.0001 BTC @ 60178.1  session_pos=-0.00030000 BTC fills=23
+2026-07-01 15:22:19,601  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:22:19,653  INFO      Cancel ed7499a8-12c7-46e0-9a00-1cc5b55016b2: HTTP 202
+2026-07-01 15:22:19,654  INFO      Cancel bid ed7499a8 ok=True
+2026-07-01 15:22:19,706  INFO      Order created: id=5b5a3f3a-e64b-4995-9891-c0116b71f66c status=pending
+2026-07-01 15:22:19,706  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:22:19,706  INFO      Post BID 0.0001 @ 60189.7  order_id=5b5a3f3a status=pending
+2026-07-01 15:22:20,707  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:22:21,708  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:22:21,737  INFO      Cancel 5b5a3f3a-e64b-4995-9891-c0116b71f66c: HTTP 400
+2026-07-01 15:22:21,737  INFO      Cancel bid 5b5a3f3a ok=False
+2026-07-01 15:22:21,737  WARNING   Cancel failed for bid; not placing replacement.
+2026-07-01 15:22:32,142  INFO      Cancel 5b5a3f3a-e64b-4995-9891-c0116b71f66c: HTTP 400
+2026-07-01 15:22:32,143  INFO      Cancel bid 5b5a3f3a ok=False
+2026-07-01 15:22:32,178  INFO      Shutting down.
+2026-07-01 15:32:11,552  INFO      Auth: JWT minted successfully.
+2026-07-01 15:32:11,554  INFO      Cancelling pre-existing TrueMarkets open orders...
+2026-07-01 15:32:11,556  INFO      Coinbase WS: subscribed to ticker for BTC-USD.
+2026-07-01 15:32:11,618  INFO      maker_v3 started: TrueMarkets BTC/USDC size=0.0001, Coinbase BTC-USD guardrail, tick=0.1, thin_pct=0.25, poll=1.0s, req=95.0/min, max_loss=$5.00
+2026-07-01 15:32:11,969  INFO      Order created: id=4ee2df40-ce27-4ff9-9357-59b298b6a4f2 status=pending
+2026-07-01 15:32:11,969  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:32:11,969  INFO      Post BID 0.0001 @ 60013.5  order_id=4ee2df40 status=pending
+2026-07-01 15:32:12,025  INFO      Order created: id=edca357d-73ed-426b-901e-60dfc6cebea6 status=pending
+2026-07-01 15:32:12,025  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:32:12,026  INFO      Post ASK 0.0001 @ 60153.4  order_id=edca357d status=pending
+2026-07-01 15:32:13,067  INFO      Cancel edca357d-73ed-426b-901e-60dfc6cebea6: HTTP 202
+2026-07-01 15:32:13,067  INFO      Cancel ask edca357d ok=True
+2026-07-01 15:32:13,161  INFO      Order created: id=2016d66b-67eb-400f-a8a8-cb92e68bd674 status=pending
+2026-07-01 15:32:13,161  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:32:13,161  INFO      Post ASK 0.0001 @ 60147.1  order_id=2016d66b status=pending
+2026-07-01 15:32:17,258  INFO      Cancel 2016d66b-67eb-400f-a8a8-cb92e68bd674: HTTP 202
+2026-07-01 15:32:17,259  INFO      Cancel ask 2016d66b ok=True
+2026-07-01 15:32:17,311  INFO      Order created: id=4032eb81-248f-4329-a344-8119cd03b9bc status=pending
+2026-07-01 15:32:17,311  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:32:17,311  INFO      Post ASK 0.0001 @ 60141.2  order_id=4032eb81 status=pending
+2026-07-01 15:32:22,535  INFO      Cancel 4ee2df40-ce27-4ff9-9357-59b298b6a4f2: HTTP 202
+2026-07-01 15:32:22,536  INFO      Cancel bid 4ee2df40 ok=True
+2026-07-01 15:32:22,602  INFO      Order created: id=90ce741b-e0cc-40ab-a397-d6f84447ed25 status=pending
+2026-07-01 15:32:22,603  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:32:22,603  INFO      Post BID 0.0001 @ 60081.6  order_id=90ce741b status=pending
+2026-07-01 15:32:22,662  INFO      Cancel 4032eb81-248f-4329-a344-8119cd03b9bc: HTTP 202
+2026-07-01 15:32:22,662  INFO      Cancel ask 4032eb81 ok=True
+2026-07-01 15:32:22,724  INFO      Order created: id=cf27cdea-c51f-4410-985d-4fe3661abb7d status=pending
+2026-07-01 15:32:22,724  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:32:22,724  INFO      Post ASK 0.0001 @ 60142.5  order_id=cf27cdea status=pending
+2026-07-01 15:32:26,940  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:32:26,975  INFO      Cancel cf27cdea-c51f-4410-985d-4fe3661abb7d: HTTP 202
+2026-07-01 15:32:26,976  INFO      Cancel ask cf27cdea ok=True
+2026-07-01 15:32:28,029  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:32:29,030  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:32:30,032  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:32:31,033  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:32:32,035  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:32:33,129  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:32:33,162  INFO      Cancel 90ce741b-e0cc-40ab-a397-d6f84447ed25: HTTP 202
+2026-07-01 15:32:33,162  INFO      Cancel bid 90ce741b ok=True
+2026-07-01 15:32:33,226  INFO      Order created: id=a6485e44-4ae4-4df0-8385-513da5092f8d status=pending
+2026-07-01 15:32:33,226  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:32:33,226  INFO      Post BID 0.0001 @ 60107.1  order_id=a6485e44 status=pending
+2026-07-01 15:32:34,228  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:32:35,230  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:32:36,231  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:32:37,232  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:32:38,269  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:32:39,270  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:32:40,272  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:32:41,273  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:32:42,526  INFO      Order created: id=a1635007-7666-449d-910c-d6fe1456d669 status=pending
+2026-07-01 15:32:42,526  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:32:42,527  INFO      Post ASK 0.0001 @ 60140.0  order_id=a1635007 status=pending
+2026-07-01 15:32:43,667  INFO      Cancel a6485e44-4ae4-4df0-8385-513da5092f8d: HTTP 202
+2026-07-01 15:32:43,667  INFO      Cancel bid a6485e44 ok=True
+2026-07-01 15:32:43,718  INFO      Order created: id=9230cf2c-3d7c-4b3f-ad9e-57f83e530ff2 status=pending
+2026-07-01 15:32:43,718  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:32:43,718  INFO      Post BID 0.0001 @ 60116.7  order_id=9230cf2c status=pending
+2026-07-01 15:32:43,782  INFO      Cancel a1635007-7666-449d-910c-d6fe1456d669: HTTP 202
+2026-07-01 15:32:43,783  INFO      Cancel ask a1635007 ok=True
+2026-07-01 15:32:43,834  INFO      Order created: id=0547aafc-9d7a-48d4-b259-07d6854fcfe9 status=pending
+2026-07-01 15:32:43,834  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:32:43,834  INFO      Post ASK 0.0001 @ 60143.0  order_id=0547aafc status=pending
+2026-07-01 15:32:44,869  INFO      Cancel 0547aafc-9d7a-48d4-b259-07d6854fcfe9: HTTP 202
+2026-07-01 15:32:44,869  INFO      Cancel ask 0547aafc ok=True
+2026-07-01 15:32:44,927  INFO      Order created: id=020018b9-3547-45cb-86c4-e3b23db0f732 status=pending
+2026-07-01 15:32:44,927  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:32:44,927  INFO      Post ASK 0.0001 @ 60143.7  order_id=020018b9 status=pending
+2026-07-01 15:32:45,963  INFO      Cancel 020018b9-3547-45cb-86c4-e3b23db0f732: HTTP 202
+2026-07-01 15:32:45,964  INFO      Cancel ask 020018b9 ok=True
+2026-07-01 15:32:46,025  INFO      Order created: id=2e4ac627-cdd9-4932-ad23-f0f35ae1df6b status=pending
+2026-07-01 15:32:46,025  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:32:46,025  INFO      Post ASK 0.0001 @ 60145.4  order_id=2e4ac627 status=pending
+2026-07-01 15:32:48,071  INFO      Cancel 2e4ac627-cdd9-4932-ad23-f0f35ae1df6b: HTTP 202
+2026-07-01 15:32:48,071  INFO      Cancel ask 2e4ac627 ok=True
+2026-07-01 15:32:48,133  INFO      Order created: id=d8010968-de2c-47b4-b5b6-58513130d325 status=pending
+2026-07-01 15:32:48,134  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:32:48,134  INFO      Post ASK 0.0001 @ 60149.9  order_id=d8010968 status=pending
+2026-07-01 15:32:49,225  INFO      Cancel d8010968-de2c-47b4-b5b6-58513130d325: HTTP 202
+2026-07-01 15:32:49,225  INFO      Cancel ask d8010968 ok=True
+2026-07-01 15:32:49,284  INFO      Order created: id=dedfbed0-ecfc-4608-92ac-ced476a2e441 status=pending
+2026-07-01 15:32:49,284  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:32:49,284  INFO      Post ASK 0.0001 @ 60147.5  order_id=dedfbed0 status=pending
+2026-07-01 15:32:50,340  INFO      Cancel dedfbed0-ecfc-4608-92ac-ced476a2e441: HTTP 202
+2026-07-01 15:32:50,341  INFO      Cancel ask dedfbed0 ok=True
+2026-07-01 15:32:50,413  INFO      Order created: id=b4e89c1c-3b2c-4eeb-942a-8b46dc133a95 status=pending
+2026-07-01 15:32:50,413  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:32:50,413  INFO      Post ASK 0.0001 @ 60146.2  order_id=b4e89c1c status=pending
+2026-07-01 15:32:53,459  INFO      Cancel b4e89c1c-3b2c-4eeb-942a-8b46dc133a95: HTTP 202
+2026-07-01 15:32:53,459  INFO      Cancel ask b4e89c1c ok=True
+2026-07-01 15:32:53,518  INFO      Order created: id=fe192a7e-8fbc-4358-8210-cc92a2f66d99 status=pending
+2026-07-01 15:32:53,518  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:32:53,519  INFO      Post ASK 0.0001 @ 60168.4  order_id=fe192a7e status=pending
+2026-07-01 15:32:54,661  INFO      Cancel 9230cf2c-3d7c-4b3f-ad9e-57f83e530ff2: HTTP 202
+2026-07-01 15:32:54,661  INFO      Cancel bid 9230cf2c ok=True
+2026-07-01 15:32:54,712  INFO      Order created: id=d0c2f5d0-893c-44a3-b64a-19bf46fa645b status=pending
+2026-07-01 15:32:54,712  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:32:54,712  INFO      Post BID 0.0001 @ 60120.3  order_id=d0c2f5d0 status=pending
+2026-07-01 15:32:54,755  INFO      Cancel fe192a7e-8fbc-4358-8210-cc92a2f66d99: HTTP 202
+2026-07-01 15:32:54,755  INFO      Cancel ask fe192a7e ok=True
+2026-07-01 15:32:54,831  INFO      Order created: id=0c699474-6dc9-439b-9f28-1e3849d8cabe status=pending
+2026-07-01 15:32:54,831  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:32:54,831  INFO      Post ASK 0.0001 @ 60172.7  order_id=0c699474 status=pending
+2026-07-01 15:32:55,891  INFO      Cancel 0c699474-6dc9-439b-9f28-1e3849d8cabe: HTTP 202
+2026-07-01 15:32:55,891  INFO      Cancel ask 0c699474 ok=True
+2026-07-01 15:32:55,955  INFO      Order created: id=365c2bc8-e456-4f57-a039-9fd16e815ae9 status=pending
+2026-07-01 15:32:55,956  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:32:55,956  INFO      Post ASK 0.0001 @ 60173.6  order_id=365c2bc8 status=pending
+2026-07-01 15:32:56,996  INFO      Cancel 365c2bc8-e456-4f57-a039-9fd16e815ae9: HTTP 202
+2026-07-01 15:32:56,996  INFO      Cancel ask 365c2bc8 ok=True
+2026-07-01 15:32:57,047  INFO      Order created: id=9b51b680-7f08-422e-8c39-b7b678c60f82 status=pending
+2026-07-01 15:32:57,047  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:32:57,047  INFO      Post ASK 0.0001 @ 60180.5  order_id=9b51b680 status=pending
+2026-07-01 15:32:58,241  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:32:58,271  INFO      Cancel 9b51b680-7f08-422e-8c39-b7b678c60f82: HTTP 202
+2026-07-01 15:32:58,271  INFO      Cancel ask 9b51b680 ok=True
+2026-07-01 15:32:59,273  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:00,321  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:01,322  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:02,324  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:03,325  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:04,327  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:05,439  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:05,483  INFO      Cancel d0c2f5d0-893c-44a3-b64a-19bf46fa645b: HTTP 202
+2026-07-01 15:33:05,483  INFO      Cancel bid d0c2f5d0 ok=True
+2026-07-01 15:33:05,541  INFO      Order created: id=222e26de-1453-42e1-9d27-1e758272c5e7 status=pending
+2026-07-01 15:33:05,541  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:33:05,541  INFO      Post BID 0.0001 @ 60121.6  order_id=222e26de status=pending
+2026-07-01 15:33:06,543  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:07,545  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:08,546  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:09,547  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:10,622  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:11,624  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:12,625  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:14,013  INFO      Order created: id=4f4842e3-3edd-4bcb-b5bd-ac2f17a68eda status=pending
+2026-07-01 15:33:14,013  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:33:14,013  INFO      Post ASK 0.0001 @ 60186.9  order_id=4f4842e3 status=pending
+2026-07-01 15:33:16,158  INFO      Cancel 222e26de-1453-42e1-9d27-1e758272c5e7: HTTP 202
+2026-07-01 15:33:16,158  INFO      Cancel bid 222e26de ok=True
+2026-07-01 15:33:16,218  INFO      Order created: id=ca19b7a0-1871-4a63-83d0-2fa174cd8879 status=pending
+2026-07-01 15:33:16,218  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:33:16,218  INFO      Post BID 0.0001 @ 60122.1  order_id=ca19b7a0 status=pending
+2026-07-01 15:33:16,260  INFO      Cancel 4f4842e3-3edd-4bcb-b5bd-ac2f17a68eda: HTTP 202
+2026-07-01 15:33:16,260  INFO      Cancel ask 4f4842e3 ok=True
+2026-07-01 15:33:16,318  INFO      Order created: id=a2d3a0c5-18f2-4ae3-ba66-f157bdd27d40 status=pending
+2026-07-01 15:33:16,318  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:33:16,319  INFO      Post ASK 0.0001 @ 60181.3  order_id=a2d3a0c5 status=pending
+2026-07-01 15:33:17,358  INFO      Cancel a2d3a0c5-18f2-4ae3-ba66-f157bdd27d40: HTTP 202
+2026-07-01 15:33:17,359  INFO      Cancel ask a2d3a0c5 ok=True
+2026-07-01 15:33:17,421  INFO      Order created: id=eb573c8f-bac3-4669-9fa5-432000abf67d status=pending
+2026-07-01 15:33:17,421  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:33:17,421  INFO      Post ASK 0.0001 @ 60178.2  order_id=eb573c8f status=pending
+2026-07-01 15:33:18,676  INFO      Cancel eb573c8f-bac3-4669-9fa5-432000abf67d: HTTP 202
+2026-07-01 15:33:18,677  INFO      Cancel ask eb573c8f ok=True
+2026-07-01 15:33:18,735  INFO      Order created: id=dd8636ab-db52-4b12-9ea6-088ae619705f status=pending
+2026-07-01 15:33:18,735  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:33:18,735  INFO      Post ASK 0.0001 @ 60174.6  order_id=dd8636ab status=pending
+2026-07-01 15:33:19,776  INFO      Cancel dd8636ab-db52-4b12-9ea6-088ae619705f: HTTP 202
+2026-07-01 15:33:19,776  INFO      Cancel ask dd8636ab ok=True
+2026-07-01 15:33:19,825  INFO      Order created: id=cc0d0169-97de-479f-8415-8135553500a7 status=pending
+2026-07-01 15:33:19,825  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:33:19,825  INFO      Post ASK 0.0001 @ 60167.5  order_id=cc0d0169 status=pending
+2026-07-01 15:33:20,868  INFO      Cancel cc0d0169-97de-479f-8415-8135553500a7: HTTP 202
+2026-07-01 15:33:20,868  INFO      Cancel ask cc0d0169 ok=True
+2026-07-01 15:33:20,926  INFO      Order created: id=821bbe6c-5e5f-4e78-b124-e0c9cf821535 status=pending
+2026-07-01 15:33:20,926  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:33:20,926  INFO      Post ASK 0.0001 @ 60160.7  order_id=821bbe6c status=pending
+2026-07-01 15:33:23,018  INFO      Cancel 821bbe6c-5e5f-4e78-b124-e0c9cf821535: HTTP 202
+2026-07-01 15:33:23,018  INFO      Cancel ask 821bbe6c ok=True
+2026-07-01 15:33:23,078  INFO      Order created: id=43f3af0f-7fe7-4e48-8484-c40ae50de916 status=pending
+2026-07-01 15:33:23,078  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:33:23,078  INFO      Post ASK 0.0001 @ 60164.2  order_id=43f3af0f status=pending
+2026-07-01 15:33:24,127  INFO      Cancel 43f3af0f-7fe7-4e48-8484-c40ae50de916: HTTP 202
+2026-07-01 15:33:24,127  INFO      Cancel ask 43f3af0f ok=True
+2026-07-01 15:33:24,190  INFO      Order created: id=7f960f0a-7321-45f9-8f4b-cee4b4d5301c status=pending
+2026-07-01 15:33:24,190  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:33:24,190  INFO      Post ASK 0.0001 @ 60162.3  order_id=7f960f0a status=pending
+2026-07-01 15:33:25,229  INFO      Cancel 7f960f0a-7321-45f9-8f4b-cee4b4d5301c: HTTP 202
+2026-07-01 15:33:25,229  INFO      Cancel ask 7f960f0a ok=True
+2026-07-01 15:33:25,286  INFO      Order created: id=15fea007-6448-4bde-8817-60ad2732328a status=pending
+2026-07-01 15:33:25,286  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:33:25,286  INFO      Post ASK 0.0001 @ 60160.7  order_id=15fea007 status=pending
+2026-07-01 15:33:29,633  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:29,673  INFO      Cancel 15fea007-6448-4bde-8817-60ad2732328a: HTTP 202
+2026-07-01 15:33:29,674  INFO      Cancel ask 15fea007 ok=True
+2026-07-01 15:33:30,675  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:31,677  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:32,718  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:33,720  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:34,721  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:35,722  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:36,814  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:36,847  INFO      Cancel ca19b7a0-1871-4a63-83d0-2fa174cd8879: HTTP 202
+2026-07-01 15:33:36,847  INFO      Cancel bid ca19b7a0 ok=True
+2026-07-01 15:33:36,901  INFO      Order created: id=3ab17f14-ef08-44f9-a56b-47b60d87acd2 status=pending
+2026-07-01 15:33:36,901  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:33:36,902  INFO      Post BID 0.0001 @ 60164.7  order_id=3ab17f14 status=pending
+2026-07-01 15:33:37,903  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:37,940  INFO      Cancel 3ab17f14-ef08-44f9-a56b-47b60d87acd2: HTTP 202
+2026-07-01 15:33:37,940  INFO      Cancel bid 3ab17f14 ok=True
+2026-07-01 15:33:37,992  INFO      Order created: id=46ec8bef-faa9-439a-8e45-d3d863b53a03 status=pending
+2026-07-01 15:33:37,992  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:33:37,992  INFO      Post BID 0.0001 @ 60160.6  order_id=46ec8bef status=pending
+2026-07-01 15:33:38,993  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:39,995  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:40,997  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:41,042  INFO      Cancel 46ec8bef-faa9-439a-8e45-d3d863b53a03: HTTP 202
+2026-07-01 15:33:41,042  INFO      Cancel bid 46ec8bef ok=True
+2026-07-01 15:33:41,101  INFO      Order created: id=9d95bad1-70be-4c2b-b0aa-0f099d93bb37 status=pending
+2026-07-01 15:33:41,101  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:33:41,101  INFO      Post BID 0.0001 @ 60165.6  order_id=9d95bad1 status=pending
+2026-07-01 15:33:42,102  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:43,104  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:44,106  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:33:45,405  INFO      Order created: id=c4c44afa-8930-432d-bce8-a6324481879c status=pending
+2026-07-01 15:33:45,406  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:33:45,406  INFO      Post ASK 0.0001 @ 60167.1  order_id=c4c44afa status=pending
+2026-07-01 15:33:47,566  INFO      Cancel 9d95bad1-70be-4c2b-b0aa-0f099d93bb37: HTTP 202
+2026-07-01 15:33:47,567  INFO      Cancel bid 9d95bad1 ok=True
+2026-07-01 15:33:47,629  INFO      Order created: id=fcecb3e7-d126-4da1-86a2-d3cb261c2e3c status=pending
+2026-07-01 15:33:47,629  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:33:47,629  INFO      Post BID 0.0001 @ 60168.0  order_id=fcecb3e7 status=pending
+2026-07-01 15:33:47,654  INFO      Cancel c4c44afa-8930-432d-bce8-a6324481879c: HTTP 400
+2026-07-01 15:33:47,654  INFO      Cancel ask c4c44afa ok=False
+2026-07-01 15:33:47,654  WARNING   Cancel failed for ask; not placing replacement.
+2026-07-01 15:34:01,210  INFO      Fill SELL 0.0001 BTC @ 60167.1  session_pos=-0.00010000 BTC fills=1
+2026-07-01 15:34:01,532  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:34:01,564  INFO      Cancel fcecb3e7-d126-4da1-86a2-d3cb261c2e3c: HTTP 202
+2026-07-01 15:34:01,564  INFO      Cancel bid fcecb3e7 ok=True
+2026-07-01 15:34:01,613  INFO      Order created: id=1a143e69-80e8-4ec6-afce-b5d0feb98992 status=pending
+2026-07-01 15:34:01,613  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:34:01,613  INFO      Post BID 0.0001 @ 60179.2  order_id=1a143e69 status=pending
+2026-07-01 15:34:02,613  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:34:03,615  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:34:04,616  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:34:05,617  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:34:06,689  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:34:07,691  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:34:07,742  INFO      Cancel 1a143e69-80e8-4ec6-afce-b5d0feb98992: HTTP 202
+2026-07-01 15:34:07,742  INFO      Cancel bid 1a143e69 ok=True
+2026-07-01 15:34:07,809  INFO      Order created: id=a8a79f16-e8bb-4ee1-8e4b-37295d75a413 status=pending
+2026-07-01 15:34:07,810  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:34:07,810  INFO      Post BID 0.0001 @ 60179.9  order_id=a8a79f16 status=pending
+2026-07-01 15:34:08,810  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:34:08,856  INFO      Cancel a8a79f16-e8bb-4ee1-8e4b-37295d75a413: HTTP 202
+2026-07-01 15:34:08,856  INFO      Cancel bid a8a79f16 ok=True
+2026-07-01 15:34:08,938  INFO      Order created: id=b5d99cde-5b43-4632-95f3-ff65af77086a status=pending
+2026-07-01 15:34:08,938  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:34:08,939  INFO      Post BID 0.0001 @ 60182.7  order_id=b5d99cde status=pending
+2026-07-01 15:34:09,940  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:34:09,978  INFO      Cancel b5d99cde-5b43-4632-95f3-ff65af77086a: HTTP 202
+2026-07-01 15:34:09,979  INFO      Cancel bid b5d99cde ok=True
+2026-07-01 15:34:10,029  INFO      Order created: id=e76c0099-02df-4f56-bb66-13158720396c status=pending
+2026-07-01 15:34:10,029  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:34:10,029  INFO      Post BID 0.0001 @ 60183.5  order_id=e76c0099 status=pending
+2026-07-01 15:34:11,030  INFO      TrueMarkets quote echoes our order (bid_echo=True ask_echo=False); not chasing our own quote.
+2026-07-01 15:34:11,030  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:34:11,065  INFO      Cancel e76c0099-02df-4f56-bb66-13158720396c: HTTP 202
+2026-07-01 15:34:11,065  INFO      Cancel bid e76c0099 ok=True
+2026-07-01 15:34:11,117  INFO      Order created: id=c15fc555-2ac9-4553-9b31-1a0122cd8789 status=pending
+2026-07-01 15:34:11,117  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:34:11,117  INFO      Post BID 0.0001 @ 60190.8  order_id=c15fc555 status=pending
+2026-07-01 15:34:12,193  WARNING   Ask suppressed: BTC balance 0.00004842 < size 0.00010000
+2026-07-01 15:34:12,218  INFO      Cancel c15fc555-2ac9-4553-9b31-1a0122cd8789: HTTP 400
+2026-07-01 15:34:12,218  INFO      Cancel bid c15fc555 ok=False
+2026-07-01 15:34:12,218  WARNING   Cancel failed for bid; not placing replacement.
+2026-07-01 15:35:00,401  INFO      Fill BUY 0.0001 BTC @ 60190.8  session_pos=+0.00000000 BTC fills=2
+2026-07-01 15:35:00,746  INFO      Order created: id=f7a73bad-6a65-4772-b97b-9906d3070dda status=pending
+2026-07-01 15:35:00,746  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:35:00,746  INFO      Post BID 0.0001 @ 60200.7  order_id=f7a73bad status=pending
+2026-07-01 15:35:00,854  INFO      Order created: id=86201ff3-2c97-4249-86d3-fa38bec03cfd status=pending
+2026-07-01 15:35:00,854  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:35:00,854  INFO      Post ASK 0.0001 @ 60203.8  order_id=86201ff3 status=pending
+2026-07-01 15:35:01,908  INFO      Cancel f7a73bad-6a65-4772-b97b-9906d3070dda: HTTP 202
+2026-07-01 15:35:01,908  INFO      Cancel bid f7a73bad ok=True
+2026-07-01 15:35:01,958  INFO      Order created: id=1f2a84c1-b0f9-415c-9cc5-90907e3e3c5b status=pending
+2026-07-01 15:35:01,958  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:35:01,958  INFO      Post BID 0.0001 @ 60195.5  order_id=1f2a84c1 status=pending
+2026-07-01 15:35:03,992  INFO      Cancel 1f2a84c1-b0f9-415c-9cc5-90907e3e3c5b: HTTP 202
+2026-07-01 15:35:03,992  INFO      Cancel bid 1f2a84c1 ok=True
+2026-07-01 15:35:04,045  INFO      Order created: id=cfee7ee0-21d0-46db-8c64-f3938f2c82a2 status=pending
+2026-07-01 15:35:04,045  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:35:04,046  INFO      Post BID 0.0001 @ 60186.0  order_id=cfee7ee0 status=pending
+2026-07-01 15:35:05,082  INFO      Cancel cfee7ee0-21d0-46db-8c64-f3938f2c82a2: HTTP 202
+2026-07-01 15:35:05,082  INFO      Cancel bid cfee7ee0 ok=True
+2026-07-01 15:35:05,131  INFO      Order created: id=97a5e01d-06c9-4bb3-b564-192283856a83 status=pending
+2026-07-01 15:35:05,131  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:35:05,132  INFO      Post BID 0.0001 @ 60178.0  order_id=97a5e01d status=pending
+2026-07-01 15:35:06,223  INFO      Cancel 97a5e01d-06c9-4bb3-b564-192283856a83: HTTP 202
+2026-07-01 15:35:06,223  INFO      Cancel bid 97a5e01d ok=True
+2026-07-01 15:35:06,276  INFO      Order created: id=6812c2a4-9de6-4e51-9f37-aaa027897146 status=pending
+2026-07-01 15:35:06,276  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:35:06,276  INFO      Post BID 0.0001 @ 60176.5  order_id=6812c2a4 status=pending
+2026-07-01 15:35:07,309  INFO      Cancel 6812c2a4-9de6-4e51-9f37-aaa027897146: HTTP 202
+2026-07-01 15:35:07,309  INFO      Cancel bid 6812c2a4 ok=True
+2026-07-01 15:35:07,370  INFO      Order created: id=d7a61451-ceaf-4404-87be-b3fe00959618 status=pending
+2026-07-01 15:35:07,370  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:35:07,370  INFO      Post BID 0.0001 @ 60167.6  order_id=d7a61451 status=pending
+2026-07-01 15:35:09,414  INFO      Cancel d7a61451-ceaf-4404-87be-b3fe00959618: HTTP 202
+2026-07-01 15:35:09,415  INFO      Cancel bid d7a61451 ok=True
+2026-07-01 15:35:09,471  INFO      Order created: id=1aeb01b2-7eb5-42a9-84c6-c79e3f51e7f3 status=pending
+2026-07-01 15:35:09,471  INFO      Order complete: BUY 0.0001 base BTC/USDC
+2026-07-01 15:35:09,472  INFO      Post BID 0.0001 @ 60164.1  order_id=1aeb01b2 status=pending
+2026-07-01 15:35:10,554  INFO      TrueMarkets quote echoes our order (bid_echo=False ask_echo=True); not chasing our own quote.
+2026-07-01 15:35:10,598  INFO      Cancel 86201ff3-2c97-4249-86d3-fa38bec03cfd: HTTP 202
+2026-07-01 15:35:10,599  INFO      Cancel ask 86201ff3 ok=True
+2026-07-01 15:35:10,661  INFO      Order created: id=2d6e4884-d33d-4d8f-806c-7521e44917f8 status=pending
+2026-07-01 15:35:10,661  INFO      Order complete: SELL 0.0001 base BTC/USDC
+2026-07-01 15:35:10,661  INFO      Post ASK 0.0001 @ 60164.2  order_id=2d6e4884 status=pending
+2026-07-01 15:35:11,704  INFO      Cancel 2d6e4884-d33d-4d8f-806c-7521e44917f8: HTTP 400
+2026-07-01 15:35:11,704  INFO      Cancel ask 2d6e4884 ok=False
+2026-07-01 15:35:11,704  WARNING   Cancel failed for ask; not placing replacement.
+2026-07-01 15:35:21,263  INFO      Cancel 1aeb01b2-7eb5-42a9-84c6-c79e3f51e7f3: HTTP 202
+2026-07-01 15:35:21,263  INFO      Cancel bid 1aeb01b2 ok=True
+2026-07-01 15:35:21,293  INFO      Cancel 2d6e4884-d33d-4d8f-806c-7521e44917f8: HTTP 400
+2026-07-01 15:35:21,293  INFO      Cancel ask 2d6e4884 ok=False
+2026-07-01 15:35:21,317  INFO      Shutting down.

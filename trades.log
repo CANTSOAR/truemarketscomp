@@ -1,0 +1,134 @@
+MAKE bid price=65561.8 qty=0.0001 order_id=780f646e-43b4-4e2e-acfa-e68cc5a935cc status=pending
+WINCHECK bid our=65561.8 tm_bid=65561.8 win=True
+STATUSCHECK bid order_id=780f646e-43b4-4e2e-acfa-e68cc5a935cc status=active
+CANCEL order_id=780f646e-43b4-4e2e-acfa-e68cc5a935cc ok=True
+MAKE bid price=65594.0 qty=0.0001 order_id=b83fbf23-35fd-498d-ab9a-5dbfdb01b01e status=pending
+WINCHECK bid our=65594.0 tm_bid=65594.0 win=True
+STATUSCHECK bid order_id=b83fbf23-35fd-498d-ab9a-5dbfdb01b01e status=active
+CANCEL order_id=b83fbf23-35fd-498d-ab9a-5dbfdb01b01e ok=True
+MAKE bid price=65622.4 qty=0.0001 order_id=9340e11c-1375-4114-a9b0-2e6af4d6d88c status=pending
+WINCHECK bid our=65622.4 tm_bid=65622.4 win=True
+STATUSCHECK bid order_id=9340e11c-1375-4114-a9b0-2e6af4d6d88c status=active
+CANCEL order_id=9340e11c-1375-4114-a9b0-2e6af4d6d88c ok=True
+MAKE bid price=65647.9 qty=0.0001 order_id=61ddfe21-b3d8-41a1-93ce-5111f8c34d23 status=pending
+WINCHECK bid our=65647.9 tm_bid=65647.9 win=True
+STATUSCHECK bid order_id=61ddfe21-b3d8-41a1-93ce-5111f8c34d23 status=active
+CANCEL order_id=61ddfe21-b3d8-41a1-93ce-5111f8c34d23 ok=True
+MAKE bid price=65671.5 qty=0.0001 order_id=b8cb67ef-11a7-41b3-bd91-28ef4f842901 status=pending
+WINCHECK bid our=65671.5 tm_bid=65671.5 win=True
+STATUSCHECK bid order_id=b8cb67ef-11a7-41b3-bd91-28ef4f842901 status=active
+CANCEL order_id=b8cb67ef-11a7-41b3-bd91-28ef4f842901 ok=True
+MAKE bid price=65692.2 qty=0.0001 order_id=3a7ddc91-7bfa-4bb3-9964-7c9bda6d9091 status=pending
+WINCHECK bid our=65692.2 tm_bid=65692.2 win=True
+STATUSCHECK bid order_id=3a7ddc91-7bfa-4bb3-9964-7c9bda6d9091 status=active
+CANCEL order_id=3a7ddc91-7bfa-4bb3-9964-7c9bda6d9091 ok=True
+MAKE bid price=65693.5 qty=0.0001 order_id=b1eb24a1-44f0-46ea-84b1-aadb3e73417f status=pending
+WINCHECK bid our=65693.5 tm_bid=65693.5 win=True
+STATUSCHECK bid order_id=b1eb24a1-44f0-46ea-84b1-aadb3e73417f status=active
+CANCEL order_id=b1eb24a1-44f0-46ea-84b1-aadb3e73417f ok=True
+MAKE bid price=65693.5 qty=0.0001 order_id=27532626-1cee-467e-b20e-990154cfbb59 status=pending
+WINCHECK bid our=65693.5 tm_bid=65693.5 win=True
+STATUSCHECK bid order_id=27532626-1cee-467e-b20e-990154cfbb59 status=active
+CANCEL order_id=27532626-1cee-467e-b20e-990154cfbb59 ok=True
+MAKE bid price=65693.5 qty=0.0001 order_id=f883f813-592c-4e21-9a7a-14365a3b70b6 status=pending
+WINCHECK bid our=65693.5 tm_bid=65693.5 win=True
+STATUSCHECK bid order_id=f883f813-592c-4e21-9a7a-14365a3b70b6 status=active
+CANCEL order_id=f883f813-592c-4e21-9a7a-14365a3b70b6 ok=True
+MAKE bid price=65677.3 qty=0.0001 order_id=b1763250-1573-4596-be52-a05c126eb65d status=pending
+WINCHECK bid our=65677.3 tm_bid=65677.3 win=True
+STATUSCHECK bid order_id=b1763250-1573-4596-be52-a05c126eb65d status=active
+CANCEL order_id=b1763250-1573-4596-be52-a05c126eb65d ok=True
+MAKE bid price=65667.9 qty=0.0001 order_id=1fc36097-ebe4-4f7f-9a8e-585800725238 status=pending
+WINCHECK bid our=65667.9 tm_bid=65667.9 win=True
+STATUSCHECK bid order_id=1fc36097-ebe4-4f7f-9a8e-585800725238 status=active
+CANCEL order_id=1fc36097-ebe4-4f7f-9a8e-585800725238 ok=True
+MAKE bid price=65657.0 qty=0.0001 order_id=ec7ace63-a91e-4afa-b4dc-cfc0925873da status=pending
+WINCHECK bid our=65657.0 tm_bid=65657.0 win=True
+STATUSCHECK bid order_id=ec7ace63-a91e-4afa-b4dc-cfc0925873da status=active
+CANCEL order_id=ec7ace63-a91e-4afa-b4dc-cfc0925873da ok=True
+MAKE bid price=65654.9 qty=0.0001 order_id=f8740e84-0441-4794-92d4-a2390c0fd887 status=pending
+WINCHECK bid our=65654.9 tm_bid=65654.9 win=True
+STATUSCHECK bid order_id=f8740e84-0441-4794-92d4-a2390c0fd887 status=active
+CANCEL order_id=f8740e84-0441-4794-92d4-a2390c0fd887 ok=True
+MAKE bid price=65650.5 qty=0.0001 order_id=5ba79928-69ee-4dd7-be09-400fbd7a577e status=pending
+WINCHECK bid our=65650.5 tm_bid=65650.5 win=True
+STATUSCHECK bid order_id=5ba79928-69ee-4dd7-be09-400fbd7a577e status=active
+CANCEL order_id=5ba79928-69ee-4dd7-be09-400fbd7a577e ok=True
+MAKE bid price=65660.7 qty=0.0001 order_id=fdf18143-55e5-4bbc-957d-0511f2c17321 status=pending
+WINCHECK bid our=65660.7 tm_bid=65660.7 win=True
+STATUSCHECK bid order_id=fdf18143-55e5-4bbc-957d-0511f2c17321 status=active
+CANCEL order_id=fdf18143-55e5-4bbc-957d-0511f2c17321 ok=True
+MAKE bid price=65665.7 qty=0.0001 order_id=5d1cfcb0-ef88-4bc7-9c6a-1f661a57ba1a status=pending
+WINCHECK bid our=65665.7 tm_bid=65665.7 win=True
+STATUSCHECK bid order_id=5d1cfcb0-ef88-4bc7-9c6a-1f661a57ba1a status=active
+CANCEL order_id=5d1cfcb0-ef88-4bc7-9c6a-1f661a57ba1a ok=True
+MAKE bid price=65666.0 qty=0.0001 order_id=33c6bbca-266e-4979-b6a4-5f2ef0566616 status=pending
+WINCHECK bid our=65666.0 tm_bid=65666.0 win=True
+STATUSCHECK bid order_id=33c6bbca-266e-4979-b6a4-5f2ef0566616 status=active
+CANCEL order_id=33c6bbca-266e-4979-b6a4-5f2ef0566616 ok=True
+MAKE bid price=65666.0 qty=0.0001 order_id=aedc6adc-cf62-4bba-902d-9455be90dd54 status=pending
+WINCHECK bid our=65666.0 tm_bid=65666.0 win=True
+STATUSCHECK bid order_id=aedc6adc-cf62-4bba-902d-9455be90dd54 status=active
+CANCEL order_id=aedc6adc-cf62-4bba-902d-9455be90dd54 ok=True
+MAKE bid price=65666.6 qty=0.0001 order_id=26c6f9e5-329c-442f-8cc3-1903f18a3060 status=pending
+WINCHECK bid our=65666.6 tm_bid=65666.6 win=True
+STATUSCHECK bid order_id=26c6f9e5-329c-442f-8cc3-1903f18a3060 status=active
+CANCEL order_id=26c6f9e5-329c-442f-8cc3-1903f18a3060 ok=True
+MAKE bid price=65676.1 qty=0.0001 order_id=ce13c017-3e19-41a1-b067-91229d7b1c32 status=pending
+WINCHECK bid our=65676.1 tm_bid=65676.1 win=True
+STATUSCHECK bid order_id=ce13c017-3e19-41a1-b067-91229d7b1c32 status=active
+CANCEL order_id=ce13c017-3e19-41a1-b067-91229d7b1c32 ok=True
+MAKE bid price=65682.1 qty=0.0001 order_id=a06fe903-38fd-4e01-8267-04ec202ae2cf status=pending
+WINCHECK bid our=65682.1 tm_bid=65682.1 win=True
+STATUSCHECK bid order_id=a06fe903-38fd-4e01-8267-04ec202ae2cf status=active
+CANCEL order_id=a06fe903-38fd-4e01-8267-04ec202ae2cf ok=True
+MAKE bid price=65691.6 qty=0.0001 order_id=b2abd7f8-aa36-4654-a89b-6d09a7952bc1 status=pending
+WINCHECK bid our=65691.6 tm_bid=65691.6 win=True
+STATUSCHECK bid order_id=b2abd7f8-aa36-4654-a89b-6d09a7952bc1 status=active
+CANCEL order_id=b2abd7f8-aa36-4654-a89b-6d09a7952bc1 ok=True
+MAKE bid price=65710.9 qty=0.0001 order_id=6fe5305f-4f4a-40e3-90c6-9de755e28b15 status=pending
+WINCHECK bid our=65710.9 tm_bid=65710.9 win=True
+STATUSCHECK bid order_id=6fe5305f-4f4a-40e3-90c6-9de755e28b15 status=active
+CANCEL order_id=6fe5305f-4f4a-40e3-90c6-9de755e28b15 ok=True
+MAKE bid price=65724.0 qty=0.0001 order_id=d1d2cee3-c7cf-46d0-b25f-df6cf6e85fee status=pending
+WINCHECK bid our=65724.0 tm_bid=65724.0 win=True
+STATUSCHECK bid order_id=d1d2cee3-c7cf-46d0-b25f-df6cf6e85fee status=active
+CANCEL order_id=d1d2cee3-c7cf-46d0-b25f-df6cf6e85fee ok=True
+MAKE bid price=65723.8 qty=0.0001 order_id=9c11c81c-65fe-4a28-8cbc-35504daf493d status=pending
+WINCHECK bid our=65723.8 tm_bid=65723.8 win=True
+STATUSCHECK bid order_id=9c11c81c-65fe-4a28-8cbc-35504daf493d status=active
+CANCEL order_id=9c11c81c-65fe-4a28-8cbc-35504daf493d ok=True
+MAKE bid price=65717.7 qty=0.0001 order_id=9cf1a893-09d6-4cad-8849-ab11e1ff75b9 status=pending
+WINCHECK bid our=65717.7 tm_bid=65717.7 win=True
+STATUSCHECK bid order_id=9cf1a893-09d6-4cad-8849-ab11e1ff75b9 status=active
+CANCEL order_id=9cf1a893-09d6-4cad-8849-ab11e1ff75b9 ok=True
+MAKE bid price=65720.2 qty=0.0001 order_id=286db98d-bce8-4902-bd63-09d01de6dbfb status=pending
+WINCHECK bid our=65720.2 tm_bid=65720.2 win=True
+STATUSCHECK bid order_id=286db98d-bce8-4902-bd63-09d01de6dbfb status=active
+CANCEL order_id=286db98d-bce8-4902-bd63-09d01de6dbfb ok=True
+MAKE bid price=65694.6 qty=0.0001 order_id=d1e79c99-06ae-4c91-874a-3d54582d2f79 status=pending
+WINCHECK bid our=65694.6 tm_bid=65694.6 win=True
+STATUSCHECK bid order_id=d1e79c99-06ae-4c91-874a-3d54582d2f79 status=active
+CANCEL order_id=d1e79c99-06ae-4c91-874a-3d54582d2f79 ok=True
+MAKE bid price=65694.6 qty=0.0001 order_id=45066b7b-8c5b-4b43-89e2-7f37082acab8 status=pending
+WINCHECK bid our=65694.6 tm_bid=65694.6 win=True
+STATUSCHECK bid order_id=45066b7b-8c5b-4b43-89e2-7f37082acab8 status=active
+CANCEL order_id=45066b7b-8c5b-4b43-89e2-7f37082acab8 ok=True
+MAKE bid price=65672.0 qty=0.0001 order_id=20d6469a-1cb1-4b11-9eec-ef610775f9a2 status=pending
+WINCHECK bid our=65672.0 tm_bid=65672.0 win=True
+STATUSCHECK bid order_id=20d6469a-1cb1-4b11-9eec-ef610775f9a2 status=active
+CANCEL order_id=20d6469a-1cb1-4b11-9eec-ef610775f9a2 ok=True
+MAKE bid price=65667.1 qty=0.0001 order_id=b76d6d39-8a77-4921-a1f9-a9a57f1cd19d status=pending
+WINCHECK bid our=65667.1 tm_bid=65667.1 win=True
+STATUSCHECK bid order_id=b76d6d39-8a77-4921-a1f9-a9a57f1cd19d status=active
+CANCEL order_id=b76d6d39-8a77-4921-a1f9-a9a57f1cd19d ok=True
+MAKE bid price=65666.6 qty=0.0001 order_id=6e7c3ca8-9636-4e85-8e25-0f7b3e0c0ce7 status=pending
+WINCHECK bid our=65666.6 tm_bid=65666.6 win=True
+STATUSCHECK bid order_id=6e7c3ca8-9636-4e85-8e25-0f7b3e0c0ce7 status=active
+CANCEL order_id=6e7c3ca8-9636-4e85-8e25-0f7b3e0c0ce7 ok=True
+MAKE bid price=65662.0 qty=0.0001 order_id=77f1cce0-3771-492f-9ef8-1fe06ac0ae8d status=pending
+WINCHECK bid our=65662.0 tm_bid=65662.0 win=True
+STATUSCHECK bid order_id=77f1cce0-3771-492f-9ef8-1fe06ac0ae8d status=active
+CANCEL order_id=77f1cce0-3771-492f-9ef8-1fe06ac0ae8d ok=True
+MAKE bid price=65659.7 qty=0.0001 order_id=e90d16a2-a26a-41d8-a08f-fa4c1e8ff8f0 status=pending
+WINCHECK bid our=65659.7 tm_bid=65659.7 win=True

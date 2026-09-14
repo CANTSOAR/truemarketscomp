@@ -1,0 +1,105 @@
+2026-08-29 00:34:23,999 - INFO - Coinbase WS: subscribed to ticker for BTC-USD.
+2026-08-29 00:34:24,015 - INFO - TrueMarketsBook: subscribed to DEPTH for BTC-PYUSD
+2026-08-29 00:34:24,033 - INFO - Auth: JWT minted successfully.
+2026-08-29 00:34:24,033 - INFO - Authenticated with TrueMarkets.
+2026-08-29 00:34:24,033 - INFO - Cancelling any existing orders to start clean...
+2026-08-29 00:34:24,275 - INFO - Cancel 3df07c9f-5eda-4801-9436-3b4807f0923d: HTTP 202
+2026-08-29 00:34:24,479 - INFO - Initial balances: 0.00137842 BTC | 652.81 USDC/PYUSD
+2026-08-29 00:34:24,479 - INFO - Waiting for mark price...
+2026-08-29 00:34:27,228 - INFO - >>> NO FLIP! 0.00137842 STAYING ON asking
+2026-08-29 00:34:27,228 - INFO - >>> 0.00137842 || 0.009
+2026-08-29 00:34:27,228 - INFO - WAITING: Insufficient available BTC to place ask.
+2026-08-29 00:34:27,229 - INFO - t=3s | mark=77581.1 | pos=+0.0014 BTC | PnL=$0.00 | vol=$0.00
+2026-08-29 00:34:27,229 - INFO - State: ASKING | Avail USD: $650.17
+2026-08-29 00:34:27,229 - INFO - -------------------------------------------------------
+2026-08-29 00:34:29,922 - INFO - >>> NO FLIP! 0.00137842 STAYING ON asking
+2026-08-29 00:34:29,923 - INFO - >>> 0.00137842 || 0.009
+2026-08-29 00:34:29,923 - INFO - WAITING: Insufficient available BTC to place ask.
+2026-08-29 00:34:29,923 - INFO - t=6s | mark=77582.7 | pos=+0.0014 BTC | PnL=$0.00 | vol=$0.00
+2026-08-29 00:34:29,923 - INFO - State: ASKING | Avail USD: $650.17
+2026-08-29 00:34:29,923 - INFO - -------------------------------------------------------
+2026-08-29 00:34:32,624 - INFO - >>> NO FLIP! 0.00137842 STAYING ON asking
+2026-08-29 00:34:32,624 - INFO - >>> 0.00137842 || 0.009
+2026-08-29 00:34:32,624 - INFO - WAITING: Insufficient available BTC to place ask.
+2026-08-29 00:34:32,625 - INFO - t=8s | mark=77582.7 | pos=+0.0014 BTC | PnL=$0.00 | vol=$0.00
+2026-08-29 00:34:32,625 - INFO - State: ASKING | Avail USD: $650.17
+2026-08-29 00:34:32,625 - INFO - -------------------------------------------------------
+2026-08-29 00:34:35,498 - INFO - >>> NO FLIP! 0.00137842 STAYING ON asking
+2026-08-29 00:34:35,498 - INFO - >>> 0.00137842 || 0.009
+2026-08-29 00:34:35,498 - INFO - WAITING: Insufficient available BTC to place ask.
+2026-08-29 00:34:35,499 - INFO - t=11s | mark=77582.7 | pos=+0.0014 BTC | PnL=$0.00 | vol=$0.00
+2026-08-29 00:34:35,499 - INFO - State: ASKING | Avail USD: $650.17
+2026-08-29 00:34:35,499 - INFO - -------------------------------------------------------
+2026-08-29 00:34:38,247 - INFO - >>> NO FLIP! 0.00137842 STAYING ON asking
+2026-08-29 00:34:38,247 - INFO - >>> 0.00137842 || 0.009
+2026-08-29 00:34:38,248 - INFO - WAITING: Insufficient available BTC to place ask.
+2026-08-29 00:34:38,248 - INFO - t=14s | mark=77582.7 | pos=+0.0014 BTC | PnL=$0.00 | vol=$0.00
+2026-08-29 00:34:38,248 - INFO - State: ASKING | Avail USD: $650.17
+2026-08-29 00:34:38,248 - INFO - -------------------------------------------------------
+2026-08-29 00:34:40,945 - INFO - >>> NO FLIP! 0.00137842 STAYING ON asking
+2026-08-29 00:34:40,945 - INFO - >>> 0.00137842 || 0.009
+2026-08-29 00:34:40,946 - INFO - WAITING: Insufficient available BTC to place ask.
+2026-08-29 00:34:40,946 - INFO - t=17s | mark=77585.2 | pos=+0.0014 BTC | PnL=$0.01 | vol=$0.00
+2026-08-29 00:34:40,946 - INFO - State: ASKING | Avail USD: $650.17
+2026-08-29 00:34:40,946 - INFO - -------------------------------------------------------
+2026-08-29 00:34:43,696 - INFO - >>> NO FLIP! 0.00137842 STAYING ON asking
+2026-08-29 00:34:43,696 - INFO - >>> 0.00137842 || 0.009
+2026-08-29 00:34:43,696 - INFO - WAITING: Insufficient available BTC to place ask.
+2026-08-29 00:34:43,696 - INFO - t=19s | mark=77585.2 | pos=+0.0014 BTC | PnL=$0.01 | vol=$0.00
+2026-08-29 00:34:43,697 - INFO - State: ASKING | Avail USD: $650.17
+2026-08-29 00:34:43,697 - INFO - -------------------------------------------------------
+2026-08-29 00:34:46,494 - INFO - >>> NO FLIP! 0.00137842 STAYING ON asking
+2026-08-29 00:34:46,494 - INFO - >>> 0.00137842 || 0.009
+2026-08-29 00:34:46,495 - INFO - WAITING: Insufficient available BTC to place ask.
+2026-08-29 00:34:46,495 - INFO - t=22s | mark=77585.2 | pos=+0.0014 BTC | PnL=$0.01 | vol=$0.00
+2026-08-29 00:34:46,495 - INFO - State: ASKING | Avail USD: $650.17
+2026-08-29 00:34:46,495 - INFO - -------------------------------------------------------
+2026-08-29 00:34:49,317 - INFO - >>> NO FLIP! 0.00137842 STAYING ON asking
+2026-08-29 00:34:49,317 - INFO - >>> 0.00137842 || 0.009
+2026-08-29 00:34:49,317 - INFO - WAITING: Insufficient available BTC to place ask.
+2026-08-29 00:34:49,318 - INFO - t=25s | mark=77585.2 | pos=+0.0014 BTC | PnL=$0.01 | vol=$0.00
+2026-08-29 00:34:49,318 - INFO - State: ASKING | Avail USD: $650.17
+2026-08-29 00:34:49,318 - INFO - -------------------------------------------------------
+2026-08-29 00:34:52,174 - INFO - >>> NO FLIP! 0.00137842 STAYING ON asking
+2026-08-29 00:34:52,174 - INFO - >>> 0.00137842 || 0.009
+2026-08-29 00:34:52,174 - INFO - WAITING: Insufficient available BTC to place ask.
+2026-08-29 00:34:52,174 - INFO - t=28s | mark=77585.2 | pos=+0.0014 BTC | PnL=$0.01 | vol=$0.00
+2026-08-29 00:34:52,174 - INFO - State: ASKING | Avail USD: $650.17
+2026-08-29 00:34:52,174 - INFO - -------------------------------------------------------
+2026-08-29 00:34:55,382 - INFO - >>> NO FLIP! 0.00137842 STAYING ON asking
+2026-08-29 00:34:55,382 - INFO - >>> 0.00137842 || 0.009
+2026-08-29 00:34:55,383 - INFO - WAITING: Insufficient available BTC to place ask.
+2026-08-29 00:34:55,383 - INFO - t=30s | mark=77585.2 | pos=+0.0014 BTC | PnL=$0.01 | vol=$0.00
+2026-08-29 00:34:55,384 - INFO - State: ASKING | Avail USD: $650.17
+2026-08-29 00:34:55,384 - INFO - -------------------------------------------------------
+2026-08-29 00:34:58,297 - INFO - >>> NO FLIP! 0.00137842 STAYING ON asking
+2026-08-29 00:34:58,297 - INFO - >>> 0.00137842 || 0.009
+2026-08-29 00:34:58,297 - INFO - WAITING: Insufficient available BTC to place ask.
+2026-08-29 00:34:58,298 - INFO - t=34s | mark=77585.2 | pos=+0.0014 BTC | PnL=$0.01 | vol=$0.00
+2026-08-29 00:34:58,298 - INFO - State: ASKING | Avail USD: $650.17
+2026-08-29 00:34:58,298 - INFO - -------------------------------------------------------
+2026-08-29 00:35:01,300 - INFO - >>> NO FLIP! 0.00137842 STAYING ON asking
+2026-08-29 00:35:01,300 - INFO - >>> 0.00137842 || 0.009
+2026-08-29 00:35:01,300 - INFO - WAITING: Insufficient available BTC to place ask.
+2026-08-29 00:35:01,300 - INFO - t=37s | mark=77585.2 | pos=+0.0014 BTC | PnL=$0.01 | vol=$0.00
+2026-08-29 00:35:01,300 - INFO - State: ASKING | Avail USD: $650.17
+2026-08-29 00:35:01,301 - INFO - -------------------------------------------------------
+2026-08-29 00:35:04,758 - INFO - >>> NO FLIP! 0.00137842 STAYING ON asking
+2026-08-29 00:35:04,759 - INFO - >>> 0.00137842 || 0.009
+2026-08-29 00:35:04,759 - INFO - WAITING: Insufficient available BTC to place ask.
+2026-08-29 00:35:04,760 - INFO - t=40s | mark=77585.2 | pos=+0.0014 BTC | PnL=$0.01 | vol=$0.00
+2026-08-29 00:35:04,760 - INFO - State: ASKING | Avail USD: $650.17
+2026-08-29 00:35:04,760 - INFO - -------------------------------------------------------
+2026-08-29 00:35:07,653 - INFO - >>> NO FLIP! 0.00137842 STAYING ON asking
+2026-08-29 00:35:07,653 - INFO - >>> 0.00137842 || 0.009
+2026-08-29 00:35:07,653 - INFO - WAITING: Insufficient available BTC to place ask.
+2026-08-29 00:35:07,654 - INFO - t=43s | mark=77578.8 | pos=+0.0014 BTC | PnL=$-0.00 | vol=$0.00
+2026-08-29 00:35:07,654 - INFO - State: ASKING | Avail USD: $650.17
+2026-08-29 00:35:07,654 - INFO - -------------------------------------------------------
+2026-08-29 00:35:10,579 - INFO - >>> NO FLIP! 0.00137842 STAYING ON asking
+2026-08-29 00:35:10,579 - INFO - >>> 0.00137842 || 0.009
+2026-08-29 00:35:10,579 - INFO - WAITING: Insufficient available BTC to place ask.
+2026-08-29 00:35:10,579 - INFO - t=46s | mark=77582.4 | pos=+0.0014 BTC | PnL=$0.00 | vol=$0.00
+2026-08-29 00:35:10,579 - INFO - State: ASKING | Avail USD: $650.17
+2026-08-29 00:35:10,579 - INFO - -------------------------------------------------------
+2026-08-29 00:35:12,300 - INFO - Shutting down Ping-Pong strategy.
